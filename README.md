@@ -1,6 +1,6 @@
 <img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Eurocontrol_logo_2010.svg/1011px-Eurocontrol_logo_2010.svg.png" style="object-fit:contain; height:130px; margin-top:-0px;" >
 
-# Logo collection
+# Logo and house style collection
 
 ## Description
 
