@@ -12,7 +12,7 @@ This repository aggregates the different logos of the different stakeholds that 
 
 This repository aggregates the different logos of the different stakeholders we work with.
 
-## EUROCONTROL logos
+## EUROCONTROL entities
 * ECTL - EUROCONTROL
 * AI+ - Aviation Intelligence+
 * NM - Network Manager
