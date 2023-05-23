@@ -14,7 +14,7 @@ This repository aggregates the different logos of the different stakeholders we 
 
 ## EUROCONTROL entities
 * [ECTL - EUROCONTROL](https://github.com/euctrl-pru/logos/tree/main/EUROCONTROL%20Entities/ECTL%20-%20EUROCONTROL/)
-* AI+ - Aviation Intelligence+
+* [AI+ - Aviation Intelligence+](https://github.com/euctrl-pru/logos/tree/main/01%20EUROCONTROL%20Entities/AI%2B%20-%20Aviation%20Intelligence%2B)
 * NM - Network Manager
 * CRCO - Central Route Charges Office
 
