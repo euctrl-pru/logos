@@ -146,6 +146,16 @@ class SniffAndSvg(Base):
                 body = f'<rect width="100" height="50" {attrs}/><circle r="3"/>'.encode()
                 self.assertTrue(validate.is_transparent(self._svg(body)))
 
+    def test_svg_unpainted_rect_then_opaque_fullbleed_rect_not_transparent(self):
+        for attrs in ('fill="none"', 'fill="transparent"', 'opacity="0"', 'fill-opacity="0"'):
+            with self.subTest(attrs=attrs):
+                body = f'<rect width="100" height="50" {attrs}/><rect width="100" height="50" fill="#fff"/>'.encode()
+                self.assertFalse(validate.is_transparent(self._svg(body)))
+
+    def test_svg_unpainted_rect_then_small_shape_transparent(self):
+        body = b'<rect width="100" height="50" fill="none"/><circle r="3"/>'
+        self.assertTrue(validate.is_transparent(self._svg(body)))
+
     def test_svg_without_background_transparent(self):
         p = self._svg(b'<rect width="10" height="10"/><circle r="3"/>')
         self.assertTrue(validate.is_transparent(p))

@@ -118,6 +118,16 @@ def _invisible(el):
     return False
 
 
+def _paints(el):
+    """True if the element puts visible paint down (fill or stroke, not fully transparent)."""
+    if _invisible(el):
+        return False
+    unpainted = ("none", "transparent")
+    if _fill(el) not in unpainted:
+        return True
+    return _style_prop(el, "stroke") not in ("",) + unpainted
+
+
 def _svg_transparent(data: bytes) -> bool:
     try:
         root = ET.fromstring(data)
@@ -129,11 +139,11 @@ def _svg_transparent(data: bytes) -> bool:
         vw, vh = parts[2], parts[3]
     else:
         vw, vh = _num(root.get("width"), 0), _num(root.get("height"), 0)
-    first = next(_drawn(root), None)
+    first = next((e for e in _drawn(root) if _paints(e)), None)
     if first is None or _local(first.tag) != "rect" or not vw or not vh:
         return True
     w, h = _num(first.get("width"), vw), _num(first.get("height"), vh)
-    if not w or not h or _fill(first) in ("none", "transparent") or _invisible(first):
+    if not w or not h:
         return True
     return not (w * h >= 0.99 * vw * vh)
 
