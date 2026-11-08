@@ -88,8 +88,8 @@ def _num(value, ref):
     return n * ref / 100 if m.group(2) == "%" else n
 
 
-def _fill(el):
-    return _style_prop(el, "fill") or "black"
+def _fill(el, css=None):
+    return _style_prop(el, "fill", css) or "black"
 
 
 NON_RENDERED = {"defs", "clipPath", "mask", "pattern", "symbol", "marker", "metadata", "title", "desc"}
@@ -106,29 +106,58 @@ def _drawn(el):
         yield from _drawn(child)
 
 
-def _style_prop(el, prop):
+def _css_rules(root):
+    """Map simple selectors (.class, element, *) in <style> blocks to {prop: (order, value)}."""
+    rules, order = {}, 0
+    for style in (e for e in root.iter() if _local(e.tag) == "style"):
+        text = re.sub(r"/\*.*?\*/", "", style.text or "", flags=re.S)
+        for selectors, body in re.findall(r"([^{}]+)\{([^{}]*)\}", text):
+            for decl in body.split(";"):
+                prop, sep, value = decl.partition(":")
+                if not sep:
+                    continue
+                order += 1
+                entry = (order, value.split("!")[0].strip())
+                for sel in (s.strip() for s in selectors.split(",")):
+                    if re.fullmatch(r"\*|\.?[A-Za-z_][\w-]*", sel):
+                        rules.setdefault(sel, {})[prop.strip().lower()] = entry
+    return rules
+
+
+def _css_value(el, prop, css):
+    """Value from the stylesheet: class rules, then element rules, then *; last declared wins within a level."""
+    if not css:
+        return ""
+    for selectors in (["." + c for c in (el.get("class") or "").split()], [_local(el.tag)], ["*"]):
+        hits = [css[s][prop] for s in selectors if prop in css.get(s, {})]
+        if hits:
+            return max(hits)[1]
+    return ""
+
+
+def _style_prop(el, prop, css=None):
     m = re.search(rf"(?:^|;)\s*{prop}\s*:\s*([^;]+)", el.get("style") or "")
-    return (m.group(1) if m else el.get(prop) or "").strip().lower()
+    return (m.group(1) if m else el.get(prop) or _css_value(el, prop, css)).strip().lower()
 
 
-def _invisible(el):
+def _invisible(el, css=None):
     for prop in ("opacity", "fill-opacity"):
         try:
-            if _style_prop(el, prop) and float(_style_prop(el, prop)) == 0:
+            if _style_prop(el, prop, css) and float(_style_prop(el, prop, css)) == 0:
                 return True
         except ValueError:
             pass
     return False
 
 
-def _paints(el):
+def _paints(el, css=None):
     """True if the element puts visible paint down (fill or stroke, not fully transparent)."""
-    if _invisible(el):
+    if _invisible(el, css):
         return False
     unpainted = ("none", "transparent")
-    if _fill(el) not in unpainted:
+    if _fill(el, css) not in unpainted:
         return True
-    return _style_prop(el, "stroke") not in ("",) + unpainted
+    return _style_prop(el, "stroke", css) not in ("",) + unpainted
 
 
 def _svg_transparent(data: bytes) -> bool:
@@ -142,7 +171,8 @@ def _svg_transparent(data: bytes) -> bool:
         vw, vh = parts[2], parts[3]
     else:
         vw, vh = _num(root.get("width"), 0), _num(root.get("height"), 0)
-    first = next((e for e in _drawn(root) if _paints(e)), None)
+    css = _css_rules(root)
+    first = next((e for e in _drawn(root) if _paints(e, css)), None)
     if first is None or _local(first.tag) != "rect" or not vw or not vh:
         return True
     w, h = _num(first.get("width"), vw), _num(first.get("height"), vh)

@@ -157,6 +157,37 @@ class SniffAndSvg(Base):
         body = b'<rect width="100" height="50" fill="none"/><circle r="3"/>'
         self.assertTrue(validate.is_transparent(self._svg(body)))
 
+    RECT = b'<rect class="a" width="100" height="50"'
+
+    def test_svg_css_class_fill_none_is_unpainted(self):
+        body = b"<style>.a{fill:none;}</style>" + self.RECT + b'/><circle r="3"/>'
+        self.assertTrue(validate.is_transparent(self._svg(body)))
+
+    def test_svg_css_class_opaque_fill_not_transparent(self):
+        body = b"<defs><style>.a{fill:#fff}</style></defs>" + self.RECT + b'/><circle r="3"/>'
+        self.assertFalse(validate.is_transparent(self._svg(body)))
+
+    def test_svg_css_inline_overrides_class(self):
+        for attrs, css, expected in ((b'fill="#fff"', b".a{fill:none}", False),
+                                     (b'style="fill:#fff"', b".a{fill:none}", False),
+                                     (b'fill="none"', b".a{fill:#fff}", True),
+                                     (b'style="fill:none"', b".a{fill:#fff}", True)):
+            with self.subTest(attrs=attrs):
+                body = b"<style>" + css + b"</style>" + self.RECT + b" " + attrs + b'/><circle r="3"/>'
+                self.assertEqual(validate.is_transparent(self._svg(body)), expected)
+
+    def test_svg_css_opacity_stroke_and_selector_forms(self):
+        cases = ((b".a{fill-opacity:0}", True), (b".a{opacity:0}", True),
+                 (b".a{fill:none;stroke:#000}", False), (b".z, .a{fill:none}", True),
+                 (b"rect{fill:none}", True), (b"*{fill:none}", True),
+                 (b"/* .a{fill:#fff} */ .a{fill:none}", True),
+                 (b"rect{fill:#fff} .a{fill:none}", True), (b".a{fill:none} rect{fill:#fff}", True),
+                 (b".a{fill:#fff} .a{fill:none}", True))
+        for css, expected in cases:
+            with self.subTest(css=css):
+                body = b"<style>" + css + b"</style>" + self.RECT + b'/><circle r="3"/>'
+                self.assertEqual(validate.is_transparent(self._svg(body)), expected)
+
     def test_svg_without_background_transparent(self):
         p = self._svg(b'<rect width="10" height="10"/><circle r="3"/>')
         self.assertTrue(validate.is_transparent(p))

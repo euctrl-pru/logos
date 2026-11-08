@@ -17,7 +17,7 @@
   "aliases": [
     "European Organisation for the Safety of Air Navigation"
   ],
-  "notes": "Terms (brand page): third parties may download and use the logo without prior consent only where there is no likelihood of confusion with EUROCONTROL and the use is not connected with objectives or activities incompatible with the Organisation's aims and principles. Private, promotional and online use is allowed subject to those conditions; commercial use (sale) and modification of the logo as an imitation, or as part of a trademark or design, are strictly prohibited. The emblem is protected under article 6ter of the Paris Convention and the logo by trademarks. Files here are unmodified official SVGs; the brand page also offers CMYK and RGB zip packages, not mirrored here. The three flat logo SVGs have a transparent background (their full-size rect is fill:none via a CSS class), but tools/validate.py reads only inline fills, so their records show transparent: false until the validator handles CSS classes.",
+  "notes": "Terms (brand page): third parties may download and use the logo without prior consent only where there is no likelihood of confusion with EUROCONTROL and the use is not connected with objectives or activities incompatible with the Organisation's aims and principles. Private, promotional and online use is allowed subject to those conditions; commercial use (sale) and modification of the logo as an imitation, or as part of a trademark or design, are strictly prohibited. The emblem is protected under article 6ter of the Paris Convention and the logo by trademarks. Files here are unmodified official SVGs; the brand page also offers CMYK and RGB zip packages, not mirrored here.",
   "status": "complete",
   "gaps": [],
   "assets": [
@@ -26,7 +26,7 @@
       "lockup": "logo",
       "background": "light",
       "color_mode": "color",
-      "transparent": false,
+      "transparent": true,
       "source_url": "https://www.eurocontrol.int/sites/default/files/2023-07/ec-logo-default.svg",
       "page_url": "https://www.eurocontrol.int/brand",
       "source_tier": 1,
@@ -38,7 +38,7 @@
       "lockup": "logo",
       "background": "dark",
       "color_mode": "white",
-      "transparent": false,
+      "transparent": true,
       "source_url": "https://www.eurocontrol.int/sites/default/files/2023-07/eurocontrol-logo-white.svg",
       "page_url": "https://www.eurocontrol.int/brand",
       "source_tier": 1,
@@ -50,7 +50,7 @@
       "lockup": "logo",
       "background": "light",
       "color_mode": "black",
-      "transparent": false,
+      "transparent": true,
       "source_url": "https://www.eurocontrol.int/sites/default/files/2023-07/ec-logo-black.svg",
       "page_url": "https://www.eurocontrol.int/brand",
       "source_tier": 1,
