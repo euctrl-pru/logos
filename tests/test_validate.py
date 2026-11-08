@@ -53,6 +53,7 @@ class Base(unittest.TestCase):
             "terms_url": None, "aliases": [], "notes": "", "status": "partial",
             "gaps": [{"need": "dark", "reason": "none published"}],
             "assets": assets if assets is not None else [],
+            "contact": {"logo_permission_url": None, "email": None, "notes": None},
         }
         ent.update(over)
         (d / "entity.json").write_text(json.dumps(ent))
@@ -261,6 +262,85 @@ class EntityRules(Base):
         d = self.make_entity(status="pending", gaps=[])
         self.assertError(self.errors(d), "pending")
         self.assertEqual(self.errors(d, allow_pending=True), [])
+
+
+class ExtrasRules(Base):
+    def test_new_types_accepted(self):
+        types = ["airline", "airport", "training", "association", "manufacturer", "mro",
+                 "fuel", "travel-services", "ground-handling", "partner"]
+        d = self.make_entity(types=types, status="not-found")
+        self.assertEqual(self.errors(d), [])
+        d = self.make_entity(id="xx-bad", types=["bogus"], status="not-found")
+        self.assertError(self.errors(d), "types")
+
+    def _previous(self, **over):
+        files = {"previous/xx-test-logo-light.svg": SVG_OK}
+        a = self.asset("xx-test", SVG_OK, "previous/xx-test-logo-light.svg", superseded=True)
+        a.update(over)
+        d = self.make_entity(files={}, assets=[a])
+        (d / "logos" / "previous").mkdir()
+        for n, data in files.items():
+            (d / "logos" / n).write_bytes(data)
+        return d
+
+    def test_superseded_asset_must_be_in_previous_dir(self):
+        d = self._previous()
+        self.assertEqual(self.errors(d), [])
+        self.root = Path(tempfile.mkdtemp(dir=self._tmp.name))
+        d = self.entity_with_svg(id="xx-s", superseded=True)
+        self.assertError(self.errors(d), "previous/")
+        self.root = Path(tempfile.mkdtemp(dir=self._tmp.name))
+        d = self._previous(superseded=False)
+        self.assertError(self.errors(d), "previous/")
+
+    def test_previous_name_convention_and_unrecorded(self):
+        d = self.make_entity(id="xx-p", files={}, assets=[
+            self.asset("xx-p", SVG_OK, "previous/Old Logo.svg", superseded=True)])
+        (d / "logos" / "previous").mkdir()
+        (d / "logos" / "previous" / "Old Logo.svg").write_bytes(SVG_OK)
+        (d / "logos" / "previous" / "stray.svg").write_bytes(SVG_OK)
+        errs = self.errors(d)
+        self.assertError(errs, "bad file name")
+        self.assertError(errs, "unrecorded logo file previous/stray.svg")
+
+    def test_superseded_assets_do_not_satisfy_complete(self):
+        d = self.entity_with_svg()
+        data = SVG_OK + b" "
+        (d / "logos" / "previous").mkdir()
+        (d / "logos" / "previous" / "xx-test-logo-dark.svg").write_bytes(data)
+        ent = json.loads((d / "entity.json").read_text())
+        ent["assets"].append(self.asset("xx-test", data, "previous/xx-test-logo-dark.svg",
+                                        background="dark", superseded=True))
+        ent.update(status="complete", gaps=[])
+        (d / "entity.json").write_text(json.dumps(ent))
+        self.assertError(self.errors(d), "complete")
+
+    def test_language_must_be_iso639(self):
+        self.assertEqual(self.errors(self.entity_with_svg(language="fr")), [])
+        for i, bad in enumerate(("FR", "fra", "f", 5)):
+            with self.subTest(bad=bad):
+                d = self.entity_with_svg(id=f"xx-l{i}", language=bad)
+                self.assertError(self.errors(d), "language")
+
+    def test_valid_until_must_be_date_or_null(self):
+        self.assertEqual(self.errors(self.entity_with_svg(valid_until="2027-01-31")), [])
+        d = self.entity_with_svg(id="xx-v", valid_until="soon")
+        self.assertError(self.errors(d), "valid_until")
+
+    def test_contact_required_keys(self):
+        d = self.make_entity(status="not-found")
+        ent = json.loads((d / "entity.json").read_text())
+        del ent["contact"]
+        (d / "entity.json").write_text(json.dumps(ent))
+        self.assertError(self.errors(d), "contact")
+        for i, bad in enumerate(({"email": None}, {"logo_permission_url": None, "email": None, "notes": None, "x": 1},
+                                 {"logo_permission_url": 1, "email": None, "notes": None}, [])):
+            with self.subTest(bad=bad):
+                d = self.make_entity(id=f"xx-c{i}", contact=bad, status="not-found")
+                self.assertError(self.errors(d), "contact")
+        d = self.make_entity(id="xx-ok", status="not-found", contact={"logo_permission_url": "https://example.org/p",
+                                                  "email": "a@example.org", "notes": "n"})
+        self.assertEqual(self.errors(d), [])
 
 
 class StyleRules(Base):

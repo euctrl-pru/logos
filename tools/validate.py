@@ -31,14 +31,17 @@ STATES = list(STATE_ISO2)
 BANNED_HOSTS = ["wikipedia.org", "wikimedia.org", "brandfetch.com", "seeklogo.com",
                 "worldvectorlogo.com", "logowik.com", "vectorlogo.zone"]
 GROUPS = {"eurocontrol", "european", "international", "state"}
-TYPES = {"ectl-entity", "institution", "association", "caa", "ansp"}
+TYPES = {"ectl-entity", "institution", "association", "caa", "ansp", "airline", "airport", "training",
+         "manufacturer", "mro", "fuel", "travel-services", "ground-handling", "partner"}
+CONTACT_KEYS = {"logo_permission_url", "email", "notes"}
+PREVIOUS = "previous/"
 STATUSES = {"complete", "partial", "restricted", "not-found", "not-applicable", "pending"}
 LOCKUPS = {"logo", "icon", "wordmark", "emblem", "boxed", "with-slogan"}
 BACKGROUNDS = {"light", "dark", "any"}
 COLOR_MODES = {"color", "white", "black", "mono"}
 EXTENSIONS = {"svg": "svg", "png": "png", "jpg": "jpg", "jpeg": "jpg", "pdf": "pdf", "eps": "eps"}
 ENTITY_FIELDS = ["id", "name", "acronym", "group", "country", "iso2", "also_countries", "membership",
-                 "types", "official_domains", "terms_url", "aliases", "notes", "status", "gaps", "assets"]
+                 "types", "official_domains", "terms_url", "aliases", "notes", "status", "gaps", "assets", "contact"]
 SOURCE_KINDS = {"guideline", "brand-page", "website-css"}
 HEX_RE = re.compile(r"^#[0-9A-Fa-f]{6}$")
 DRAWN = {"rect", "circle", "ellipse", "path", "polygon", "polyline", "line", "image", "text", "use"}
@@ -250,10 +253,22 @@ def _check_asset(entity_dir, ent, a, errs):
     eid, domains = ent.get("id"), ent.get("official_domains") or []
     name = a.get("file", "")
     pre = f"{eid}: asset {name!r}"
+    in_previous = isinstance(name, str) and name.startswith(PREVIOUS)
+    base = name[len(PREVIOUS):] if in_previous else name
     pattern = re.compile(
         rf"^{re.escape(str(eid))}-({'|'.join(LOCKUPS)})-({'|'.join(BACKGROUNDS)})(-[a-z0-9]+)*\.({'|'.join(EXTENSIONS)})$")
-    if not pattern.match(name):
+    if not pattern.match(base):
         errs.append(f"{pre}: bad file name, expected <id>-<lockup>-<background>[-<modifier>].<ext>")
+    superseded = a.get("superseded", False)
+    if not isinstance(superseded, bool):
+        errs.append(f"{pre}: superseded must be a boolean")
+    elif superseded != in_previous:
+        errs.append(f"{pre}: superseded assets must be recorded as previous/<name>, and only those")
+    lang = a.get("language")
+    if lang is not None and not (isinstance(lang, str) and re.fullmatch(r"[a-z]{2}", lang)):
+        errs.append(f"{pre}: language must be an ISO 639-1 code or null")
+    if a.get("valid_until") is not None and not _is_date(a.get("valid_until")):
+        errs.append(f"{pre}: valid_until must be an ISO date or null")
     if a.get("lockup") not in LOCKUPS:
         errs.append(f"{pre}: invalid lockup")
     if a.get("background") not in BACKGROUNDS:
@@ -307,6 +322,11 @@ def validate_entity(entity_dir: Path, allow_pending: bool = False) -> list:
         errs.append(f"{eid}: invalid group")
     if not set(ent.get("types") or []) <= TYPES:
         errs.append(f"{eid}: invalid types")
+    contact = ent.get("contact")
+    if "contact" in ent and not (
+            isinstance(contact, dict) and set(contact) == CONTACT_KEYS
+            and all(v is None or isinstance(v, str) for v in contact.values())):
+        errs.append(f"{eid}: contact must have exactly logo_permission_url, email, notes (string or null)")
     status, assets = ent.get("status"), ent.get("assets") or []
     gaps = ent.get("gaps") or []
     if status not in STATUSES:
@@ -324,13 +344,17 @@ def validate_entity(entity_dir: Path, allow_pending: bool = False) -> list:
         _check_asset(entity_dir, ent, a, errs)
     recorded = {a.get("file") for a in assets}
     logos = entity_dir / "logos"
-    for f in sorted(logos.iterdir()) if logos.is_dir() else []:
-        if f.is_file() and f.name not in recorded and not f.name.startswith("."):
-            errs.append(f"{eid}: unrecorded logo file {f.name}")
+    found = []
+    for folder, prefix in ((logos, ""), (logos / "previous", PREVIOUS)):
+        found += [(f, prefix + f.name) for f in sorted(folder.iterdir()) if f.is_file()] if folder.is_dir() else []
+    for f, rel in found:
+        if rel not in recorded and not f.name.startswith("."):
+            errs.append(f"{eid}: unrecorded logo file {rel}")
 
     if status == "complete":
-        has = lambda bg: any(a.get("background") == bg for a in assets)  # noqa: E731
-        if not (has("light") and has("dark") and any(a.get("transparent") for a in assets)):
+        current = [a for a in assets if not a.get("superseded")]
+        has = lambda bg: any(a.get("background") == bg for a in current)  # noqa: E731
+        if not (has("light") and has("dark") and any(a.get("transparent") for a in current)):
             errs.append(f"{eid}: complete requires a light, a dark and a transparent asset")
     elif status == "partial":
         if not assets or not gaps:

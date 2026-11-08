@@ -108,6 +108,83 @@ class StyleReadmeTests(Base):
         self.assertIn("No public house style found", out)
 
 
+class ExtrasTests(Base):
+    def styled(self, rel, eid, **over):
+        sty = style(eid)
+        sty.update(over)
+        return self.make(rel, eid, sty=sty)
+
+    def test_tokens_css_has_only_recorded_values(self):
+        d = self.styled("european/xx-a", "xx-a")
+        files = build_catalog.generated_files(self.root)
+        css = files[d / "house-style" / "tokens.css"]
+        self.assertEqual(css.count(":root"), 1)
+        self.assertIn("--xx-a-color-blue: #003399;", css)
+        self.assertIn("--xx-a-font-body: Arial, sans-serif;", css)
+        self.assertEqual(css.count("--"), 2)
+        self.assertNotRegex(css, r"\d{2}:\d{2}")
+        data = json.loads(files[d / "house-style" / "tokens.json"])
+        self.assertEqual(data["colors"], {"blue": "#003399"})
+        self.assertEqual(data["fonts"], {"body": "Arial, sans-serif"})
+
+    def test_tokens_omit_null_values(self):
+        d = self.styled("european/xx-a", "xx-a",
+                        colors=[{"name": "Light Blue / 2", "hex": "#0055AA", "rgb": None, "cmyk": None,
+                                 "role": None, "evidence": "observed", "source_url": None},
+                                {"name": None, "hex": "#000000", "evidence": "observed"}],
+                        typography=[{"family": "Arial", "role": None, "fallbacks": [],
+                                     "evidence": "observed", "source_url": None},
+                                    {"family": None, "role": "Display Font", "fallbacks": [],
+                                     "evidence": "observed"}])
+        files = build_catalog.generated_files(self.root)
+        data = json.loads(files[d / "house-style" / "tokens.json"])
+        self.assertEqual(data["colors"], {"light-blue-2": "#0055AA"})
+        self.assertEqual(data["fonts"], {})
+        self.assertNotIn("null", files[d / "house-style" / "tokens.css"])
+        self.assertNotIn("None", files[d / "house-style" / "tokens.css"])
+
+    def test_no_tokens_without_style(self):
+        d = self.make("european/xx-a", "xx-a", sty=None)
+        self.assertNotIn(d / "house-style" / "tokens.css", build_catalog.generated_files(self.root))
+
+    def test_gallery_uses_relative_encoded_paths(self):
+        self.make("states/bosnia/ba x", "ba x", assets=[
+            asset("ba x-logo-light.svg"), dict(asset("previous/ba x-logo-light.svg"), superseded=True)])
+        out = build_catalog.generated_files(self.root)[self.root / "gallery" / "index.html"]
+        self.assertIn('src="../stakeholders/states/bosnia/ba%20x/logos/ba%20x-logo-light.svg"', out)
+        self.assertNotIn("previous", out)
+        self.assertEqual(out.count("<img"), 2)  # light and dark tile
+        self.assertNotIn(str(self.root), out)
+        self.assertNotIn("<script", out)
+        self.assertNotIn("http", out)
+
+    def test_gallery_is_deterministic(self):
+        self.make("european/xx-a", "xx-a", assets=[asset("a.svg")])
+        self.make("eurocontrol/xx-b", "xx-b", group="eurocontrol", assets=[asset("b.svg")])
+        one = build_catalog.generated_files(self.root)[self.root / "gallery" / "index.html"]
+        self.assertEqual(one, build_catalog.generated_files(self.root)[self.root / "gallery" / "index.html"])
+        self.assertLess(one.index("xx-b"), one.index("xx-a"))
+        self.assertNotRegex(one, r"\d{2}:\d{2}")
+
+    def test_check_covers_new_files(self):
+        d = self.styled("european/xx-a", "xx-a")
+        self.assertEqual(build_catalog.main(root=self.root), 0)
+        for p in (d / "house-style" / "tokens.css", d / "house-style" / "tokens.json",
+                  self.root / "gallery" / "index.html"):
+            self.assertTrue(p.exists(), p)
+            self.assertEqual(build_catalog.main(check=True, root=self.root), 0)
+            p.write_text("stale")
+            self.assertEqual(build_catalog.main(check=True, root=self.root), 1)
+            build_catalog.main(root=self.root)
+
+    def test_superseded_not_in_catalog_columns(self):
+        self.make("european/xx-a", "xx-a", status="partial", assets=[
+            dict(asset("previous/a.svg", "dark", True), superseded=True)])
+        row = [l for l in build_catalog.render_catalog(self.root).splitlines() if "xx-a" in l][0]
+        cells = [c.strip() for c in row.split("|")]
+        self.assertEqual(cells[4:8], ["no", "no", "no", "0"])
+
+
 class CheckTests(Base):
     def test_check_mode_detects_stale_file(self):
         d = self.make("european/xx-a", "xx-a")
