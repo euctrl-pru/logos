@@ -113,11 +113,12 @@ class SniffAndSvg(Base):
         self.assertIsNone(validate.sniff_format(b"hello"))
 
     def test_svg_with_script_rejected(self):
-        for bad in (b"<script>alert(1)</script>", b'<rect onclick="x()"/>',
-                    b'<image href="https://evil.example/a.png"/>'):
+        bads = (b"<script>alert(1)</script>", b'<rect onclick="x()"/>',
+                b'<image href="https://evil.example/a.png"/>')
+        for i, bad in enumerate(bads):
             data = b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">' + bad + b"</svg>"
             with self.subTest(bad=bad):
-                d = self.entity_with_svg(data, id="xx-" + str(abs(hash(bad)) % 1000))
+                d = self.entity_with_svg(data, id=f"xx-bad{i}")
                 self.assertError(self.errors(d), "unsafe svg")
 
     def _svg(self, body):
@@ -132,6 +133,18 @@ class SniffAndSvg(Base):
     def test_svg_fullbleed_rect_fill_none_is_transparent(self):
         p = self._svg(b'<rect width="100" height="50" fill="none"/><circle r="3"/>')
         self.assertTrue(validate.is_transparent(p))
+
+    def test_svg_fullbleed_rect_in_non_rendered_container_transparent(self):
+        for wrap in ("defs", "clipPath", "mask", "pattern"):
+            with self.subTest(wrap=wrap):
+                body = f'<{wrap} id="c"><rect width="100" height="50"/></{wrap}><circle r="3"/>'.encode()
+                self.assertTrue(validate.is_transparent(self._svg(body)))
+
+    def test_svg_fullbleed_invisible_rect_transparent(self):
+        for attrs in ('fill="transparent"', 'opacity="0"', 'fill-opacity="0"', 'style="fill-opacity:0"'):
+            with self.subTest(attrs=attrs):
+                body = f'<rect width="100" height="50" {attrs}/><circle r="3"/>'.encode()
+                self.assertTrue(validate.is_transparent(self._svg(body)))
 
     def test_svg_without_background_transparent(self):
         p = self._svg(b'<rect width="10" height="10"/><circle r="3"/>')
@@ -284,9 +297,9 @@ class StyleRules(Base):
                 self.assertError(self.errors(d), missing)
 
     def test_style_requires_last_checked(self):
-        for val in (None, "yesterday", "2026-13-40"):
+        for i, val in enumerate((None, "yesterday", "2026-13-40")):
             with self.subTest(val=val):
-                d = self.make_entity(id="xx-" + str(abs(hash(str(val))) % 1000), status="not-found")
+                d = self.make_entity(id=f"xx-lc{i}", status="not-found")
                 self.write_style(d, last_checked=val)
                 self.assertError(self.errors(d), "last_checked")
 

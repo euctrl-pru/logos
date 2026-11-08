@@ -86,9 +86,36 @@ def _num(value, ref):
 
 
 def _fill(el):
-    style = el.get("style") or ""
-    m = re.search(r"(?:^|;)\s*fill\s*:\s*([^;]+)", style)
-    return (m.group(1) if m else el.get("fill", "black")).strip().lower()
+    return _style_prop(el, "fill") or "black"
+
+
+NON_RENDERED = {"defs", "clipPath", "mask", "pattern", "symbol", "marker", "metadata", "title", "desc"}
+
+
+def _drawn(el):
+    """Yield drawn elements in document order, skipping non-rendered containers."""
+    for child in el:
+        name = _local(child.tag)
+        if name in NON_RENDERED:
+            continue
+        if name in DRAWN:
+            yield child
+        yield from _drawn(child)
+
+
+def _style_prop(el, prop):
+    m = re.search(rf"(?:^|;)\s*{prop}\s*:\s*([^;]+)", el.get("style") or "")
+    return (m.group(1) if m else el.get(prop) or "").strip().lower()
+
+
+def _invisible(el):
+    for prop in ("opacity", "fill-opacity"):
+        try:
+            if _style_prop(el, prop) and float(_style_prop(el, prop)) == 0:
+                return True
+        except ValueError:
+            pass
+    return False
 
 
 def _svg_transparent(data: bytes) -> bool:
@@ -102,11 +129,11 @@ def _svg_transparent(data: bytes) -> bool:
         vw, vh = parts[2], parts[3]
     else:
         vw, vh = _num(root.get("width"), 0), _num(root.get("height"), 0)
-    first = next((e for e in root.iter() if _local(e.tag) in DRAWN), None)
+    first = next(_drawn(root), None)
     if first is None or _local(first.tag) != "rect" or not vw or not vh:
         return True
     w, h = _num(first.get("width"), vw), _num(first.get("height"), vh)
-    if not w or not h or _fill(first) == "none":
+    if not w or not h or _fill(first) in ("none", "transparent") or _invisible(first):
         return True
     return not (w * h >= 0.99 * vw * vh)
 
