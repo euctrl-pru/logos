@@ -1,0 +1,85 @@
+{
+  "id": "ai-plus",
+  "name": "Aviation Intelligence+",
+  "acronym": "AI+",
+  "group": "eurocontrol",
+  "country": null,
+  "iso2": null,
+  "also_countries": [],
+  "membership": null,
+  "types": [
+    "ectl-entity"
+  ],
+  "official_domains": [
+    "eurocontrol.int"
+  ],
+  "terms_url": null,
+  "aliases": [],
+  "notes": "Files migrated byte-for-byte from the earlier repository layout (commit fe61363, 2023-05-23); no official source URL is recorded. Original names: 'Icon Aviation Intelligence+.svg' and 'Logo Aviation Intelligence+.png' (white artwork on an opaque orange tile); the '_white' files (orange artwork for white backgrounds). The two .png originals were JPEG files and now carry .jpg.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "transparent full logo",
+      "reason": "the full logo exists only as opaque JPEGs in repo history; no official transparent file located"
+    },
+    {
+      "need": "dark variant",
+      "reason": "repo history has no white-artwork file for dark backgrounds"
+    }
+  ],
+  "assets": [
+    {
+      "file": "ai-plus-icon-light-color-tile.svg",
+      "lockup": "icon",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "repo-history",
+      "page_url": null,
+      "source_tier": "internal",
+      "retrieved": "2023-05-23",
+      "sha256": "e20bdc9f114e6ff23652cc28864e86954720399d02aef7c2949bc269c793f681"
+    },
+    {
+      "file": "ai-plus-icon-light-color.svg",
+      "lockup": "icon",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "repo-history",
+      "page_url": null,
+      "source_tier": "internal",
+      "retrieved": "2023-05-23",
+      "sha256": "a7015ed1c30123b6e1b707f1f70d1ca91487159110540b4240be4992eafd5602"
+    },
+    {
+      "file": "ai-plus-logo-light-color-tile.jpg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "repo-history",
+      "page_url": null,
+      "source_tier": "internal",
+      "retrieved": "2023-05-23",
+      "sha256": "0d6381f0a7e9996ff002cfe5086c776e0c96e2435cf36bd49f350a67c4dd5901"
+    },
+    {
+      "file": "ai-plus-logo-light-color-on-white.jpg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "repo-history",
+      "page_url": null,
+      "source_tier": "internal",
+      "retrieved": "2023-05-23",
+      "sha256": "4a027f38370ae70e06bd52061eed9dc820b08c3ea705c48f5844e2f491c44c8a"
+    }
+  ],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

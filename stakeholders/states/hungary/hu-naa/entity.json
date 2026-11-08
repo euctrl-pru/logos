@@ -1,0 +1,25 @@
+{
+  "id": "hu-naa",
+  "name": "Hungarian National Transport Authority",
+  "acronym": "NAA",
+  "group": "state",
+  "country": "Hungary",
+  "iso2": "HU",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

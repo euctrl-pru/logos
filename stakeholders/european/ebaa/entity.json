@@ -1,0 +1,25 @@
+{
+  "id": "ebaa",
+  "name": "European Business Aviation Association",
+  "acronym": "EBAA",
+  "group": "european",
+  "country": null,
+  "iso2": null,
+  "also_countries": [],
+  "membership": null,
+  "types": [
+    "association"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

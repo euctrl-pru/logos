@@ -1,0 +1,25 @@
+{
+  "id": "ge-caa",
+  "name": "Georgia civil aviation authority (to be confirmed)",
+  "acronym": null,
+  "group": "state",
+  "country": "Georgia",
+  "iso2": "GE",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": "Placeholder. No README row existed for this state; body to be confirmed in sourcing.",
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

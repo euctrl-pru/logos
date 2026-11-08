@@ -1,0 +1,25 @@
+{
+  "id": "ma-onda",
+  "name": "National Office of Airports",
+  "acronym": "ONDA",
+  "group": "state",
+  "country": "Morocco",
+  "iso2": "MA",
+  "also_countries": [],
+  "membership": "comprehensive-agreement",
+  "types": [
+    "ansp"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

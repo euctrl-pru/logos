@@ -1,126 +1,70 @@
-<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Eurocontrol_logo_2010.svg/1011px-Eurocontrol_logo_2010.svg.png" style="object-fit:contain; height:130px; margin-top:-0px;" >
-
 # Logo and house style collection
 
-## Description
+This repository collects the official logos and house styles of aviation stakeholders: EUROCONTROL entities, European and international bodies, and the civil aviation authorities (CAAs) and air navigation service providers (ANSPs) of the EUROCONTROL member and comprehensive agreement states.
 
-This repository aggregates the different logos of the different stakeholds that are active in the aviation sector.
+See [CATALOG.md](CATALOG.md) for every stakeholder and its status, and [gallery/index.html](gallery/index.html) for a preview of the logos.
 
-# Logo collection
+## Layout
 
-## Description
+```text
+CATALOG.md                 generated status table
+gallery/index.html         generated logo preview
+tools/                     validate.py, fetch_asset.py, build_catalog.py
+tests/                     unit tests for the tools
+stakeholders/
+  eurocontrol/<id>/        EUROCONTROL entities
+  european/<id>/           European bodies
+  international/<id>/      international bodies
+  states/<country>/<id>/   one folder per organisation, e.g. states/belgium/be-skeyes
+```
 
-This repository aggregates the different logos of the different stakeholders we work with.
+Each `<id>/` folder contains:
 
-## EUROCONTROL entities
-* [ECTL - EUROCONTROL](https://github.com/euctrl-pru/logos/tree/main/EUROCONTROL%20Entities/ECTL%20-%20EUROCONTROL/)
-* AI+ - Aviation Intelligence+
-* NM - Network Manager
-* CRCO - Central Route Charges Office
+```text
+entity.json                identity, status, gaps and one record per logo file
+logos/                     <id>-<lockup>-<background>[-<modifier>].<ext>
+house-style/style.json     colours, typography, logo usage and their sources
+house-style/README.md      generated
+house-style/tokens.json    generated
+house-style/tokens.css     generated
+```
 
-## European Stakeholders
-* PRC - Performance Review Commission
-* EU - European Union
-* EC - European Commission
-* EASA - European Union Aviation Safety Agency
-* SESAR - Single European Sky ATM Research
-* SJU - SESAR Joint Undertaking
-* ERA - European Regions Airline Association
-* EBAA - European Business Aviation Association
+## Official-source rule
 
-## International Stakeholders
-* IATA - International Air Transport Association
-* ICAO - International Civil Aviation Organization
-* ACI - Airports Council International
-* CANSO - Civil Air Navigation Services Organisation
-* IFALPA - International Federation of Air Line Pilots' Associations
-* IFATCA - International Federation of Air Traffic Controllers' Associations
-* A4E - Airlines for Europe
-* A4A - Airlines for America
+- Logos come only from a publisher's brand page, press kit or media library (`source_tier: 1`), or from a logo file served by the publisher's own website (`source_tier: 2`). Favicons do not count.
+- Never use Wikipedia, Wikimedia, logo aggregators, search-result thumbnails or similar services.
+- Files are stored byte-for-byte. Do not recolour, trace, remove backgrounds or convert formats. A missing variant is recorded in `gaps`.
+- Do not bypass a login, portal, CAPTCHA or other access restriction. Record the entity as `restricted` and name the contact route in `gaps`.
+- Do not commit guideline PDFs or font files. Link them from `style.json`.
+- Record the publisher's logo terms in `terms_url`, and any limit on redistribution in `notes`.
 
-## EUROCONTROL Member States Aviation Authorities
-* Albania - AAC - Civil Aviation Authority
-* Belgium - BCAA - Belgian Civil Aviation Authority
-* Bulgaria - BULATSA - Bulgarian Air Traffic Services Authority
-* Croatia - CAA - Civil Aviation Agency
-* Cyprus - DCA - Department of Civil Aviation
-* Denmark - CAA - Civil Aviation Authority
-* France - DGAC - Direction Générale de l'Aviation Civile
-* Germany - LBA - Luftfahrt-Bundesamt
-* Greece - HCAA - Hellenic Civil Aviation Authority
-* Hungary - NAA - National Transport Authority
-* Iceland - ICETRA - Icelandic Transport Authority
-* Ireland - IAA - Irish Aviation Authority
-* Italy - ENAC - Ente Nazionale per l'Aviazione Civile
-* Latvia - CAA - Civil Aviation Authority
-* Lithuania - LTSA - Lithuanian Transport Safety Administration
-* Luxembourg - DAC - Directorate of Civil Aviation
-* Malta - CAD - Civil Aviation Directorate
-* Netherlands - ILT - Human Environment and Transport Inspectorate
-* Norway - CAA - Civil Aviation Authority
-* Poland - ULC - Civil Aviation Authority
-* Portugal - ANAC - Autoridade Nacional da Aviação Civil
-* Romania - AACR - Romanian Civil Aeronautical Authority
-* Serbia - CAD - Civil Aviation Directorate
-* Slovakia - TÚ SR - Transport Authority
-* Slovenia - CAA - Civil Aviation Agency
-* Spain - AESA - Agencia Estatal de Seguridad Aérea
-* Sweden - TS - Transportstyrelsen
-* Switzerland - FOCA - Federal Office of Civil Aviation
-* Turkey - SHGM - Directorate General of Civil Aviation
-* United Kingdom - CAA - Civil Aviation Authority
-* Bosnia and Herzegovina - BHDCA - Bosnia and Herzegovina Directorate of Civil Aviation
-* North Macedonia - CAA - Civil Aviation Agency
-* Montenegro - CAA - Civil Aviation Agency
-* Ukraine - SAAU - State Aviation Administration of Ukraine
+## Add an entity
 
-## EUROCONTROL Comprehensive Agreement States Aviation Authorities
-* Israel - CAAI - Civil Aviation Authority of Israel
-* Morocco - ANAC - National Agency of Civil Aviation
+1. Create `stakeholders/<group>/<id>/`, or `stakeholders/states/<country>/<id>/` with an id of the form `<iso2>-<slug>`.
+2. Write `entity.json` and `house-style/style.json`, using an existing entity as a template.
+3. Fetch each logo into a new empty directory outside the repository:
 
-## EUROCONTROL Member States ANSPs
-* Albania - ALBCONTROL - Albanian Air Traffic Services
-* Belgium - Belgocontrol (also known as skeyes) - Belgian Air Navigation Service Provider
-* Bulgaria - BULATSA - Bulgarian Air Traffic Services Authority
-* Croatia - Croatia Control - Croatian Air Navigation Services Ltd
-* Cyprus - Cyprus Department of Civil Aviation
-* Denmark - Naviair - Danish Air Navigation Service Provider
-* France - DSNA - Direction des Services de la Navigation Aérienne
-* Germany - DFS - Deutsche Flugsicherung GmbH
-* Greece - HCAA - Hellenic Civil Aviation Authority
-* Hungary - HungaroControl - Hungarian Air Navigation Services
-* Iceland - ISAVIA - Icelandic Air Navigation Service Provider
-* Ireland - IAA - Irish Aviation Authority
-* Italy - ENAV - Ente Nazionale Assistenza al Volo
-* Latvia - Latvijas Gaisa Satiksme - Latvian Air Traffic
-* Lithuania - Oro Navigacija - Lithuanian Air Navigation
-* Luxembourg - ANA Lux - Administration de la Navigation Aérienne
-* Malta - MATS - Malta Air Traffic Services Ltd
-* Netherlands - LVNL - Luchtverkeersleiding Nederland
-* Norway - Avinor - Avinor Air Navigation Services
-* Poland - PANSA - Polish Air Navigation Services Agency
-* Portugal - NAV Portugal - Navegação Aérea de Portugal
-* Romania - ROMATSA - Romanian Air Traffic Services Administration
-* Serbia - SMATSA - Serbia and Montenegro Air Traffic Services
-* Slovakia - LPS Slovakia - Letové Prevádzkové Služby Slovenskej Republiky
-* Slovenia - Slovenia Control - Slovenian Air Navigation Services
-* Spain - ENAIRE - Spanish Air Navigation Service Provider
-* Sweden - LFV - Luftfartsverket
-* Switzerland - skyguide - Swiss Air Navigation Services Ltd
-* Turkey - DHMI - Directorate General of State Airports Authority
-* United Kingdom - NATS - National Air Traffic Services
-* Bosnia and Herzegovina - BHDCA - Bosnia and Herzegovina Directorate of Civil Aviation
-* North Macedonia - M-NAV - Macedonian Air Navigation Service Provider
-* Montenegro - SMATSA - Serbia and Montenegro Air Traffic Services
-* Ukraine - UkSATSE - Ukrainian State Air Traffic Services Enterprise
+   ```bash
+   python3 tools/fetch_asset.py <url> <new-empty-dir> --domains example.org
+   ```
 
-## EUROCONTROL Comprehensive Agreement States ANSPs
-* Israel - CAAI - Civil Aviation Authority of Israel
-* Morocco - ONDA - National Office of Airports
+4. Copy the file to `logos/` under its standard name, then add its record to `assets`.
+5. Set `status`, and add a `gaps` entry for anything not found.
+
+## Validation
+
+```bash
+python3 tools/build_catalog.py                # regenerate CATALOG.md, the gallery and house-style files
+python3 tools/build_catalog.py --check        # fail if generated files are stale
+python3 tools/validate.py --allow-pending     # validate, tolerating scaffolded entities
+python3 tools/validate.py                     # validate with no pending entities allowed
+python3 -W error -m unittest discover -s tests
+```
 
 ## Help
 
-In case you need help, don't hesitate to get in touch with the author(s). 
+In case you need help, don't hesitate to get in touch with the author(s).
 
 ## Author(s)
+
 * [Quinten GOENS](mailto:Quinten.Goens@eurocontrol.int)

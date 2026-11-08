@@ -1,0 +1,26 @@
+{
+  "id": "gr-hcaa",
+  "name": "Hellenic Civil Aviation Authority",
+  "acronym": "HCAA",
+  "group": "state",
+  "country": "Greece",
+  "iso2": "GR",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa",
+    "ansp"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": "README lists this body as both CAA and ANSP; verify the role split during sourcing.",
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

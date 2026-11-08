@@ -1,0 +1,25 @@
+{
+  "id": "ma-anac",
+  "name": "National Agency of Civil Aviation",
+  "acronym": "ANAC",
+  "group": "state",
+  "country": "Morocco",
+  "iso2": "MA",
+  "also_countries": [],
+  "membership": "comprehensive-agreement",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

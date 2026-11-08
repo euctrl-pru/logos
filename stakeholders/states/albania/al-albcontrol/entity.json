@@ -1,0 +1,25 @@
+{
+  "id": "al-albcontrol",
+  "name": "Albanian Air Traffic Services",
+  "acronym": "ALBCONTROL",
+  "group": "state",
+  "country": "Albania",
+  "iso2": "AL",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "ansp"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

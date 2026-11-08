@@ -1,0 +1,25 @@
+{
+  "id": "il-caai",
+  "name": "Civil Aviation Authority of Israel",
+  "acronym": "CAAI",
+  "group": "state",
+  "country": "Israel",
+  "iso2": "IL",
+  "also_countries": [],
+  "membership": "comprehensive-agreement",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": "README also listed CAAI as the ANSP; that row is merged here and il-ansp holds the ANSP role until confirmed.",
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

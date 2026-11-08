@@ -1,0 +1,27 @@
+{
+  "id": "rs-smatsa",
+  "name": "Serbia and Montenegro Air Traffic Services",
+  "acronym": "SMATSA",
+  "group": "state",
+  "country": "Serbia",
+  "iso2": "RS",
+  "also_countries": [
+    "ME"
+  ],
+  "membership": "member",
+  "types": [
+    "ansp"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": "One provider for Serbia and Montenegro; README lists it under both states.",
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

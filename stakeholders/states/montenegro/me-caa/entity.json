@@ -1,0 +1,25 @@
+{
+  "id": "me-caa",
+  "name": "Civil Aviation Agency of Montenegro",
+  "acronym": "CAA",
+  "group": "state",
+  "country": "Montenegro",
+  "iso2": "ME",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

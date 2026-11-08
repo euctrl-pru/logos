@@ -1,0 +1,25 @@
+{
+  "id": "ro-aacr",
+  "name": "Romanian Civil Aeronautical Authority",
+  "acronym": "AACR",
+  "group": "state",
+  "country": "Romania",
+  "iso2": "RO",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

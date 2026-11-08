@@ -1,0 +1,25 @@
+{
+  "id": "lu-dac",
+  "name": "Directorate of Civil Aviation",
+  "acronym": "DAC",
+  "group": "state",
+  "country": "Luxembourg",
+  "iso2": "LU",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

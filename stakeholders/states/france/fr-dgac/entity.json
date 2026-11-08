@@ -1,0 +1,25 @@
+{
+  "id": "fr-dgac",
+  "name": "Direction Générale de l'Aviation Civile",
+  "acronym": "DGAC",
+  "group": "state",
+  "country": "France",
+  "iso2": "FR",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

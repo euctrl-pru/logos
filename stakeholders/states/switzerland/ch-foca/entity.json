@@ -1,0 +1,25 @@
+{
+  "id": "ch-foca",
+  "name": "Federal Office of Civil Aviation",
+  "acronym": "FOCA",
+  "group": "state",
+  "country": "Switzerland",
+  "iso2": "CH",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

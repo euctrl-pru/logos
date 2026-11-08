@@ -1,0 +1,25 @@
+{
+  "id": "si-caa",
+  "name": "Civil Aviation Agency of Slovenia",
+  "acronym": "CAA",
+  "group": "state",
+  "country": "Slovenia",
+  "iso2": "SI",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

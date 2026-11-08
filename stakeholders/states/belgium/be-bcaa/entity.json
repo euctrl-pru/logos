@@ -1,0 +1,25 @@
+{
+  "id": "be-bcaa",
+  "name": "Belgian Civil Aviation Authority",
+  "acronym": "BCAA",
+  "group": "state",
+  "country": "Belgium",
+  "iso2": "BE",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

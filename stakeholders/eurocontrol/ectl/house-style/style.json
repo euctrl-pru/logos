@@ -1,0 +1,76 @@
+{
+  "id": "ectl",
+  "status": "documented",
+  "current_sources": [
+    {
+      "url": "https://www.eurocontrol.int/sites/default/files/2024-06/eurocontrol-visual-identity-2024.pdf",
+      "kind": "guideline",
+      "version_label": "Visual Identity 2024 Guide",
+      "sha256": "7b3e7fd0a1e8b66a7d9758f3959f2bd462b8e1c637d3ed62606711078f684a56",
+      "retrieved": "2026-11-08"
+    },
+    {
+      "url": "https://www.eurocontrol.int/brand",
+      "kind": "brand-page",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-08"
+    }
+  ],
+  "previous_sources": [],
+  "last_checked": "2026-11-08",
+  "colors": [
+    {
+      "name": "Dark blue",
+      "hex": "#003366",
+      "rgb": "0, 51, 102",
+      "cmyk": "100, 50, 0, 60",
+      "role": "EUROCONTROL logo colour (emblem and type)",
+      "evidence": "guideline",
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2024-06/eurocontrol-visual-identity-2024.pdf"
+    },
+    {
+      "name": "Light blue",
+      "hex": "#2990EA",
+      "rgb": "41, 144, 234",
+      "cmyk": "82, 38, 0, 8",
+      "role": "EUROCONTROL logo colour (arrow)",
+      "evidence": "guideline",
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2024-06/eurocontrol-visual-identity-2024.pdf"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Exo",
+      "role": "DTP and web headings",
+      "fallbacks": [
+        "Arial",
+        "Helvetica"
+      ],
+      "evidence": "guideline",
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2024-06/eurocontrol-visual-identity-2024.pdf"
+    },
+    {
+      "family": "Myriad Pro",
+      "role": "DTP main text",
+      "fallbacks": [],
+      "evidence": "guideline",
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2024-06/eurocontrol-visual-identity-2024.pdf"
+    },
+    {
+      "family": "Arial",
+      "role": "Microsoft Office and email",
+      "fallbacks": [],
+      "evidence": "guideline",
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2024-06/eurocontrol-visual-identity-2024.pdf"
+    }
+  ],
+  "logo_usage": {
+    "clear_space": "Guide page 4 draws the boxed logo in a 125 px square with 16 px border radius and a clear zone marked X; no numeric value for X is given.",
+    "min_size": "12 mm minimum for best visibility.",
+    "background_rules": "Works best on a white background and should be used in colour. On white backgrounds the slogan is primary blue in uppercase, with the rounded-corner square suggested alongside the slogan. Dark backgrounds always require the boxed logo: the rounded-corner square with a white background and the slogan in white. The logo with white typeface is for promotional material on dark backgrounds only. A black version is for applications where colours cannot be reproduced.",
+    "misuse": "Do not use outlines, shadows or 3D effects; do not change the colours or typography; do not distort or rotate; avoid artistic effects and clutter around the logo; use only official versions; no new or alternative logos."
+  },
+  "retrieved": "2026-11-08",
+  "notes": "Colour names are descriptive; the guide labels neither swatch. Colour and typeface values were checked against guide page 7 and the brand page; logo rules against pages 4 and 5 and the brand page. Templates in the guide also set edition metadata in Roboto Regular 9pt, which is not one of the three main typefaces."
+}

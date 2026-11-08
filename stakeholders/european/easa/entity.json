@@ -1,0 +1,25 @@
+{
+  "id": "easa",
+  "name": "European Union Aviation Safety Agency",
+  "acronym": "EASA",
+  "group": "european",
+  "country": null,
+  "iso2": null,
+  "also_countries": [],
+  "membership": null,
+  "types": [
+    "institution"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

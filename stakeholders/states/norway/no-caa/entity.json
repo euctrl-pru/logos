@@ -1,0 +1,25 @@
+{
+  "id": "no-caa",
+  "name": "Norwegian Civil Aviation Authority",
+  "acronym": "CAA",
+  "group": "state",
+  "country": "Norway",
+  "iso2": "NO",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

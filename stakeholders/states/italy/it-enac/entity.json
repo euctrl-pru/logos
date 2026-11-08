@@ -1,0 +1,25 @@
+{
+  "id": "it-enac",
+  "name": "Ente Nazionale per l'Aviazione Civile",
+  "acronym": "ENAC",
+  "group": "state",
+  "country": "Italy",
+  "iso2": "IT",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

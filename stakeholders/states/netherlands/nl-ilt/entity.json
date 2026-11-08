@@ -1,0 +1,25 @@
+{
+  "id": "nl-ilt",
+  "name": "Human Environment and Transport Inspectorate",
+  "acronym": "ILT",
+  "group": "state",
+  "country": "Netherlands",
+  "iso2": "NL",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

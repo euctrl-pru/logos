@@ -1,0 +1,26 @@
+{
+  "id": "cy-dca",
+  "name": "Cyprus Department of Civil Aviation",
+  "acronym": "DCA",
+  "group": "state",
+  "country": "Cyprus",
+  "iso2": "CY",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa",
+    "ansp"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": "README lists this body as both CAA and ANSP; verify the role split during sourcing.",
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

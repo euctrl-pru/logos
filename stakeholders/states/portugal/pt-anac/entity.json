@@ -1,0 +1,25 @@
+{
+  "id": "pt-anac",
+  "name": "Autoridade Nacional da Aviação Civil",
+  "acronym": "ANAC",
+  "group": "state",
+  "country": "Portugal",
+  "iso2": "PT",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

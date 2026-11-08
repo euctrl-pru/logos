@@ -1,0 +1,25 @@
+{
+  "id": "ba-bhdca",
+  "name": "Bosnia and Herzegovina Directorate of Civil Aviation",
+  "acronym": "BHDCA",
+  "group": "state",
+  "country": "Bosnia and Herzegovina",
+  "iso2": "BA",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": "README also listed BHDCA as the ANSP; that row is merged here and ba-ansp holds the ANSP role until confirmed.",
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

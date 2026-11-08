@@ -1,0 +1,25 @@
+{
+  "id": "mt-cad",
+  "name": "Civil Aviation Directorate",
+  "acronym": "CAD",
+  "group": "state",
+  "country": "Malta",
+  "iso2": "MT",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [],
+  "terms_url": null,
+  "aliases": [],
+  "notes": null,
+  "status": "pending",
+  "gaps": [],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": null
+  }
+}

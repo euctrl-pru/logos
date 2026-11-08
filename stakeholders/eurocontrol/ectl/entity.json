@@ -1,0 +1,142 @@
+{
+  "id": "ectl",
+  "name": "EUROCONTROL",
+  "acronym": "ECTL",
+  "group": "eurocontrol",
+  "country": null,
+  "iso2": null,
+  "also_countries": [],
+  "membership": null,
+  "types": [
+    "ectl-entity"
+  ],
+  "official_domains": [
+    "eurocontrol.int"
+  ],
+  "terms_url": "https://www.eurocontrol.int/brand#terms",
+  "aliases": [
+    "European Organisation for the Safety of Air Navigation"
+  ],
+  "notes": "Terms (brand page): third parties may download and use the logo without prior consent only where there is no likelihood of confusion with EUROCONTROL and the use is not connected with objectives or activities incompatible with the Organisation's aims and principles. Private, promotional and online use is allowed subject to those conditions; commercial use (sale) and modification of the logo as an imitation, or as part of a trademark or design, are strictly prohibited. The emblem is protected under article 6ter of the Paris Convention and the logo by trademarks. Files here are unmodified official SVGs; the brand page also offers CMYK and RGB zip packages, not mirrored here. The three flat logo SVGs have a transparent background (their full-size rect is fill:none via a CSS class), but tools/validate.py reads only inline fills, so their records show transparent: false until the validator handles CSS classes.",
+  "status": "complete",
+  "gaps": [],
+  "assets": [
+    {
+      "file": "ectl-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2023-07/ec-logo-default.svg",
+      "page_url": "https://www.eurocontrol.int/brand",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "9fe333887c418fa10e740166d411f56482b75e2d56958603395594967e10b9f4"
+    },
+    {
+      "file": "ectl-logo-dark-white.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": false,
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2023-07/eurocontrol-logo-white.svg",
+      "page_url": "https://www.eurocontrol.int/brand",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "04f3c9af061a788bb90e85d6bcbe87e5c454b27dbd1b848067813631fa7764fe"
+    },
+    {
+      "file": "ectl-logo-light-black.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "black",
+      "transparent": false,
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2023-07/ec-logo-black.svg",
+      "page_url": "https://www.eurocontrol.int/brand",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "a84091e1fc560b488fc59f876464dcfa9fa8f1b976efe52a2ccc7004d3883fd7"
+    },
+    {
+      "file": "ectl-boxed-light-color.svg",
+      "lockup": "boxed",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2024-06/eurocontrol-boxed-rgb.svg",
+      "page_url": "https://www.eurocontrol.int/brand",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "015981ac4bd011478a866c9f64f4a91efea9c773973e9506842eb69170bfddd4"
+    },
+    {
+      "file": "ectl-boxed-light-color-slogan-right.svg",
+      "lockup": "boxed",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2024-06/eurocontrol-boxed-slogan-right-rgb.svg",
+      "page_url": "https://www.eurocontrol.int/brand",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "ef5b096bb016e8b5052ae7940411bd92e9b92f804f61ba27869a8ab2c453a391",
+      "language": "en"
+    },
+    {
+      "file": "ectl-boxed-light-color-slogan-left.svg",
+      "lockup": "boxed",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2024-06/eurocontrol-boxed-slogan-left-rgb.svg",
+      "page_url": "https://www.eurocontrol.int/brand",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "899b6c560d691a4d24af9acbcdbfe2e13d46b265d60fa6ef174d6feeed57b9d1",
+      "language": "en"
+    },
+    {
+      "file": "ectl-boxed-dark-color.svg",
+      "lockup": "boxed",
+      "background": "dark",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2024-06/eurocontrol-boxed-dark-rgb.svg",
+      "page_url": "https://www.eurocontrol.int/brand",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "17fc7076a67fd99d3190d8209d9e6b2a69f95b86f0899167552b028f26eda0f3"
+    },
+    {
+      "file": "ectl-boxed-dark-color-slogan-right.svg",
+      "lockup": "boxed",
+      "background": "dark",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2024-06/eurocontrol-boxed-dark-slogan-right-rgb.svg",
+      "page_url": "https://www.eurocontrol.int/brand",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "960ea0169816692e843b7732f0ae7b7a003e4fceeb760ddfb8a1e81c78a81113",
+      "language": "en"
+    },
+    {
+      "file": "ectl-boxed-dark-color-slogan-left.svg",
+      "lockup": "boxed",
+      "background": "dark",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2024-06/eurocontrol-boxed-dark-slogan-left-rgb.svg",
+      "page_url": "https://www.eurocontrol.int/brand",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "62bf3053d221fe912397c8837ab0ff1b0fe1777c66dfcd2d9defd1cc8f020dd9",
+      "language": "en"
+    }
+  ],
+  "contact": {
+    "logo_permission_url": "https://www.eurocontrol.int/brand#terms",
+    "email": "web_helpdesk@eurocontrol.int",
+    "notes": "Logo permission requests go to the brand page address. The 2024 guide names graphic.design@eurocontrol.int (DG/COM) for permission to use the EUROCONTROL name."
+  }
+}
