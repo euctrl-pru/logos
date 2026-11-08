@@ -1,2 +1,7 @@
 :root {
+  --ec-color-blue: #003399;
+  --ec-color-yellow: #FFED00;
+  --ec-color-grey: #58595B;
+  --ec-font-name-of-the-commission-displayed-in-the-logo: EC Square Sans Pro;
+  --ec-font-suggested-alternative-for-sign-off-statements-next-to-the-logo: Arial;
 }

@@ -10,16 +10,27 @@
   "types": [
     "ectl-entity"
   ],
-  "official_domains": [],
-  "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "official_domains": [
+    "eurocontrol.int"
+  ],
+  "terms_url": "https://www.eurocontrol.int/brand#terms",
+  "aliases": [
+    "CRCO",
+    "EUROCONTROL Central Route Charges Office",
+    "Route Charges Office"
+  ],
+  "notes": "The CRCO is a EUROCONTROL service (eurocontrol.int/crco) that uses the EUROCONTROL identity; its page shows only the three key-role footer logos and the EUROCONTROL logo. Use the ectl assets and terms for EUROCONTROL branding; do not treat them as a CRCO logo.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "CRCO-specific logo",
+      "reason": "Checked the CRCO page (eurocontrol.int/crco), the brand page (eurocontrol.int/brand) and the 2024 Visual Identity Guide on 2026-11-08: EUROCONTROL publishes no separate CRCO logo; its page carries only the EUROCONTROL logo and the SESAR Deployment Manager, SESAR JU and Network Manager footer logos."
+    }
+  ],
   "assets": [],
   "contact": {
-    "logo_permission_url": null,
-    "email": null,
-    "notes": null
+    "logo_permission_url": "https://www.eurocontrol.int/brand#terms",
+    "email": "web_helpdesk@eurocontrol.int",
+    "notes": "Brand-page route for EUROCONTROL (see ectl). The CRCO billing address r3.crco@eurocontrol.int is not a logo contact and is not recorded."
   }
 }

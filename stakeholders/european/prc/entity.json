@@ -10,16 +10,27 @@
   "types": [
     "institution"
   ],
-  "official_domains": [],
-  "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "official_domains": [
+    "eurocontrol.int"
+  ],
+  "terms_url": "https://www.eurocontrol.int/brand#terms",
+  "aliases": [
+    "PRC",
+    "EUROCONTROL Performance Review Commission",
+    "Performance Review Unit (supporting unit)"
+  ],
+  "notes": "The PRC is an independent body of seven experts reporting to the EUROCONTROL Permanent Commission, supported by the Performance Review Unit (PRU); its pages on eurocontrol.int (air-navigation-services-performance-review) use the EUROCONTROL identity. Not to be confused with the SES Performance Review Body. The PRU's Aviation Intelligence Portal (ansperformance.eu) is a separate domain and was not checked for a logo.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "PRC-specific logo",
+      "reason": "Checked the PRC page (eurocontrol.int/air-navigation-services-performance-review), the brand page and the 2024 Visual Identity Guide on 2026-11-08: EUROCONTROL publishes no separate PRC logo. The ansperformance.eu portal was not examined."
+    }
+  ],
   "assets": [],
   "contact": {
-    "logo_permission_url": null,
-    "email": null,
-    "notes": null
+    "logo_permission_url": "https://www.eurocontrol.int/brand#terms",
+    "email": "web_helpdesk@eurocontrol.int",
+    "notes": "Brand-page route for EUROCONTROL (see ectl)."
   }
 }

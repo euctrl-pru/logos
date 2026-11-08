@@ -10,16 +10,72 @@
   "types": [
     "institution"
   ],
-  "official_domains": [],
-  "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
+  "official_domains": [
+    "sesarju.eu"
+  ],
+  "terms_url": "https://www.sesarju.eu/node/3406#sesar-logos7694",
+  "aliases": [
+    "SESAR 3 JU",
+    "SESAR 3 Joint Undertaking",
+    "SJU",
+    "Single European Sky ATM Research Joint Undertaking"
+  ],
+  "notes": "SESAR and the SESAR Joint Undertaking have no separate current identities: sesarju.eu publishes a single logo set (the 'sesar' wordmark and star with the strapline 'Joint Undertaking', for SESAR 3 JU) and its visual charter (11/2022) treats it as the SESAR logo. Hence the sju and sesar records hold identical official files and style. PNGs come unmodified from the publisher's 'SESAR 3 JU logos' zip (folder 'SESAR3JU Logo'); the zip also holds EPS, PDF and JPG versions and Founding Member, Associated Member, Powered By, Project Partner Of and Supported By lockups, not mirrored. The SVG is the site-served logo, which is white. Terms: the site copyright notice allows non-commercial reproduction with acknowledgement, and the logo is governed by separate 'General Terms and Conditions for the use of the SESAR Trademark and Logo' linked from the legal notice, which was not read in full; treat redistribution as restricted. The U-space logo needs a form and acceptance of terms and is not included.",
+  "status": "complete",
   "gaps": [],
-  "assets": [],
+  "assets": [
+    {
+      "file": "sju-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.sesarju.eu/sites/default/files/documents/SESAR%203%20JU%20logos.zip",
+      "page_url": "https://www.sesarju.eu/logo",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "4b14dccb3bbe11e2c5bed887cc210f022d104da6122dc227043afee4083576f9"
+    },
+    {
+      "file": "sju-logo-light-black.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "black",
+      "transparent": true,
+      "source_url": "https://www.sesarju.eu/sites/default/files/documents/SESAR%203%20JU%20logos.zip",
+      "page_url": "https://www.sesarju.eu/logo",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "edd2350179a8136914dccf0c0f66ae9a9c8b7e6c85eb99d7015e582fc0a7f7e1"
+    },
+    {
+      "file": "sju-logo-dark-white.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.sesarju.eu/sites/default/files/documents/SESAR%203%20JU%20logos.zip",
+      "page_url": "https://www.sesarju.eu/logo",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "6a29990137eee43456f25cb0a28be6b1e7a50242555f1262da77d76b06db3e91"
+    },
+    {
+      "file": "sju-logo-dark-white.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.sesarju.eu/themes/custom/sesarju/images/SESAR_New_Logo_SVG.svg",
+      "page_url": "https://www.sesarju.eu/logo",
+      "source_tier": 2,
+      "retrieved": "2026-11-08",
+      "sha256": "02af7ad75d870f33c2bb2881d0d8e0e10866c4502cead83c00ca5cb32fc7847e"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
+    "logo_permission_url": "https://www.sesarju.eu/node/3406#sesar-logos7694",
     "email": null,
-    "notes": null
+    "notes": "Legal notice page (sesarju.eu/node/3406) hosts the logo zip, graphical guidelines and trademark terms; no logo-specific email is published there."
   }
 }

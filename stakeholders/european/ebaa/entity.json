@@ -10,16 +10,25 @@
   "types": [
     "association"
   ],
-  "official_domains": [],
-  "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "official_domains": [
+    "ebaa.org"
+  ],
+  "terms_url": "https://www.ebaa.org/terms-and-conditions",
+  "aliases": [
+    "EBAA"
+  ],
+  "notes": "Terms: the names, images and logos identifying ebaa.org are proprietary marks of EBAA and cannot be reproduced at will; prior approval is required through the EBAA branding team (info@ebaa.org), stating how and why the logo will be used. The site's header logo is /assets/images/ebaa_logo_main.svg but the server answers every automated request, including that file, with HTTP 403; nothing was bypassed.",
+  "status": "restricted",
+  "gaps": [
+    {
+      "need": "EBAA logo files",
+      "reason": "Logo use requires prior approval from EBAA (info@ebaa.org) per its terms and conditions, and ebaa.org returns HTTP 403 to automated fetches, so no official file could be retrieved. No brand or press-kit page was found. Request the logo and brand guidelines by email."
+    }
+  ],
   "assets": [],
   "contact": {
-    "logo_permission_url": null,
-    "email": null,
-    "notes": null
+    "logo_permission_url": "https://www.ebaa.org/terms-and-conditions",
+    "email": "info@ebaa.org",
+    "notes": "Terms and conditions name info@ebaa.org (EBAA branding team) for logo approval requests."
   }
 }

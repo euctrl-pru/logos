@@ -1,10 +1,37 @@
 {
   "id": "easa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.easa.europa.eu/en",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-08"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-08",
-  "colors": [],
+  "colors": [
+    {
+      "name": "Navy",
+      "hex": "#222F64",
+      "rgb": "34, 47, 100",
+      "cmyk": null,
+      "role": "Logo square and wordmark (SVG fill)",
+      "evidence": "observed",
+      "source_url": "https://www.easa.europa.eu/themes/custom/easa_foundation/images/splash/easa-logo.svg"
+    },
+    {
+      "name": "Yellow",
+      "hex": "#FBBC39",
+      "rgb": "251, 188, 57",
+      "cmyk": null,
+      "role": "Logo bird (SVG fill)",
+      "evidence": "observed",
+      "source_url": "https://www.easa.europa.eu/themes/custom/easa_foundation/images/splash/easa-logo.svg"
+    }
+  ],
   "typography": [],
   "logo_usage": {
     "clear_space": null,
@@ -12,6 +39,6 @@
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-08",
+  "notes": "No EASA brand guidelines were found. Colours are read from the fills in the site-served logo SVG, not from a guideline. The site's CSS typography was not examined."
 }

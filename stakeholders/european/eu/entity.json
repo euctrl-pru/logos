@@ -10,16 +10,65 @@
   "types": [
     "institution"
   ],
-  "official_domains": [],
-  "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "official_domains": [
+    "europa.eu"
+  ],
+  "terms_url": "https://european-union.europa.eu/legal-notice_en",
+  "aliases": [
+    "European flag",
+    "European emblem",
+    "EU emblem",
+    "Flag of Europe"
+  ],
+  "notes": "Official EU emblem (circle of 12 gold stars on blue), also the emblem of the Council of Europe. Files are unmodified SVGs extracted from the publisher's three SVG zip downloads (normal colour, white and blue, black and white); the page also offers EPS, PDF, JPG and low/high-resolution PNG versions, not mirrored. Terms (legal notice, graphics guide): any person may use the emblem without written permission provided the use does not suggest a connection with, or support from, EU or Council of Europe bodies that does not exist, is not tied to activities incompatible with their aims, and is not unlawful; registering the emblem or an imitation as a trade mark or other IP right is not acceptable. Do not confuse with the European Commission logo, whose stars are larger (see ec). The colour and white-and-blue SVGs carry an opaque white or blue background rectangle, so they are recorded transparent=false.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark-background variant",
+      "reason": "The publisher offers three versions (colour, white and blue, black and white), all drawn as a self-contained rectangle; none is labelled for dark backgrounds, and the graphics guide says to add a white border when a coloured background cannot be avoided."
+    }
+  ],
+  "assets": [
+    {
+      "file": "eu-emblem-light-color.svg",
+      "lockup": "emblem",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://european-union.europa.eu/document/download/8fd15c1e-c5b8-44e7-a9eb-824609d68150_en?filename=Normal%20reproduction%20in%20colour%20-%20SVG.zip",
+      "page_url": "https://european-union.europa.eu/principles-countries-history/symbols/european-flag_en",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "1ea120046b056c065cf76d830adbee1107dd9c4ddef06ccd641e4578143198b5"
+    },
+    {
+      "file": "eu-emblem-light-white-blue.svg",
+      "lockup": "emblem",
+      "background": "light",
+      "color_mode": "mono",
+      "transparent": false,
+      "source_url": "https://european-union.europa.eu/document/download/1078fd05-a543-4f41-9943-09b8b666de2e_en?filename=Reproduction%20in%202%20colours%20white%20%26%20blue%20-%20SVG.zip",
+      "page_url": "https://european-union.europa.eu/principles-countries-history/symbols/european-flag_en",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "20d7bfe87c530a8383dd1d244cdae54320fe74d52fd8a5f13dbfaee1f7a25c80"
+    },
+    {
+      "file": "eu-emblem-light-black.svg",
+      "lockup": "emblem",
+      "background": "light",
+      "color_mode": "black",
+      "transparent": true,
+      "source_url": "https://european-union.europa.eu/document/download/b5f9a648-4dcd-4580-b9f9-980790f38229_en?filename=Reproduction%20in%20black%20%26%20white%20-%20SVG.zip",
+      "page_url": "https://european-union.europa.eu/principles-countries-history/symbols/european-flag_en",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "dff5d0e9125c4f76b052c34c72095f4ae522d6d4fd2f54e640b3c669cd82da13"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
-    "email": null,
-    "notes": null
+    "logo_permission_url": "https://european-union.europa.eu/legal-notice_en",
+    "email": "EC-EU-EMBLEM@ec.europa.eu",
+    "notes": "Legal notice: EC-EU-EMBLEM@ec.europa.eu for legal questions on the emblem or trade mark applications; COMM-VISUAL-IDENTITY@ec.europa.eu for visual and graphical questions. Requests from non-EU countries go to the Council of Europe (legal.advice@coe.int) per the graphics guide."
   }
 }

@@ -1,7 +1,7 @@
 {
   "id": "era",
   "name": "European Regions Airline Association",
-  "acronym": "ERA",
+  "acronym": "ERAA",
   "group": "european",
   "country": null,
   "iso2": null,
@@ -10,16 +10,40 @@
   "types": [
     "association"
   ],
-  "official_domains": [],
-  "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "official_domains": [
+    "eraa.org"
+  ],
+  "terms_url": "https://www.eraa.org/terms-and-conditions/",
+  "aliases": [
+    "ERA",
+    "ERAA",
+    "European Regions Airline Association Limited"
+  ],
+  "notes": "The association now abbreviates itself ERAA (site title, logo and press releases); the id stays 'era' for continuity. No brand page or press kit was found (newsroom pages only). The file is the site header logo (WordPress 'cropped' upload, 2558 x 747 PNG) stored unmodified. The site terms reserve reproduction of the site's design and graphics to its copyright notice and do not mention the logo specifically; treat redistribution as unconfirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark-background variant and vector (SVG/EPS) files",
+      "reason": "The website serves one colour PNG logo; no brand page, press kit or alternative versions were found. An older press page names a communications contact, but it dates from 2020 and is not recorded here."
+    }
+  ],
+  "assets": [
+    {
+      "file": "era-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.eraa.org/wp-content/uploads/2026/06/cropped-ERAA-LOGO-FINAL-RGB-scaled-1.png",
+      "page_url": "https://www.eraa.org/",
+      "source_tier": 2,
+      "retrieved": "2026-11-08",
+      "sha256": "51de8548371971d9dc037056a9b98d770a994ea880815e8c71c67f561d1323d4"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
+    "logo_permission_url": "https://www.eraa.org/terms-and-conditions/",
     "email": null,
-    "notes": null
+    "notes": "No logo-specific contact published on the current site."
   }
 }

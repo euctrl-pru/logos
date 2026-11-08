@@ -10,16 +10,83 @@
   "types": [
     "institution"
   ],
-  "official_domains": [],
-  "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
+  "official_domains": [
+    "europa.eu"
+  ],
+  "terms_url": "https://commission.europa.eu/document/download/2714841e-1292-447c-a852-db53fa2527b9_en?filename=2025_Guidelines_for_partners.pdf",
+  "aliases": [
+    "Commission",
+    "EC",
+    "European Commission logo"
+  ],
+  "notes": "English horizontal RGB SVGs (POS, NEG, BLACK, WHITE, BLUE files) extracted unmodified from the publisher's EN_EC_logo_Horizontal.zip. The same page offers vertical and mute versions, CMYK, EPS, PDF, PNG and JPEG, and 24 language editions; not mirrored. The zip's uncompressed size (about 29.8 MB) exceeds tools/fetch_asset.py's 25 MB extraction cap, so only the five SVGs were read from the zip with the standard zipfile module. Terms (2025 Guidelines for partners): the logo is a protected trademark; third parties may use it only if permission is requested and granted beforehand, there is no likelihood of confusion with the Commission, the use is not tied to incompatible objectives, and it implies no unintended endorsement; it must be used whole and unmodified. Redistribution here on GitHub is therefore subject to those terms; the logo must not be used for EU-funded project visibility, where the EU emblem applies (see eu).",
+  "status": "complete",
   "gaps": [],
-  "assets": [],
+  "assets": [
+    {
+      "file": "ec-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://commission.europa.eu/document/download/afe2925d-20e4-4431-b85b-faf1f6cc00bc_en?filename=EN_EC_logo_Horizontal.zip",
+      "page_url": "https://commission.europa.eu/resources/european-commission-visual-identity_en",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "b1ad5ef37d3f330242cc99c426cf1bf9a9ffb2071ecac0690856a4b45e035819"
+    },
+    {
+      "file": "ec-logo-dark-color.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://commission.europa.eu/document/download/afe2925d-20e4-4431-b85b-faf1f6cc00bc_en?filename=EN_EC_logo_Horizontal.zip",
+      "page_url": "https://commission.europa.eu/resources/european-commission-visual-identity_en",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "a8df3a134b61fc2c4a35bbf35160a074af00a2ca06ef1029cee89a756bef9d57"
+    },
+    {
+      "file": "ec-logo-light-black.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "black",
+      "transparent": true,
+      "source_url": "https://commission.europa.eu/document/download/afe2925d-20e4-4431-b85b-faf1f6cc00bc_en?filename=EN_EC_logo_Horizontal.zip",
+      "page_url": "https://commission.europa.eu/resources/european-commission-visual-identity_en",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "f616fbd3843db4beb03886b8013e16f4b7abed80d3149551afb0bb4f2685fe06"
+    },
+    {
+      "file": "ec-logo-dark-white.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://commission.europa.eu/document/download/afe2925d-20e4-4431-b85b-faf1f6cc00bc_en?filename=EN_EC_logo_Horizontal.zip",
+      "page_url": "https://commission.europa.eu/resources/european-commission-visual-identity_en",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "228cb4d088e050676323bfdfbfd0797c1be159e6152eaa08b2e20366dbf47ca0"
+    },
+    {
+      "file": "ec-logo-light-blue.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "mono",
+      "transparent": true,
+      "source_url": "https://commission.europa.eu/document/download/afe2925d-20e4-4431-b85b-faf1f6cc00bc_en?filename=EN_EC_logo_Horizontal.zip",
+      "page_url": "https://commission.europa.eu/resources/european-commission-visual-identity_en",
+      "source_tier": 1,
+      "retrieved": "2026-11-08",
+      "sha256": "519d6468ca56bd104f8e266f4dd81b7564a12fe199aa8cc61968edac93eec568"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
-    "email": null,
-    "notes": null
+    "logo_permission_url": "https://commission.europa.eu/document/download/2714841e-1292-447c-a852-db53fa2527b9_en?filename=2025_Guidelines_for_partners.pdf",
+    "email": "COMM-VISUAL-IDENTITY@ec.europa.eu",
+    "notes": "Permission requests go to the Commission department in contact with the requester, or to the Visual Identity Team at this address (2025 Guidelines for partners)."
   }
 }

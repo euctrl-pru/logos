@@ -1,2 +1,8 @@
 :root {
+  --sju-color-deep-blue: #00306F;
+  --sju-color-light-blue: #009DD9;
+  --sju-color-grass-green: #7AB51D;
+  --sju-color-dark-green: #199C69;
+  --sju-font-primary-typeface-and-web-font-light-titles-bold-subtitles-regular-body: Titillium;
+  --sju-font-microsoft-office-documents-light-titles-bold-subtitles-regular-body: Calibri;
 }

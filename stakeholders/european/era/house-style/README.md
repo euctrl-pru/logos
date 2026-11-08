@@ -13,3 +13,7 @@ None recorded.
 ## Previous sources
 
 None recorded.
+
+## Notes
+
+No guidelines found; the site CSS was not examined.

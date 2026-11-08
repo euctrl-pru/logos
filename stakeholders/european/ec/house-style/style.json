@@ -1,17 +1,91 @@
 {
   "id": "ec",
-  "status": "none",
-  "current_sources": [],
+  "status": "documented",
+  "current_sources": [
+    {
+      "url": "https://commission.europa.eu/document/download/2714841e-1292-447c-a852-db53fa2527b9_en?filename=2025_Guidelines_for_partners.pdf",
+      "kind": "guideline",
+      "version_label": "Guidelines for partners and organisations, 2025",
+      "sha256": "ce7373f887a46f9e11ec19f6b0a65f6fbe2434592c4a2f8128c8eab2dfb48840",
+      "retrieved": "2026-11-08"
+    },
+    {
+      "url": "https://commission.europa.eu/resources/european-commission-visual-identity_en",
+      "kind": "brand-page",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-08"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#003399",
+      "rgb": "0, 51, 153",
+      "cmyk": null,
+      "role": "Logo flag square and wordmark (fill #039 in the SVGs)",
+      "evidence": "observed",
+      "source_url": "https://commission.europa.eu/document/download/afe2925d-20e4-4431-b85b-faf1f6cc00bc_en?filename=EN_EC_logo_Horizontal.zip"
+    },
+    {
+      "name": "Yellow",
+      "hex": "#FFED00",
+      "rgb": "255, 237, 0",
+      "cmyk": null,
+      "role": "Logo stars (fill #ffed00 in the SVGs)",
+      "evidence": "observed",
+      "source_url": "https://commission.europa.eu/document/download/afe2925d-20e4-4431-b85b-faf1f6cc00bc_en?filename=EN_EC_logo_Horizontal.zip"
+    },
+    {
+      "name": "Grey",
+      "hex": "#58595B",
+      "rgb": "88, 89, 91",
+      "cmyk": null,
+      "role": "Wordmark text in the positive logo (fill in the SVG)",
+      "evidence": "observed",
+      "source_url": "https://commission.europa.eu/document/download/afe2925d-20e4-4431-b85b-faf1f6cc00bc_en?filename=EN_EC_logo_Horizontal.zip"
+    },
+    {
+      "name": "Grey",
+      "hex": "#6D6E70",
+      "rgb": "109, 110, 112",
+      "cmyk": null,
+      "role": "Secondary element in the positive logo (fill in the SVG)",
+      "evidence": "observed",
+      "source_url": "https://commission.europa.eu/document/download/afe2925d-20e4-4431-b85b-faf1f6cc00bc_en?filename=EN_EC_logo_Horizontal.zip"
+    }
+  ],
+  "typography": [
+    {
+      "family": "EC Square Sans Pro",
+      "role": "Name of the Commission displayed in the logo",
+      "fallbacks": [],
+      "evidence": "guideline",
+      "source_url": "https://commission.europa.eu/document/download/2714841e-1292-447c-a852-db53fa2527b9_en?filename=2025_Guidelines_for_partners.pdf"
+    },
+    {
+      "family": "Arial",
+      "role": "Suggested alternative for sign-off statements next to the logo",
+      "fallbacks": [],
+      "evidence": "guideline",
+      "source_url": "https://commission.europa.eu/document/download/2714841e-1292-447c-a852-db53fa2527b9_en?filename=2025_Guidelines_for_partners.pdf"
+    },
+    {
+      "family": "Times New Roman",
+      "role": "Suggested alternative for sign-off statements next to the logo",
+      "fallbacks": [],
+      "evidence": "guideline",
+      "source_url": "https://commission.europa.eu/document/download/2714841e-1292-447c-a852-db53fa2527b9_en?filename=2025_Guidelines_for_partners.pdf"
+    }
+  ],
   "logo_usage": {
-    "clear_space": null,
+    "clear_space": "A protection area surrounds the logo (drawn for horizontal and vertical versions, no numeric value in the text); no text, image or graphic may enter it.",
     "min_size": null,
-    "background_rules": null,
-    "misuse": null
+    "background_rules": "Positive version on white is the general rule and mandatory for Commission publications. Textured or graphic backgrounds only if visibility and the protection area are respected, otherwise use a white or flat-colour protection area. On pictures use a solid colour background with sufficient contrast. Contrast between logo and background must meet basic accessibility standards.",
+    "misuse": "Modifying, distorting, or separating the logo elements is prohibited; no drop shadows or special effects behind it; for EU-funded projects the EU emblem with funding statement is used, not the Commission logo."
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-08",
+  "notes": "Colour values are read from the fills in the official SVG files; the 2025 guide does not list swatches (hence evidence observed, cmyk null). Logo and clear-space rules are from the guide pages 4 to 10. The older 2017 graphic charter is also linked from the visual identity page and was not used."
 }

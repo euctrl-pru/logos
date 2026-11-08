@@ -1,17 +1,60 @@
 {
   "id": "nm",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.eurocontrol.int/brand",
+      "kind": "brand-page",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-08"
+    },
+    {
+      "url": "https://www.eurocontrol.int/sites/default/files/2024-06/eurocontrol-visual-identity-2024.pdf",
+      "kind": "guideline",
+      "version_label": "Visual Identity 2024 Guide",
+      "sha256": "7b3e7fd0a1e8b66a7d9758f3959f2bd462b8e1c637d3ed62606711078f684a56",
+      "retrieved": "2026-11-08"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-08",
-  "colors": [],
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#003399",
+      "rgb": "0, 51, 153",
+      "cmyk": null,
+      "role": "Logo box fill (SVG)",
+      "evidence": "observed",
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2022-07/logo-nm.svg"
+    },
+    {
+      "name": "Yellow",
+      "hex": "#FFCC00",
+      "rgb": "255, 204, 0",
+      "cmyk": null,
+      "role": "Logo accent elements (SVG)",
+      "evidence": "observed",
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2022-07/logo-nm.svg"
+    },
+    {
+      "name": "White",
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "cmyk": null,
+      "role": "Logo wordmark (SVG)",
+      "evidence": "observed",
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2022-07/logo-nm.svg"
+    }
+  ],
   "typography": [],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
-    "background_rules": null,
+    "background_rules": "The guide says the key-role logos appear on all EUROCONTROL material except MUAC and co-branding with other organisations, positioned bottom right on print material.",
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-08",
+  "notes": "No Network Manager guideline exists apart from the placement rule in the EUROCONTROL guide; colours are read from the logo file's fills. Corporate typefaces are in the ectl style record."
 }

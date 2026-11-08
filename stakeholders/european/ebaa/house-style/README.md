@@ -13,3 +13,7 @@ None recorded.
 ## Previous sources
 
 None recorded.
+
+## Notes
+
+No house style located; no brand page found and the site blocks automated access.

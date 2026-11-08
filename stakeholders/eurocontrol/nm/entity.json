@@ -10,16 +10,39 @@
   "types": [
     "ectl-entity"
   ],
-  "official_domains": [],
-  "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "official_domains": [
+    "eurocontrol.int"
+  ],
+  "terms_url": "https://www.eurocontrol.int/brand#terms",
+  "aliases": [
+    "EUROCONTROL Network Manager",
+    "Network Manager"
+  ],
+  "notes": "The Network Manager role has its own logo (white wordmark on a blue box with yellow elements), served by eurocontrol.int in the partners footer of its pages, including the brand page, and named by the 2024 Visual Identity Guide as one of the three key-role logos (with the SESAR Deployment Manager coordinator and SESAR JU founding-member logos). The brand page offers no separate download for it, so the file is the site-served SVG (tier 2), stored unmodified. Its wordmark is white, so it is recorded for dark backgrounds. Terms are EUROCONTROL's brand-page terms (see ectl): no modification, no commercial use, no likelihood of confusion; redistribution on GitHub is subject to them.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "light-background variant",
+      "reason": "Only one Network Manager logo file is published (white text on a blue box); no black, colour-on-white or other variant is offered on the brand page or in the visual identity guide."
+    }
+  ],
+  "assets": [
+    {
+      "file": "nm-logo-dark-color.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.eurocontrol.int/sites/default/files/2022-07/logo-nm.svg",
+      "page_url": "https://www.eurocontrol.int/brand",
+      "source_tier": 2,
+      "retrieved": "2026-11-08",
+      "sha256": "3421c394055bd72e58dd847e7e44b4b2ef3bd956d4da07e2150ccd282e7792f3"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
-    "email": null,
-    "notes": null
+    "logo_permission_url": "https://www.eurocontrol.int/brand#terms",
+    "email": "web_helpdesk@eurocontrol.int",
+    "notes": "Same route as the EUROCONTROL logo (see ectl)."
   }
 }

@@ -1,2 +1,8 @@
 :root {
+  --sesar-color-deep-blue: #00306F;
+  --sesar-color-light-blue: #009DD9;
+  --sesar-color-grass-green: #7AB51D;
+  --sesar-color-dark-green: #199C69;
+  --sesar-font-primary-typeface-and-web-font-light-titles-bold-subtitles-regular-body: Titillium;
+  --sesar-font-microsoft-office-documents-light-titles-bold-subtitles-regular-body: Calibri;
 }

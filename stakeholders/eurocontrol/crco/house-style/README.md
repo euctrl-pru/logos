@@ -13,3 +13,7 @@ None recorded.
 ## Previous sources
 
 None recorded.
+
+## Notes
+
+No CRCO-specific house style; follows the EUROCONTROL Visual Identity 2024 Guide (see ectl style record).

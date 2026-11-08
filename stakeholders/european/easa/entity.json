@@ -10,16 +10,45 @@
   "types": [
     "institution"
   ],
-  "official_domains": [],
-  "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
+  "official_domains": [
+    "easa.europa.eu"
+  ],
+  "terms_url": "https://www.easa.europa.eu/en/copyright-disclaimer",
+  "aliases": [
+    "European Aviation Safety Agency"
+  ],
+  "notes": "EASA publishes no brand page, press kit or logo download page (the brand and press-kit URLs tried return 404); the files are the logos served by easa.europa.eu itself, stored unmodified: the full-colour logo from the site's splash images (navy square and wordmark with yellow bird and stars) and the header logo (white wordmark with yellow bird, for the dark header). The copyright page grants general reproduction with source acknowledgement save where prior permission is stated, but says nothing specific about the EASA logo, so treat redistribution rights as unconfirmed.",
+  "status": "complete",
   "gaps": [],
-  "assets": [],
+  "assets": [
+    {
+      "file": "easa-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.easa.europa.eu/themes/custom/easa_foundation/images/splash/easa-logo.svg",
+      "page_url": "https://www.easa.europa.eu/en",
+      "source_tier": 2,
+      "retrieved": "2026-11-08",
+      "sha256": "9fa888aa5e017963c6824b520d227c6b62ee0249037d3976e6ef322e019b6701"
+    },
+    {
+      "file": "easa-logo-dark-color.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.easa.europa.eu/themes/custom/easa_foundation/logo.svg",
+      "page_url": "https://www.easa.europa.eu/en",
+      "source_tier": 2,
+      "retrieved": "2026-11-08",
+      "sha256": "62bb67440ed0cc95491ea17bc03820337975b3a10083ed5a2744109edf3db66e"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
+    "logo_permission_url": "https://www.easa.europa.eu/en/copyright-disclaimer",
     "email": null,
-    "notes": null
+    "notes": "No logo-specific contact published; the press contacts page (easa.europa.eu/en/press-contacts) is the closest official route."
   }
 }

@@ -1,17 +1,84 @@
 {
   "id": "sesar",
-  "status": "none",
-  "current_sources": [],
+  "status": "documented",
+  "current_sources": [
+    {
+      "url": "https://www.sesarju.eu/sites/default/files/documents/SESAR3JU%20VisualCharter.pdf",
+      "kind": "guideline",
+      "version_label": "Visual Identity Charter, last updated 11/2022",
+      "sha256": "dc053bd88a48ef3849b17a563bbbc2656bc751b828b969e44e239b320e62e3a4",
+      "retrieved": "2026-11-08"
+    },
+    {
+      "url": "https://www.sesarju.eu/logo",
+      "kind": "brand-page",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-08"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "colors": [
+    {
+      "name": "Deep blue",
+      "hex": "#00306F",
+      "rgb": "0, 48, 111",
+      "cmyk": "100, 85, 5, 30",
+      "role": "SESAR colour",
+      "evidence": "guideline",
+      "source_url": "https://www.sesarju.eu/sites/default/files/documents/SESAR3JU%20VisualCharter.pdf"
+    },
+    {
+      "name": "Light blue",
+      "hex": "#009DD9",
+      "rgb": "0, 157, 217",
+      "cmyk": "100, 0, 5, 0",
+      "role": "SESAR colour",
+      "evidence": "guideline",
+      "source_url": "https://www.sesarju.eu/sites/default/files/documents/SESAR3JU%20VisualCharter.pdf"
+    },
+    {
+      "name": "Grass green",
+      "hex": "#7AB51D",
+      "rgb": "122, 181, 29",
+      "cmyk": "60, 0, 100, 0",
+      "role": "SESAR colour",
+      "evidence": "guideline",
+      "source_url": "https://www.sesarju.eu/sites/default/files/documents/SESAR3JU%20VisualCharter.pdf"
+    },
+    {
+      "name": "Dark green",
+      "hex": "#199C69",
+      "rgb": "25, 156, 105",
+      "cmyk": "80, 10, 100, 0",
+      "role": "SESAR colour",
+      "evidence": "guideline",
+      "source_url": "https://www.sesarju.eu/sites/default/files/documents/SESAR3JU%20VisualCharter.pdf"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Titillium",
+      "role": "Primary typeface and web font (Light titles, Bold subtitles, Regular body)",
+      "fallbacks": [],
+      "evidence": "guideline",
+      "source_url": "https://www.sesarju.eu/sites/default/files/documents/SESAR3JU%20VisualCharter.pdf"
+    },
+    {
+      "family": "Calibri",
+      "role": "Microsoft Office documents (Light titles, Bold subtitles, Regular body)",
+      "fallbacks": [],
+      "evidence": "guideline",
+      "source_url": "https://www.sesarju.eu/sites/default/files/documents/SESAR3JU%20VisualCharter.pdf"
+    }
+  ],
   "logo_usage": {
-    "clear_space": null,
-    "min_size": null,
-    "background_rules": null,
-    "misuse": null
+    "clear_space": "X on every side, where X is the height and width of a square set from the logo drawing (page 8 and 9).",
+    "min_size": "25 mm wide with strapline; 15 mm wide without strapline.",
+    "background_rules": "Monochrome (black or white) logo goes on a solid colour background or a photo with a dark overlay; the black version may be coloured deep blue where graphically suitable. Colour logo uses the gradient.",
+    "misuse": "Do not distort, stretch or skew; do not rotate; always use the star; do not resize or move elements; respect clear space; do not change the gradient or colours; do not redraw, always use the latest approved files."
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-08",
+  "notes": "Gradients per the charter: light blue to deep blue, and grass green to light blue. Charter also defines project colour schemes, which are the same four colours."
 }
