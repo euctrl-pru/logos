@@ -10,16 +10,27 @@
   "types": [
     "association"
   ],
-  "official_domains": [],
-  "terms_url": null,
+  "official_domains": [
+    "a4e.eu"
+  ],
+  "terms_url": "https://www.a4e.eu/legal-information",
   "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "notes": "Legal information page: website content and works are governed by copyright law; any duplication, processing, distribution or utilisation beyond copyright law needs prior written consent of the authors. No brand page or press kit found.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "all logo variants",
+      "reason": "a4e.eu serves its only logo (white SVG, https://cdn.prod.website-files.com/6a622a6d911cf8aa3ae654a5/6aa2eb18a2e49ded1a0d35b6_A4E-logo_white.svg) from the Webflow CDN host, which fetch_asset.py refuses as not an official host; no brand page, press kit or colour variant found."
+    },
+    {
+      "need": "brand guidelines",
+      "reason": "none located on a4e.eu"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
-    "email": null,
-    "notes": null
+    "email": "contact@a4e.eu",
+    "notes": "General contact address published on a4e.eu; not specifically for logo use."
   }
 }

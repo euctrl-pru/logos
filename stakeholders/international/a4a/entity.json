@@ -10,16 +10,56 @@
   "types": [
     "association"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "airlines.org"
+  ],
   "terms_url": null,
   "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "notes": "Logos are PNG files served by airlines.org in its site header and footer (tier 2); no brand page, press kit or logo terms located, so redistribution rights are not confirmed. The legal terms page was not found.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant",
+      "reason": "airlines.org serves only full-colour PNGs for light backgrounds"
+    },
+    {
+      "need": "SVG logo",
+      "reason": "only raster PNG files are served"
+    },
+    {
+      "need": "brand guidelines",
+      "reason": "no official A4A brand guideline located on airlines.org"
+    }
+  ],
+  "assets": [
+    {
+      "file": "a4a-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.airlines.org/wp-content/uploads/2020/07/A4A__desktop.png",
+      "page_url": "https://www.airlines.org/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "ffefc9d479d14e9de9f2ce5e782822b40b49b8f5a4187931c37d59d058368e64"
+    },
+    {
+      "file": "a4a-with-slogan-light-color.png",
+      "lockup": "with-slogan",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.airlines.org/wp-content/uploads/2020/07/A4A__desktop__footer.png",
+      "page_url": "https://www.airlines.org/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "aff4c4fdb85909f9d221c523b1bd2f8cdd46a0e50e8f682256e9ce7b9dcc7017"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

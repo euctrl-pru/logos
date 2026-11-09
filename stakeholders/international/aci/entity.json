@@ -10,16 +10,40 @@
   "types": [
     "association"
   ],
-  "official_domains": [],
-  "terms_url": null,
+  "official_domains": [
+    "aci.aero"
+  ],
+  "terms_url": "https://aci.aero/terms-and-conditions-of-use/",
   "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "notes": "Logo is the SVG served by aci.aero in its site header (tier 2, no brand page or press kit found). Website terms state all website content, including graphics, is proprietary and all rights reserved; redistribution rights not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark and white variant",
+      "reason": "aci.aero serves only the colour header SVG; no brand page or press kit found"
+    },
+    {
+      "need": "brand guidelines",
+      "reason": "no official ACI brand guideline located on aci.aero"
+    }
+  ],
+  "assets": [
+    {
+      "file": "aci-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://aci.aero/wp-content/uploads/2026/03/Logo_Mainwebsite.svg",
+      "page_url": "https://aci.aero/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "e6ff788fc55afa028205bdc714eb75f4610b415b9cce5717e458a1e134b06775"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
-    "email": null,
-    "notes": null
+    "email": "mediarelations@aci.aero",
+    "notes": "Media relations address published on aci.aero homepage; not specifically labelled for logo use."
   }
 }

@@ -10,16 +10,40 @@
   "types": [
     "institution"
   ],
-  "official_domains": [],
-  "terms_url": null,
+  "official_domains": [
+    "icao.int"
+  ],
+  "terms_url": "https://www.icao.int/terms-and-conditions",
   "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "notes": "Logo is the SVG served by icao.int in its site header (tier 2, no brand page or press kit found). The site's terms and copyright notice pages contain no logo-specific terms; redistribution rights not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark and white variant",
+      "reason": "icao.int serves only the colour SVG (and an ICAO_LOGO.png social image); no brand page or press kit found"
+    },
+    {
+      "need": "brand guidelines",
+      "reason": "no official ICAO brand guideline located on icao.int"
+    }
+  ],
+  "assets": [
+    {
+      "file": "icao-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.icao.int/sites/default/files/logo.svg",
+      "page_url": "https://www.icao.int/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "2727841e50b05f7ade3dbf393e2a0808a16c26685f0542e7d4c2e0c2ba9b617b"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on icao.int terms pages."
   }
 }

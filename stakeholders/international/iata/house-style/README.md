@@ -13,3 +13,7 @@ None recorded.
 ## Previous sources
 
 None recorded.
+
+## Notes
+
+No house style recorded: logo guidelines sit behind the IATA Customer Portal for accredited agents.

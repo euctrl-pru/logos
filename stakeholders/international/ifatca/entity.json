@@ -10,16 +10,27 @@
   "types": [
     "association"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "ifatca.org"
+  ],
   "terms_url": null,
   "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "notes": "ifatca.org serves its header logo (colour and white, 120px) only as WebP files, which tools/fetch_asset.py refuses as an unrecognised logo format; no brand page, press kit or terms page located.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "all logo variants",
+      "reason": "Only WebP logos are served (https://ifatca.org/wp-content/uploads/2017_logo_120px.webp and 2017_logo_120px_white.webp); fetch_asset.py refuses WebP, and no SVG/PNG, brand page or press kit was found."
+    },
+    {
+      "need": "brand guidelines",
+      "reason": "none located on ifatca.org"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

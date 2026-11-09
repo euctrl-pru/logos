@@ -10,16 +10,27 @@
   "types": [
     "association"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "ifalpa.org"
+  ],
   "terms_url": null,
   "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "notes": "Automated requests to https://www.ifalpa.org/ return HTTP 403; not worked around.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "all logo variants",
+      "reason": "ifalpa.org blocks automated requests (HTTP 403 on https://www.ifalpa.org/), so no official file or brand page could be reached."
+    },
+    {
+      "need": "brand guidelines",
+      "reason": "site not reachable by automated request"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "Not determined; site blocked."
   }
 }

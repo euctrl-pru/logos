@@ -10,16 +10,23 @@
   "types": [
     "association"
   ],
-  "official_domains": [],
-  "terms_url": null,
+  "official_domains": [
+    "iata.org"
+  ],
+  "terms_url": "https://portal.iata.org/faq/articles/en_US/FAQ/Where-can-I-find-the-IATA-logo-and-how-can-I-use-it-1415811051031",
   "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "notes": "IATA's Customer Portal FAQ states the IATA logo can only be used by accredited IATA travel/cargo agents. No logo file is mirrored here and none was taken from the website or portal.",
+  "status": "restricted",
+  "gaps": [
+    {
+      "need": "all logo variants",
+      "reason": "Publisher limits the logo to accredited IATA travel/cargo agents, via the Customer Portal; see https://portal.iata.org/faq/articles/en_US/FAQ/Where-can-I-find-the-IATA-logo-and-how-can-I-use-it-1415811051031. Other users must request permission from IATA through that portal."
+    }
+  ],
   "assets": [],
   "contact": {
-    "logo_permission_url": null,
+    "logo_permission_url": "https://portal.iata.org/faq/articles/en_US/FAQ/Where-can-I-find-the-IATA-logo-and-how-can-I-use-it-1415811051031",
     "email": null,
-    "notes": null
+    "notes": "Route is the IATA Customer Portal (https://portal.iata.org/); no logo email published on the FAQ page."
   }
 }

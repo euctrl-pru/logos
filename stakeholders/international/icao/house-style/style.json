@@ -1,10 +1,28 @@
 {
   "id": "icao",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.icao.int/sites/default/files/logo.svg",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Logo blue",
+      "hex": "#0054A4",
+      "rgb": null,
+      "cmyk": null,
+      "role": "Logo colour as used in the site header SVG",
+      "evidence": "observed",
+      "source_url": "https://www.icao.int/sites/default/files/logo.svg"
+    }
+  ],
   "typography": [],
   "logo_usage": {
     "clear_space": null,
@@ -12,6 +30,6 @@
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Only the logo's fill colour was observed; no guideline or typography documented."
 }

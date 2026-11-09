@@ -10,16 +10,27 @@
   "types": [
     "association"
   ],
-  "official_domains": [],
-  "terms_url": null,
+  "official_domains": [
+    "canso.org"
+  ],
+  "terms_url": "https://canso.org/terms-of-use/",
   "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "notes": "The terms of use page checked contains no logo-specific terms.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "all logo variants",
+      "reason": "canso.org has no brand page or press kit; its header logo is inline SVG markup in the page HTML, not a served file, so no byte-for-byte file exists. The only logo-like files found (ALP-CANSO_UpdatedLOGO.png, asw-mag-logo.svg) belong to other programmes."
+    },
+    {
+      "need": "brand guidelines",
+      "reason": "none located on canso.org"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published."
   }
 }
