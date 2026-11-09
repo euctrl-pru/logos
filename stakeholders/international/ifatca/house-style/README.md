@@ -16,4 +16,4 @@ None recorded.
 
 ## Notes
 
-No guideline located; site CSS not examined for colours.
+No guideline located; site CSS not examined.

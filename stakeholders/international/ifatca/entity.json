@@ -15,19 +15,44 @@
   ],
   "terms_url": null,
   "aliases": [],
-  "notes": "ifatca.org serves its header logo (colour and white, 120px) only as WebP files, which tools/fetch_asset.py refuses as an unrecognised logo format; no brand page, press kit or terms page located.",
-  "status": "not-found",
+  "notes": "Logos are 120px-high WebP files served by ifatca.org in its site header (tier 2; website-served, not a published kit). No brand page, press kit or logo terms page located, so redistribution rights are not confirmed.",
+  "status": "complete",
   "gaps": [
     {
-      "need": "all logo variants",
-      "reason": "Only WebP logos are served (https://ifatca.org/wp-content/uploads/2017_logo_120px.webp and 2017_logo_120px_white.webp); fetch_asset.py refuses WebP, and no SVG/PNG, brand page or press kit was found."
+      "need": "vector (SVG) and higher-resolution logo",
+      "reason": "ifatca.org serves only 406x120 WebP files; no brand page or press kit found"
     },
     {
       "need": "brand guidelines",
       "reason": "none located on ifatca.org"
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "ifatca-logo-light-color.webp",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://ifatca.org/wp-content/uploads/2017_logo_120px.webp",
+      "page_url": "https://ifatca.org/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "1190fc7dfe0282c0b27474c870c4b1a5fc8fdbce40a9cd5612a9c5e1a7f5be1e"
+    },
+    {
+      "file": "ifatca-logo-dark-white.webp",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://ifatca.org/wp-content/uploads/2017_logo_120px_white.webp",
+      "page_url": "https://ifatca.org/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "d658adb6d029a3905529074240433b62dbae69eabd097e38ee0b766c27cb4b1e"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,

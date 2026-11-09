@@ -11,23 +11,37 @@
     "association"
   ],
   "official_domains": [
-    "a4e.eu"
+    "a4e.eu",
+    "cdn.prod.website-files.com"
   ],
   "terms_url": "https://www.a4e.eu/legal-information",
   "aliases": [],
-  "notes": "Legal information page: website content and works are governed by copyright law; any duplication, processing, distribution or utilisation beyond copyright law needs prior written consent of the authors. No brand page or press kit found.",
-  "status": "not-found",
+  "notes": "Legal information page: website content and works are governed by copyright law; any duplication, processing, distribution or utilisation beyond copyright law needs prior written consent of the authors. cdn.prod.website-files.com (Webflow CDN) is listed in official_domains only because https://www.a4e.eu/ references the white logo SVG directly from that host (tier 2). No brand page or press kit found.",
+  "status": "partial",
   "gaps": [
     {
-      "need": "all logo variants",
-      "reason": "a4e.eu serves its only logo (white SVG, https://cdn.prod.website-files.com/6a622a6d911cf8aa3ae654a5/6aa2eb18a2e49ded1a0d35b6_A4E-logo_white.svg) from the Webflow CDN host, which fetch_asset.py refuses as not an official host; no brand page, press kit or colour variant found."
+      "need": "light/colour variant",
+      "reason": "a4e.eu serves only the white logo SVG; no brand page, press kit or colour variant found"
     },
     {
       "need": "brand guidelines",
       "reason": "none located on a4e.eu"
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "a4e-logo-dark-white.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://cdn.prod.website-files.com/6a622a6d911cf8aa3ae654a5/6aa2eb18a2e49ded1a0d35b6_A4E-logo_white.svg",
+      "page_url": "https://www.a4e.eu/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "4da21d4966040f45be8dd37bc4415a13017d63ef793f93c2d93b9f460637274c"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": "contact@a4e.eu",

@@ -33,6 +33,21 @@ def sha(b):
     return hashlib.sha256(b).hexdigest()
 
 
+def make_webp(kind, alpha=False):
+    """Minimal RIFF/WEBP bodies with just enough header for format and alpha sniffing."""
+    def chunk(t, d):
+        return t + struct.pack("<I", len(d)) + d + (b"\x00" if len(d) % 2 else b"")
+
+    if kind == "vp8x":
+        body = chunk(b"VP8X", bytes([0x10 if alpha else 0]) + b"\x00\x00\x00" + b"\x00\x00\x00" + b"\x00\x00\x00")
+    elif kind == "vp8l":
+        bits = (1 << 28) if alpha else 0  # alpha_is_used bit follows 14+14 size bits
+        body = chunk(b"VP8L", b"\x2f" + struct.pack("<I", bits))
+    else:
+        body = chunk(b"VP8 ", b"\x00" * 10)
+    return b"RIFF" + struct.pack("<I", 4 + len(body)) + b"WEBP" + body
+
+
 class Base(unittest.TestCase):
     def setUp(self):
         self._tmp = tempfile.TemporaryDirectory()
@@ -112,6 +127,26 @@ class SniffAndSvg(Base):
         self.assertEqual(validate.sniff_format(b"%!PS-Adobe-3.0 EPSF-3.0"), "eps")
         self.assertEqual(validate.sniff_format(b'<?xml version="1.0"?>\n' + SVG_OK), "svg")
         self.assertIsNone(validate.sniff_format(b"hello"))
+        self.assertEqual(validate.sniff_format(make_webp("vp8")), "webp")
+
+    def _webp(self, kind, alpha):
+        p = self.root / "t.webp"
+        p.write_bytes(make_webp(kind, alpha))
+        return p
+
+    def test_webp_vp8x_alpha_flag_is_transparent(self):
+        self.assertTrue(validate.is_transparent(self._webp("vp8x", True)))
+        self.assertFalse(validate.is_transparent(self._webp("vp8x", False)))
+
+    def test_webp_vp8l_alpha_hint_is_transparent(self):
+        self.assertTrue(validate.is_transparent(self._webp("vp8l", True)))
+        self.assertFalse(validate.is_transparent(self._webp("vp8l", False)))
+
+    def test_webp_lossy_vp8_not_transparent(self):
+        self.assertFalse(validate.is_transparent(self._webp("vp8", False)))
+
+    def test_webp_extension_allowed(self):
+        self.assertEqual(validate.EXTENSIONS.get("webp"), "webp")
 
     def test_svg_with_script_rejected(self):
         bads = (b"<script>alert(1)</script>", b'<rect onclick="x()"/>',

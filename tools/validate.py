@@ -39,7 +39,7 @@ STATUSES = {"complete", "partial", "restricted", "not-found", "not-applicable", 
 LOCKUPS = {"logo", "icon", "wordmark", "emblem", "boxed", "with-slogan"}
 BACKGROUNDS = {"light", "dark", "any"}
 COLOR_MODES = {"color", "white", "black", "mono"}
-EXTENSIONS = {"svg": "svg", "png": "png", "jpg": "jpg", "jpeg": "jpg", "pdf": "pdf", "eps": "eps"}
+EXTENSIONS = {"svg": "svg", "png": "png", "jpg": "jpg", "jpeg": "jpg", "pdf": "pdf", "eps": "eps", "webp": "webp"}
 ENTITY_FIELDS = ["id", "name", "acronym", "group", "country", "iso2", "also_countries", "membership",
                  "types", "official_domains", "terms_url", "aliases", "notes", "status", "gaps", "assets", "contact"]
 SOURCE_KINDS = {"guideline", "brand-page", "website-css"}
@@ -54,6 +54,8 @@ def sniff_format(data: bytes):
         return "png"
     if data.startswith(b"\xff\xd8\xff"):
         return "jpg"
+    if data[:4] == b"RIFF" and data[8:12] == b"WEBP":
+        return "webp"
     if data.startswith(b"%PDF-"):
         return "pdf"
     if data.startswith(b"%!PS") or data.startswith(b"\xc5\xd0\xd3\xc6"):
@@ -233,11 +235,29 @@ def _png_transparent(data: bytes) -> bool:
     return False
 
 
+def _webp_transparent(data: bytes) -> bool:
+    """True only for VP8X with the alpha flag, or VP8L with its alpha-hint bit."""
+    kind = data[12:16]
+    if kind == b"VP8X":
+        return bool(data[20] & 0x10)
+    if kind == b"VP8L":
+        if data[20] != 0x2F:
+            return False
+        bits = struct.unpack("<I", data[21:25])[0]
+        return bool(bits >> 28 & 1)
+    return False
+
+
 def is_transparent(path: Path) -> bool:
     data = Path(path).read_bytes()
     fmt = sniff_format(data)
     if fmt == "svg":
         return _svg_transparent(data)
+    if fmt == "webp":
+        try:
+            return _webp_transparent(data)
+        except (struct.error, IndexError):
+            return False
     if fmt == "png":
         try:
             return _png_transparent(data)

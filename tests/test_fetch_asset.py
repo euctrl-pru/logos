@@ -12,6 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 import fetch_asset  # noqa: E402
 
 SVG = b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"><circle cx="5" cy="5" r="4"/></svg>'
+WEBP = b"RIFF" + (4 + 18).to_bytes(4, "little") + b"WEBP" + b"VP8 " + (10).to_bytes(4, "little") + b"\x00" * 10
 OTHER = "localhost"  # same loopback, different hostname
 
 
@@ -23,6 +24,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
         port = self.server.server_address[1]
         if self.path == "/logo.svg":
             self._send(200, SVG, "image/svg+xml")
+        elif self.path == "/logo.webp":
+            self._send(200, WEBP, "image/webp")
         elif self.path == "/page":
             self._send(200, b"<!DOCTYPE html><html><body>nope</body></html>", "text/html")
         elif self.path == "/big":
@@ -76,6 +79,11 @@ class FetchTests(unittest.TestCase):
         p = fetch_asset.fetch(self.url("/logo.svg"), self.dest, ["127.0.0.1"])
         self.assertEqual(p.read_bytes(), SVG)
         self.assertEqual(p.suffix, ".svg")
+
+    def test_accepts_webp_body(self):
+        p = fetch_asset.fetch(self.url("/logo.webp"), self.dest, ["127.0.0.1"])
+        self.assertEqual(p.read_bytes(), WEBP)
+        self.assertEqual(p.suffix, ".webp")
 
     def test_follows_same_host_redirect(self):
         p = fetch_asset.fetch(self.url("/hop"), self.dest, ["127.0.0.1"])
