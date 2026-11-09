@@ -1,2 +1,6 @@
 :root {
+  --no-caa-color-dark-blue: #03477F;
+  --no-caa-color-orange: #F06C00;
+  --no-caa-font-body-text-font-family-sans-serif: Overpass, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  --no-caa-font-headings-h1-h2: Merriweather;
 }

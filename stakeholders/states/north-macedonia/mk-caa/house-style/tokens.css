@@ -1,2 +1,5 @@
 :root {
+  --mk-caa-color-theme-accent: #055575;
+  --mk-caa-font-headings-rich-header-h1-and-h1-h6: Montserrat;
+  --mk-caa-font-body-text: Roboto;
 }

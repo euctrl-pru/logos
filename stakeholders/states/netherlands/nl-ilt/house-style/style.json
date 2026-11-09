@@ -1,17 +1,68 @@
 {
   "id": "nl-ilt",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://english.ilent.nl/_next/static/chunks/393q3l4fhyq4m.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Logo blue",
+      "hex": "#154273",
+      "rgb": "21, 66, 115",
+      "cmyk": null,
+      "role": "--logo-blue; fill of the header logo SVG",
+      "evidence": "observed",
+      "source_url": "https://english.ilent.nl/_next/static/chunks/393q3l4fhyq4m.css"
+    },
+    {
+      "name": "Dark blue (links)",
+      "hex": "#01689B",
+      "rgb": "1, 104, 155",
+      "cmyk": null,
+      "role": "--dark-blue; used as link colour (--alt-link-color)",
+      "evidence": "observed",
+      "source_url": "https://english.ilent.nl/_next/static/chunks/393q3l4fhyq4m.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "RijksSans",
+      "role": "Sans font (--rijks-sans-font-family)",
+      "fallbacks": [
+        "Calibri",
+        "Verdana",
+        "Arial",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://english.ilent.nl/_next/static/chunks/393q3l4fhyq4m.css"
+    },
+    {
+      "family": "RO Serif",
+      "role": "Serif font (--ro-serif-font-family)",
+      "fallbacks": [
+        "Times",
+        "Times New Roman",
+        "serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://english.ilent.nl/_next/static/chunks/393q3l4fhyq4m.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No guidelines published on the ILT site. Values are variables in the site stylesheet, which follows the Dutch government (Rijkshuisstijl) theme, so they reflect the central-government identity rather than an ILT-specific brand."
 }

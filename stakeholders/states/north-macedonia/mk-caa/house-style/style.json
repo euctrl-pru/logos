@@ -1,17 +1,50 @@
 {
   "id": "mk-caa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.caa.gov.mk/en/",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Theme accent",
+      "hex": "#055575",
+      "rgb": "5, 85, 117",
+      "cmyk": null,
+      "role": "Accent colour in the site's inline theme styles (hover colours, accent lines)",
+      "evidence": "observed",
+      "source_url": "https://www.caa.gov.mk/en/"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Montserrat",
+      "role": "Headings (rich-header h1 and h1-h6)",
+      "fallbacks": [],
+      "evidence": "observed",
+      "source_url": "https://www.caa.gov.mk/en/"
+    },
+    {
+      "family": "Roboto",
+      "role": "Body text",
+      "fallbacks": [],
+      "evidence": "observed",
+      "source_url": "https://www.caa.gov.mk/en/"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No published guidelines located. Values are from the inline theme-customiser styles in the page HTML (WordPress Globax theme), which may be theme choices rather than the agency's formal brand; the logo itself is blue. The theme stylesheet files were framework-generic and were not used."
 }

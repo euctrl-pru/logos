@@ -1,17 +1,67 @@
 {
   "id": "no-caa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.caa.no/ClientResources/React/styles/mainStyle.c4d7852e.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Dark blue",
+      "hex": "#03477F",
+      "rgb": "3, 71, 127",
+      "cmyk": null,
+      "role": "--primary / --blue; also a fill in the logo SVG",
+      "evidence": "observed",
+      "source_url": "https://www.caa.no/ClientResources/React/styles/mainStyle.c4d7852e.css"
+    },
+    {
+      "name": "Orange",
+      "hex": "#F06C00",
+      "rgb": "240, 108, 0",
+      "cmyk": null,
+      "role": "--orange; link hover colour",
+      "evidence": "observed",
+      "source_url": "https://www.caa.no/ClientResources/React/styles/mainStyle.c4d7852e.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Overpass",
+      "role": "Body text (--font-family-sans-serif)",
+      "fallbacks": [
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Roboto",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.caa.no/ClientResources/React/styles/mainStyle.c4d7852e.css"
+    },
+    {
+      "family": "Merriweather",
+      "role": "Headings h1/h2",
+      "fallbacks": [],
+      "evidence": "observed",
+      "source_url": "https://www.caa.no/ClientResources/React/styles/mainStyle.c4d7852e.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No published guidelines located. Values are from the site's main stylesheet (Bootstrap-based theme variables); only the primary blue (matching the logo), the orange link-hover colour and the declared fonts are recorded."
 }

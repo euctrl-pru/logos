@@ -1,2 +1,6 @@
 :root {
+  --nl-ilt-color-logo-blue: #154273;
+  --nl-ilt-color-dark-blue-links: #01689B;
+  --nl-ilt-font-sans-font-rijks-sans-font-family: RijksSans, Calibri, Verdana, Arial, sans-serif;
+  --nl-ilt-font-serif-font-ro-serif-font-family: RO Serif, Times, Times New Roman, serif;
 }

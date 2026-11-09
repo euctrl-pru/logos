@@ -1,6 +1,6 @@
 {
   "id": "nl-ilt",
-  "name": "Human Environment and Transport Inspectorate",
+  "name": "Inspectie Leefomgeving en Transport (Human Environment and Transport Inspectorate)",
   "acronym": "ILT",
   "group": "state",
   "country": "Netherlands",
@@ -10,16 +10,41 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "ilent.nl",
+    "english.ilent.nl"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Human Environment and Transport Inspectorate",
+    "Inspectie Leefomgeving en Transport",
+    "ILT"
+  ],
+  "notes": "Name confirmed on english.ilent.nl (title 'Human Environment and Transport Inspectorate (ILT)'; aviation is one of its homepage topics). The ILT has no standalone logo file: the site header shows the Dutch central government (Rijksoverheid) ribbon logo (alt 'Logo Rijksoverheid') next to the body's name as text, so the only logo recorded is the government identity SVG (tier 2, website-served): a navy rectangle with the crown ribbon, so it is not transparent. No logo terms located, so redistribution rights are not confirmed. Another Dutch body, the Ministry of Infrastructure and Water Management (Rijkswaterstaat/IenW), is the policy ministry; not part of this batch.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "transparent, dark/white variant and ILT-specific logo; brand guidelines",
+      "reason": "english.ilent.nl serves only the Rijksoverheid header SVG (navy block, not transparent); no ILT logo file, brand page or press kit found"
+    }
+  ],
+  "assets": [
+    {
+      "file": "nl-ilt-emblem-light-color.svg",
+      "lockup": "emblem",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://english.ilent.nl/themes/rijksoverheid/header-logo.svg",
+      "page_url": "https://english.ilent.nl/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "c8b64e995160ce6113691ad709a5e82be19cdeb3cb2d3e4a908c6616df5e5e84"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

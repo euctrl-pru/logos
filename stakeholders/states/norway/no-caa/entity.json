@@ -1,7 +1,7 @@
 {
   "id": "no-caa",
-  "name": "Norwegian Civil Aviation Authority",
-  "acronym": "CAA",
+  "name": "Luftfartstilsynet (Civil Aviation Authority Norway)",
+  "acronym": "CAA Norway",
   "group": "state",
   "country": "Norway",
   "iso2": "NO",
@@ -10,16 +10,41 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "caa.no",
+    "luftfartstilsynet.no"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Civil Aviation Authority Norway",
+    "Luftfartstilsynet",
+    "CAA Norway"
+  ],
+  "notes": "Name and role confirmed on caa.no/en (redirects to luftfartstilsynet.no/en; title 'Civil Aviation Authority Norway', 'Norway's national aviation authority' per the About page). The logo is an SVG served by caa.no in its site header (tier 2, website-served); a Norwegian-language version (Resources/img/logo_nb.svg on luftfartstilsynet.no) also exists and was not stored. No brand page or logo terms located (web search found none), so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant, brand guidelines",
+      "reason": "caa.no serves only the colour SVG in its header; no brand page, press kit or logo terms page found"
+    }
+  ],
+  "assets": [
+    {
+      "file": "no-caa-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.caa.no/Resources/img/logo_en.svg",
+      "page_url": "https://www.caa.no/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "f576ea5872c7e5354d8254dda8c27462c25e911123d5c324e24fc626864b92b2"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

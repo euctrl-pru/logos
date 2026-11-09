@@ -10,16 +10,40 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "caa.gov.mk"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Агенција за цивилно воздухопловство",
+    "Civil Aviation Agency of the Republic of North Macedonia",
+    "CAA North Macedonia"
+  ],
+  "notes": "Name and role confirmed on caa.gov.mk/en ('Civil Aviation Agency of the Republic of North Macedonia' issues licences; news on aviation safety). The logo is a 280x129 RGBA PNG served by caa.gov.mk in the site header (tier 2, website-served; text 'Агенција за цивилно воздухопловство, Република Северна Македонија'); the smaller mobile-header copy (Untitled-12.png, 160x75) is a lower-resolution duplicate and was not stored. No brand page or logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant, vector logo, brand guidelines",
+      "reason": "caa.gov.mk serves only a small colour PNG in its header; no brand page or press kit found"
+    }
+  ],
+  "assets": [
+    {
+      "file": "mk-caa-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.caa.gov.mk/wp-content/uploads/2019/10/mini.png",
+      "page_url": "https://www.caa.gov.mk/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "470c5313d0f8617b291a9ac38da13d670a2ec143fc0f5c8b6cfa1d21f12a9922"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }
