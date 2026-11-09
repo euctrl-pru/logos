@@ -1,6 +1,6 @@
 {
   "id": "me-caa",
-  "name": "Civil Aviation Agency of Montenegro",
+  "name": "Agencija za civilno vazduhoplovstvo (Civil Aviation Agency of Montenegro)",
   "acronym": "CAA",
   "group": "state",
   "country": "Montenegro",
@@ -10,16 +10,40 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "caa.me"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Civil Aviation Agency of Montenegro",
+    "Agencija za civilno vazduhoplovstvo Crne Gore",
+    "CAA Montenegro"
+  ],
+  "notes": "Name confirmed on caa.me (page title 'Agencija za civilno vazduhoplovstvo'; logo text 'Crna Gora, Agencija za civilno vazduhoplovstvo'; ICAO and EASA links on the home page). The logo is a 200x80 RGBA PNG served by caa.me in the site header (tier 2, website-served). No brand page or logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant, vector logo, brand guidelines",
+      "reason": "caa.me serves only a small colour PNG in its header; no brand page or press kit found"
+    }
+  ],
+  "assets": [
+    {
+      "file": "me-caa-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.caa.me/sites/all/themes/caa/logo.png",
+      "page_url": "https://www.caa.me/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "0fea1ff23b8e55211678ef27babcfc8b7db151f8527f615ca4bb2eed9a419e09"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

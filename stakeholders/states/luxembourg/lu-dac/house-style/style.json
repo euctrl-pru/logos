@@ -1,17 +1,50 @@
 {
   "id": "lu-dac",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://dac.gouvernement.lu/etc.clientlibs/gouvminisites/clientlibs/theme-17-marineblue/clientlib-site.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Marine blue (teal)",
+      "hex": "#176177",
+      "rgb": "23, 97, 119",
+      "cmyk": null,
+      "role": "Primary button/link colour of the site's 'theme-17-marineblue' theme",
+      "evidence": "observed",
+      "source_url": "https://dac.gouvernement.lu/etc.clientlibs/gouvminisites/clientlibs/theme-17-marineblue/clientlib-site.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Source Sans Pro",
+      "role": "Body text (font-family source-sans-pro)",
+      "fallbacks": [
+        "Candara",
+        "Segoe",
+        "Segoe UI",
+        "Optima",
+        "Arial",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://dac.gouvernement.lu/etc.clientlibs/gouvminisites/clientlibs/theme-17-marineblue/clientlib-site.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No guidelines for the DAC published on its site. Values come from the Luxembourg government minisite theme stylesheet that dac.gouvernement.lu uses, so they reflect the government platform theme, not a DAC-specific brand."
 }

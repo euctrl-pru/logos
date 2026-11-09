@@ -1,6 +1,6 @@
 {
   "id": "mt-cad",
-  "name": "Civil Aviation Directorate",
+  "name": "Transport Malta Civil Aviation Directorate",
   "acronym": "CAD",
   "group": "state",
   "country": "Malta",
@@ -10,16 +10,27 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "transport.gov.mt"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "aliases": [
+    "Civil Aviation Directorate",
+    "TMCAD",
+    "Transport Malta"
+  ],
+  "notes": "Name and role per web-search results only: the Civil Aviation Directorate is a directorate of Transport Malta (created 2010) and Malta's national aviation authority (licensing, AOCs, aircraft register); a proposed separate Civil Aviation Authority was not found to exist. The official site transport.gov.mt (aviation pages included) returns HTTP 403 to automated requests, so no official page could be read and nothing was fetched.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "logo files and house style",
+      "reason": "transport.gov.mt returns HTTP 403 to automated requests; not worked around. Pages, brand page and CSS could not be inspected."
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "Not checked (site blocked automated access)."
   }
 }

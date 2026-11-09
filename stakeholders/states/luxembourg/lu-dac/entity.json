@@ -1,6 +1,6 @@
 {
   "id": "lu-dac",
-  "name": "Directorate of Civil Aviation",
+  "name": "Direction de l'aviation civile (Directorate of Civil Aviation)",
   "acronym": "DAC",
   "group": "state",
   "country": "Luxembourg",
@@ -10,16 +10,41 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "dac.gouvernement.lu",
+    "cdn.public.lu"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Directorate of Civil Aviation",
+    "Luxembourg Directorate of Civil Aviation",
+    "Direction de l'aviation civile"
+  ],
+  "notes": "Name confirmed on dac.gouvernement.lu (page title 'Directorate of Civil Aviation - The Luxembourg Government'; it publishes civil-aviation instructions, licensing and drone content). The DAC has no logo of its own: its site shows only the Luxembourg Government identity (logo 'The Government of the Grand Duchy of Luxembourg'), so that is what is recorded (a government identity, not an authority logo). CDN ruling: the SVG is served from the government CDN cdn.public.lu and referenced directly in the <img> of the DAC page on dac.gouvernement.lu, so the exact CDN host is listed in official_domains (tier 2, website-served). The CDN path name 'gov-light' is the variant for light backgrounds (grey and red artwork); no dark variant was found in the page or CSS. No logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "authority-specific logo, dark/white variant, brand guidelines",
+      "reason": "dac.gouvernement.lu shows only the Luxembourg Government logo (light-background SVG); no DAC logo, brand page or press kit located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "lu-dac-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://cdn.public.lu/pictures/logos/gov/en/2026/gov-light.svg",
+      "page_url": "https://dac.gouvernement.lu/en.html",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "6cfe1e472e455d98024125b16b7278209500bab90af1d373eb3b67dac6a7a065"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

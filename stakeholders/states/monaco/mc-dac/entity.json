@@ -1,0 +1,35 @@
+{
+  "id": "mc-dac",
+  "name": "Direction de l'Aviation Civile (Civil Aviation Authority)",
+  "acronym": "DAC",
+  "group": "state",
+  "country": "Monaco",
+  "iso2": "MC",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [
+    "gouv.mc"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "Civil Aviation Authority of Monaco",
+    "Direction de l'Aviation Civile de Monaco"
+  ],
+  "notes": "Renamed from placeholder mc-caa. Identified from web-search results listing official Monaco government pages titled 'Direction de l'Aviation Civile' / 'Civil Aviation Authority' (gouv.mc directory of government departments, under the Ministry of Public Works, the Environment and Urban Development); the search summary gives it duties of civil aviation legislation, aircraft register, airworthiness, licences and heliport/airspace management. Monaco's government portals (gouv.mc, monservicepublic.gouv.mc) return HTTP 403 to automated requests, so the pages could not be read directly. The DAC appears to be a government department without its own logo; Monaco's only identity is the government's. mc-ansp (not part of this batch) is a separate placeholder; the DAC is described as managing airspace and the heliport.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "logo files and house style",
+      "reason": "gouv.mc and monservicepublic.gouv.mc return HTTP 403 to automated requests; not worked around. No DAC-specific logo could be inspected, and the DAC may use only the Monaco government identity."
+    }
+  ],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": "Not checked (site blocked automated access)."
+  }
+}

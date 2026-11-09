@@ -1,17 +1,45 @@
 {
   "id": "me-caa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.caa.me/sites/all/themes/caa/css/style.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Light blue",
+      "hex": "#3DA0C9",
+      "rgb": "61, 160, 201",
+      "cmyk": null,
+      "role": "Primary button colour and active/hover navbar background in the site theme CSS",
+      "evidence": "observed",
+      "source_url": "https://www.caa.me/sites/all/themes/caa/css/style.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Arial",
+      "role": "Body text (body font-family: Arial, sans-serif)",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.caa.me/sites/all/themes/caa/css/style.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No published guidelines located. Values come from the custom theme stylesheet sites/all/themes/caa/css/style.css; the Bootstrap 3 base stylesheet (loaded from a public CDN, not the authority's) was ignored."
 }

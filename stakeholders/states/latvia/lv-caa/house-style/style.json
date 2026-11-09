@@ -1,17 +1,59 @@
 {
   "id": "lv-caa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.caa.gov.lv/en",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    },
+    {
+      "url": "https://www.caa.gov.lv/sites/default/files/css/css_n_WYgDMp3ki-UvktgkdHUWWaEi6UidiD8MRP1PbgnOQ.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Brand colour 1",
+      "hex": "#547A96",
+      "rgb": "84, 122, 150",
+      "cmyk": null,
+      "role": "--brand-color01 declared in the page's inline theme style",
+      "evidence": "observed",
+      "source_url": "https://www.caa.gov.lv/en"
+    },
+    {
+      "name": "Brand colour",
+      "hex": "#425563",
+      "rgb": "66, 85, 99",
+      "cmyk": null,
+      "role": "--brand-color declared in the page's inline theme style",
+      "evidence": "observed",
+      "source_url": "https://www.caa.gov.lv/en"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Robusta TL Pro",
+      "role": "Body (RobustaTLPro-Regular) and headings (RobustaTLPro-Medium / Bold) via --font-body and --font-heading",
+      "fallbacks": [],
+      "evidence": "observed",
+      "source_url": "https://www.caa.gov.lv/sites/default/files/css/css_n_WYgDMp3ki-UvktgkdHUWWaEi6UidiD8MRP1PbgnOQ.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No published guidelines located. Colours are the theme variables --brand-color01 and --brand-color declared in the page HTML of caa.gov.lv/en (the stylesheet only carries the fallback #5474BF, which differs). Fonts are the @font-face families declared in the site stylesheet. No fallback stack declared."
 }

@@ -1,6 +1,6 @@
 {
   "id": "lv-caa",
-  "name": "Latvian Civil Aviation Authority",
+  "name": "Civilās aviācijas aģentūra (Civil Aviation Agency)",
   "acronym": "CAA",
   "group": "state",
   "country": "Latvia",
@@ -10,16 +10,54 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "caa.gov.lv"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Civil Aviation Agency",
+    "State Agency \"Civil Aviation Agency\"",
+    "Latvian Civil Aviation Agency",
+    "Civilās aviācijas aģentūra",
+    "CAA Latvia"
+  ],
+  "notes": "Name confirmed from caa.gov.lv/en (site title 'Civilās aviācijas aģentūra'; logo text 'State Agency \"Civil Aviation Agency\" Republic of Latvia'). Logos are the English-language PNG header logos served by caa.gov.lv (tier 2, website-served): the default dark-on-light logo and the white variant used by the site's high-contrast mode. The logo includes the Latvian state coat of arms. No brand page or logo terms located, so redistribution rights are not confirmed.",
+  "status": "complete",
+  "gaps": [
+    {
+      "need": "vector (SVG) logo and brand guidelines",
+      "reason": "caa.gov.lv serves only 362x96 PNG files; no brand page or press kit found"
+    }
+  ],
+  "assets": [
+    {
+      "file": "lv-caa-logo-light-black.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "black",
+      "transparent": true,
+      "source_url": "https://www.caa.gov.lv/files/caa-s3/s3fs-public/logo_1_eng_0.png",
+      "page_url": "https://www.caa.gov.lv/en",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "4e8ce6736942c853e74aa7f77b84c666f5f61372250a38830b08a42140e29b54"
+    },
+    {
+      "file": "lv-caa-logo-dark-white.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.caa.gov.lv/files/caa-s3/s3fs-public/logo_4_eng_0.png",
+      "page_url": "https://www.caa.gov.lv/en",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "e65b7e856b8182f656589c8038538637b83fe338a2b14d11372ca95783ae4414"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

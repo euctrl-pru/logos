@@ -3,7 +3,7 @@
   "status": "none",
   "current_sources": [],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
+  "last_checked": "2026-11-09",
   "colors": [],
   "typography": [],
   "logo_usage": {
@@ -12,6 +12,6 @@
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Checked transport.gov.mt (home, /aviation and Civil Aviation Directorate paths): all return HTTP 403 to automated requests, so no guidelines or site CSS could be read. Not worked around."
 }
