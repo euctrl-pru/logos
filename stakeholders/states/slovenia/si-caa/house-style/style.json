@@ -1,17 +1,54 @@
 {
   "id": "si-caa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.caa.si/template/css/style178.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#007BB9",
+      "rgb": "0, 123, 185",
+      "cmyk": null,
+      "role": "Headings, header buttons and menu background in site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.caa.si/template/css/style178.css"
+    },
+    {
+      "name": "Green",
+      "hex": "#2D803B",
+      "rgb": "45, 128, 59",
+      "cmyk": null,
+      "role": "Accent: news dates, link hover, active menu",
+      "evidence": "observed",
+      "source_url": "https://www.caa.si/template/css/style178.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Dosis",
+      "role": "Declared font-family in site stylesheet",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.caa.si/template/css/style178.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No published guidelines located. Values from the site's main stylesheet; blue and green match the logo's globe and field colours in appearance only (logo colours were not measured). Greys omitted as neutral UI colours."
 }

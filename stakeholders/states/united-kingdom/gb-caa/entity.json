@@ -10,16 +10,27 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
-  "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "official_domains": [
+    "caa.co.uk"
+  ],
+  "terms_url": "https://www.caa.co.uk/about-us/request-information/copyright-information/",
+  "aliases": [
+    "Civil Aviation Authority",
+    "CAA UK",
+    "UK CAA"
+  ],
+  "notes": "Name and role confirmed on caa.co.uk (title 'UK Civil Aviation Authority'). Status restricted: the publisher's Copyright information page ('Use of the CAA logo') states that the CAA strictly controls the use of its logo, that the text and image are trade marks, and that the logo may be used only by holders of a CAA approval/permission/certification (with the unique reference number and an explanation of the approval) or by CAA suppliers with express permission; specific requests go to the CAA Communications Team (mailto link content@caa.co.uk, subject 'Use of the CAA logo'). The header logo (/images/logo/logo.svg) is served on the site but was not stored or redistributed, because this repository is hosted publicly on GitHub and the licence terms do not permit general use.",
+  "status": "restricted",
+  "gaps": [
+    {
+      "need": "official logo (light, dark, transparent)",
+      "reason": "Publisher restricts logo use to CAA approval/permission/certification holders and permitted suppliers (caa.co.uk copyright information page, 'Use of the CAA logo'); requests via content@caa.co.uk"
+    }
+  ],
   "assets": [],
   "contact": {
-    "logo_permission_url": null,
-    "email": null,
-    "notes": null
+    "logo_permission_url": "https://www.caa.co.uk/about-us/request-information/copyright-information/",
+    "email": "content@caa.co.uk",
+    "notes": "Published on the copyright information page: specific requests for use of the CAA logo go to the Communications Team (mailto link content@caa.co.uk)."
   }
 }

@@ -1,17 +1,56 @@
 {
   "id": "es-aesa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.seguridadaerea.gob.es/themes/custom/aesa/css/main.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Dark blue",
+      "hex": "#00335D",
+      "rgb": "0, 51, 93",
+      "cmyk": null,
+      "role": "Body text colour, headings and footer background",
+      "evidence": "observed",
+      "source_url": ""
+    },
+    {
+      "name": "Bright blue",
+      "hex": "#008FE8",
+      "rgb": "0, 143, 232",
+      "cmyk": null,
+      "role": "Accent: hover and active-tab colour",
+      "evidence": "observed",
+      "source_url": ""
+    }
+  ],
+  "typography": [
+    {
+      "family": "pm_regular",
+      "role": "Body text (custom web-font alias declared in the stylesheet; underlying typeface name not stated)",
+      "fallbacks": [
+        "Arial",
+        "Helvetica",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": ""
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No published guidelines located. Values from the site's theme stylesheet (aesa/css/main.css); the stylesheet also uses pm_semi, pm_bold and pm_thin weights of the same custom font."
 }

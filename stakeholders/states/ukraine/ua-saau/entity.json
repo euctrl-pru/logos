@@ -1,6 +1,6 @@
 {
   "id": "ua-saau",
-  "name": "State Aviation Administration of Ukraine",
+  "name": "Державна авіаційна служба України",
   "acronym": "SAAU",
   "group": "state",
   "country": "Ukraine",
@@ -10,16 +10,28 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "avia.gov.ua"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "aliases": [
+    "State Aviation Administration of Ukraine",
+    "State Aviation Service of Ukraine",
+    "Державіаслужба",
+    "Derzhaviasluzhba"
+  ],
+  "notes": "Name and role confirmed only from search results and the government directory page my.gov.ua/info/department/1581 (Ukraine's civil aviation regulator, under the Ministry of Infrastructure; official site avia.gov.ua). The site itself could not be read: avia.gov.ua returns HTTP 403 (Forbidden) to automated requests, which was not worked around. The publisher states no restriction.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "official logo (light, dark, transparent) and brand page",
+      "reason": "avia.gov.ua returns a bare HTTP 403 to automated requests, so no page or logo file could be retrieved; not a publisher-stated restriction"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "General address vdz@avia.gov.ua appears in search-result snippets; none is published for logo use."
   }
 }

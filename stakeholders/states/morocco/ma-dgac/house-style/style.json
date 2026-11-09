@@ -1,0 +1,17 @@
+{
+  "id": "ma-dgac",
+  "status": "none",
+  "current_sources": [],
+  "previous_sources": [],
+  "last_checked": "2026-11-09",
+  "colors": [],
+  "typography": [],
+  "logo_usage": {
+    "clear_space": null,
+    "min_size": null,
+    "background_rules": null,
+    "misuse": null
+  },
+  "retrieved": "2026-11-09",
+  "notes": "Checked aviationcivile.gov.ma for a brand page and site CSS; the host did not respond to automated requests, so neither guidelines nor stylesheet could be read."
+}

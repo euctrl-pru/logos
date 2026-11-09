@@ -1,6 +1,6 @@
 {
   "id": "tr-shgm",
-  "name": "Directorate General of Civil Aviation",
+  "name": "Sivil Havacılık Genel Müdürlüğü",
   "acronym": "SHGM",
   "group": "state",
   "country": "Türkiye",
@@ -10,18 +10,28 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "shgm.gov.tr"
+  ],
   "terms_url": null,
   "aliases": [
-    "Turkey"
+    "Directorate General of Civil Aviation",
+    "Directorate General of Civil Aviation of Türkiye",
+    "DGCA Türkiye",
+    "SHGM"
   ],
-  "notes": "README row used the name Turkey.",
-  "status": "pending",
-  "gaps": [],
+  "notes": "Name and role confirmed from search-result pages on web.shgm.gov.tr ('Home' at web.shgm.gov.tr/en, 'Anasayfa' at web.shgm.gov.tr/tr/genel; Turkish aviation regulator under the Ministry of Transport and Infrastructure). The site itself could not be read: shgm.gov.tr redirects to web.shgm.gov.tr, which timed out on every automated request (HTTP 504 or no response), so no logo file or CSS could be examined.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "official logo (light, dark, transparent) and brand page",
+      "reason": "web.shgm.gov.tr (the redirect target of shgm.gov.tr) timed out or returned HTTP 504 to every automated request; no page or logo file could be retrieved"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact seen; the site could not be read."
   }
 }

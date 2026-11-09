@@ -1,0 +1,36 @@
+{
+  "id": "ma-dgac",
+  "name": "Direction Générale de l'Aviation Civile",
+  "acronym": "DGAC",
+  "group": "state",
+  "country": "Morocco",
+  "iso2": "MA",
+  "also_countries": [],
+  "membership": "comprehensive-agreement",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [
+    "aviationcivile.gov.ma"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "General Directorate of Civil Aviation",
+    "Morocco Civil Aviation Authority",
+    "DGAC Maroc"
+  ],
+  "notes": "List correction: the README-derived row 'National Agency of Civil Aviation (ANAC)' for Morocco is wrong; the civil aviation authority is the Direction Générale de l'Aviation Civile (DGAC), under the Ministère du Transport et de la Logistique, official site aviationcivile.gov.ma (search-result page title 'Direction Générale de l'aviation Civile'; no Moroccan ANAC found). Folder and id renamed from ma-anac to ma-dgac. The site itself could not be read: aviationcivile.gov.ma timed out on every automated request, so no logo file or CSS could be examined.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "official logo (light, dark, transparent) and brand page",
+      "reason": "aviationcivile.gov.ma timed out (no response) on every automated request; no page or logo file could be retrieved"
+    }
+  ],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": "General address contact@aviationcivile.gov.ma appears in search-result snippets; none is published for logo use."
+  }
+}

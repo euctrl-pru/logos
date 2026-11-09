@@ -1,2 +1,5 @@
 :root {
+  --ch-foca-color-primary-red: #D8232A;
+  --ch-foca-color-secondary-slate: #46596B;
+  --ch-foca-font-body-text-declared-as-hind-with-a-fallback-font: Hind, sans-serif;
 }

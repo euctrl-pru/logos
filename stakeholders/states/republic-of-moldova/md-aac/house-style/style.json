@@ -1,0 +1,45 @@
+{
+  "id": "md-aac",
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://caa.md/sites/default/files/css/css_8Bwp83QGsgVc4KXzSDgquSR_SYdKkImVG_LPY57ysNg.css?delta=3&language=ro&theme=stisc&include=eJxlj1FuxDAIRC_kxF89j4Vj4rVCwALc3dy-0SZqq_YHzRukgYFSXICPCLeYVxX2kNEdNeGri2FJa6MTLVZkVKCQRdxcoacMqk1iJclAk_lBjev__Y5mUNFSAd3CsmFpLvqROo3aOHVYttS4IHvKJMsWf0PooFDPtIfFoqMDzT_OPLiPTM0eWIJ5syUCofqU5XVzBj7fnq5ml7WeUhjNv1--_D89LnOHxtOOPG62Z-tnnlErqMEOc9zPI4bhs-HT4nvOu5RB-AWzYIr-",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
+  "previous_sources": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#0F4B91",
+      "rgb": "15, 75, 145",
+      "cmyk": null,
+      "role": "--bs-primary override in the site theme stylesheet (logo blue fill is #004B99)",
+      "evidence": "observed",
+      "source_url": "https://caa.md/sites/default/files/css/css_8Bwp83QGsgVc4KXzSDgquSR_SYdKkImVG_LPY57ysNg.css?delta=3&language=ro&theme=stisc&include=eJxlj1FuxDAIRC_kxF89j4Vj4rVCwALc3dy-0SZqq_YHzRukgYFSXICPCLeYVxX2kNEdNeGri2FJa6MTLVZkVKCQRdxcoacMqk1iJclAk_lBjev__Y5mUNFSAd3CsmFpLvqROo3aOHVYttS4IHvKJMsWf0PooFDPtIfFoqMDzT_OPLiPTM0eWIJ5syUCofqU5XVzBj7fnq5ml7WeUhjNv1--_D89LnOHxtOOPG62Z-tnnlErqMEOc9zPI4bhs-HT4nvOu5RB-AWzYIr-"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Onest",
+      "role": "Body text (--bs-font-sans-serif)",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://caa.md/sites/default/files/css/css_8Bwp83QGsgVc4KXzSDgquSR_SYdKkImVG_LPY57ysNg.css?delta=3&language=ro&theme=stisc&include=eJxlj1FuxDAIRC_kxF89j4Vj4rVCwALc3dy-0SZqq_YHzRukgYFSXICPCLeYVxX2kNEdNeGri2FJa6MTLVZkVKCQRdxcoacMqk1iJclAk_lBjev__Y5mUNFSAd3CsmFpLvqROo3aOHVYttS4IHvKJMsWf0PooFDPtIfFoqMDzT_OPLiPTM0eWIJ5syUCofqU5XVzBj7fnq5ml7WeUhjNv1--_D89LnOHxtOOPG62Z-tnnlErqMEOc9zPI4bhs-HT4nvOu5RB-AWzYIr-"
+    }
+  ],
+  "logo_usage": {
+    "clear_space": null,
+    "min_size": null,
+    "background_rules": null,
+    "misuse": null
+  },
+  "retrieved": "2026-11-09",
+  "notes": "No published guidelines located. Values from the site's aggregated theme stylesheet (Bootstrap-based); only the --bs-primary override and the Onest body font are recorded; template default accent colours (e.g. #3f78e0) omitted as not clearly branding."
+}

@@ -1,17 +1,45 @@
 {
   "id": "pt-anac",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.anac.pt/Style%20Library/INAC/css/estilos.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#3473AD",
+      "rgb": "52, 115, 173",
+      "cmyk": null,
+      "role": "Link, breadcrumb and heading accent colour in main stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.anac.pt/Style%20Library/INAC/css/estilos.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Arial",
+      "role": "Body text (font-family declared in main stylesheet)",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.anac.pt/Style%20Library/INAC/css/estilos.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No published guidelines located. Values from the site's main stylesheet (estilos.css); only the recurring link/heading blue and the declared Arial family are recorded; greys omitted as neutral UI colours."
 }

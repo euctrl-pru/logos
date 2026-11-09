@@ -1,17 +1,37 @@
 {
   "id": "sk-tu-sr",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://nsat.sk/wp-content/themes/coworker/style.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
+  "last_checked": "2026-11-09",
   "colors": [],
-  "typography": [],
+  "typography": [
+    {
+      "family": "Open Sans",
+      "role": "Body text (body font declaration in theme stylesheet)",
+      "fallbacks": [
+        "Helvetica",
+        "Arial",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://nsat.sk/wp-content/themes/coworker/style.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No published guidelines located. Values from the site's theme stylesheet (WordPress 'coworker' theme); only the body font is recorded. No brand colour recorded: the stylesheet's accents (e.g. #57B3DF selection colour) are generic theme defaults, not clearly branding."
 }

@@ -1,17 +1,54 @@
 {
   "id": "ch-foca",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.bazl.admin.ch/_nuxt/entry.DjAqV2m2.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Primary red",
+      "hex": "#D8232A",
+      "rgb": "216, 35, 42",
+      "cmyk": null,
+      "role": "--color-primary-600 in site theme (Swiss federal red)",
+      "evidence": "observed",
+      "source_url": "https://www.bazl.admin.ch/_nuxt/entry.DjAqV2m2.css"
+    },
+    {
+      "name": "Secondary slate",
+      "hex": "#46596B",
+      "rgb": "70, 89, 107",
+      "cmyk": null,
+      "role": "--color-secondary-500 in site theme",
+      "evidence": "observed",
+      "source_url": "https://www.bazl.admin.ch/_nuxt/entry.DjAqV2m2.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Hind",
+      "role": "Body text (declared as Hind with a Fallback-font)",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.bazl.admin.ch/_nuxt/entry.DjAqV2m2.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No published guidelines located on bazl.admin.ch. Values from the site's Nuxt theme stylesheet; only the primary and secondary palette base tones and the Hind family are recorded."
 }

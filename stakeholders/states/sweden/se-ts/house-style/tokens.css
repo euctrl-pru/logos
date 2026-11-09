@@ -1,2 +1,6 @@
 :root {
+  --se-ts-color-blue: #0054AD;
+  --se-ts-color-dark-blue: #003C93;
+  --se-ts-color-text: #212324;
+  --se-ts-font-body-text-declared-as-inter-with-fallback: Inter, sans-serif;
 }

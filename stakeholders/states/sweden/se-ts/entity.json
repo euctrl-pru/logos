@@ -10,16 +10,51 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "transportstyrelsen.se"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Swedish Transport Agency",
+    "Transportstyrelsen (Swedish Transport Agency)"
+  ],
+  "notes": "Name confirmed on transportstyrelsen.se (title 'Transportstyrelsen'; logo alt 'Transportstyrelsen'). The site has a 'Luftfart' (aviation) section with rules and services for the aviation industry, confirming the civil aviation authority role. Logos are two SVGs served in the site header (colour) and footer (white), tier 2, website-served; no logo/brand page located on the press room page, so redistribution rights are not confirmed.",
+  "status": "complete",
+  "gaps": [
+    {
+      "need": "brand guidelines",
+      "reason": "none located on transportstyrelsen.se; press room offers no logo download"
+    }
+  ],
+  "assets": [
+    {
+      "file": "se-ts-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.transportstyrelsen.se/Static/images/TS_Sv_2V_RGB.svg",
+      "page_url": "https://www.transportstyrelsen.se/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "f96c3f1f704281eaea7ab17fa4e4aa9096bf6c939132ec4cd9f15d221e3e0313"
+    },
+    {
+      "file": "se-ts-logo-dark-white.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.transportstyrelsen.se/Static/images/TS_Sv_2V_VIT_v2.svg",
+      "page_url": "https://www.transportstyrelsen.se/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "63511341515a2a8d79daabf03f0fae3d5d73f267cdcaab39f4ef50f6b94807b1"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "Press room lists press@transportstyrelsen.se for press enquiries; no logo-use contact published."
   }
 }

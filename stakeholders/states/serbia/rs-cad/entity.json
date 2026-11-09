@@ -1,6 +1,6 @@
 {
   "id": "rs-cad",
-  "name": "Civil Aviation Directorate of Serbia",
+  "name": "Direktorat civilnog vazduhoplovstva Republike Srbije",
   "acronym": "CAD",
   "group": "state",
   "country": "Serbia",
@@ -10,16 +10,32 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "cad.gov.rs"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "aliases": [
+    "Civil Aviation Directorate of the Republic of Serbia",
+    "Civil Aviation Directorate of Serbia",
+    "Директорат цивилног ваздухопловства Републике Србије",
+    "CAD Serbia"
+  ],
+  "notes": "Name and role confirmed on cad.gov.rs (header and page title 'Директорат цивилног ваздухопловства Републике Србије'; Latin alt text 'Direktorat civilnog vazduhoplovstva Republike Srbije'). The README-derived name 'Civil Aviation Directorate of Serbia' is kept as an alias; the body is correct. The header logos (logo.svg with pale lettering for the dark header, logo-fixed.svg with grey lettering) are SVG wrappers around an embedded raster PNG (data: href), which the collection validator rejects, so nothing was stored (tool limitation reported). No brand page or logo terms located.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "official logo (light, dark, transparent)",
+      "reason": "cad.gov.rs serves its header logos (files/img/logo.svg and logo-fixed.svg) as SVG wrappers around an embedded base64 PNG; tools/validate.py rejects them as 'unsafe svg (non-local href)', so they were not stored. No other logo format, brand page or press kit found"
+    },
+    {
+      "need": "brand guidelines",
+      "reason": "none located on cad.gov.rs"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

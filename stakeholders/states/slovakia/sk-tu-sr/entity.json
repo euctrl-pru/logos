@@ -1,7 +1,7 @@
 {
   "id": "sk-tu-sr",
-  "name": "Transport Authority of the Slovak Republic",
-  "acronym": "TÚ SR",
+  "name": "Dopravný úrad",
+  "acronym": "NSAT",
   "group": "state",
   "country": "Slovakia",
   "iso2": "SK",
@@ -10,16 +10,41 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "nsat.sk"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Transport Authority of the Slovak Republic",
+    "Transport Authority",
+    "Dopravny urad",
+    "Dopravný úrad Slovenskej republiky"
+  ],
+  "notes": "Name and role confirmed on nsat.sk (page title 'Dopravný úrad | NSAT', logo caption 'Transport Authority'). The site has a 'Civilné letectvo' (civil aviation) section (letectvo.nsat.sk), confirming the civil aviation authority role. The folder id sk-tu-sr is kept. Logo is the PNG served in the site header (tier 2, website-served; only a colour version offered). No brand page or logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant, vector (SVG) version, brand guidelines",
+      "reason": "nsat.sk serves only a small colour PNG in its header; no brand page, press kit or logo terms page found"
+    }
+  ],
+  "assets": [
+    {
+      "file": "sk-tu-sr-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://nsat.sk/wp-content/themes/coworker/images/logo-nsat.png",
+      "page_url": "https://nsat.sk/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "223cec55ee506c0bd2e9e2f504c31ab0eeb8821799fff6fd49cbbb25dfa0c47f"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

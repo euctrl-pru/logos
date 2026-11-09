@@ -10,16 +10,31 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "anac.pt"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "aliases": [
+    "ANAC",
+    "Portuguese Civil Aviation Authority",
+    "INAC"
+  ],
+  "notes": "Name and role confirmed on anac.pt (site header reads 'Autoridade Nacional da Aviação Civil'; the site still uses INAC-era template paths). The site header carries only a text banner image (branding.jpg, plain text on black), not a logo file; the only emblem found (SiteCollectionImages/ANAC/LOGO_ANAC_SITE_EC.jpg, a small white emblem on a pale-blue JPG box) is a content image on a press page, not a published logo, so nothing was stored. No brand page or logo terms located.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "official logo (light, dark, transparent)",
+      "reason": "anac.pt offers no brand page, press kit or logo download; the header is a text banner JPG and the only emblem found is a low-resolution content image on an opaque pale-blue background"
+    },
+    {
+      "need": "brand guidelines",
+      "reason": "none located on anac.pt"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

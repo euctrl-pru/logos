@@ -1,2 +1,7 @@
 :root {
+  --rs-cad-color-navy: #002851;
+  --rs-cad-color-blue: #134481;
+  --rs-cad-color-red: #EA242C;
+  --rs-cad-font-primary-body-font-most-frequent-family-loaded-from-google-fonts-on-the-homepage: Inter, serif;
+  --rs-cad-font-secondary-font-loaded-from-google-fonts-on-the-homepage: Manrope, serif;
 }

@@ -1,17 +1,63 @@
 {
   "id": "se-ts",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.transportstyrelsen.se/Static/css/ts.css?v=7",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#0054AD",
+      "rgb": "0, 84, 173",
+      "cmyk": null,
+      "role": "Link and secondary-button colour in site stylesheet (logo blue fill is #005BBB)",
+      "evidence": "observed",
+      "source_url": "https://www.transportstyrelsen.se/Static/css/ts.css?v=7"
+    },
+    {
+      "name": "Dark blue",
+      "hex": "#003C93",
+      "rgb": "0, 60, 147",
+      "cmyk": null,
+      "role": "Link hover and primary-button hover colour",
+      "evidence": "observed",
+      "source_url": "https://www.transportstyrelsen.se/Static/css/ts.css?v=7"
+    },
+    {
+      "name": "Text",
+      "hex": "#212324",
+      "rgb": "33, 35, 36",
+      "cmyk": null,
+      "role": "Primary text/focus colour",
+      "evidence": "observed",
+      "source_url": "https://www.transportstyrelsen.se/Static/css/ts.css?v=7"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Inter",
+      "role": "Body text (declared as Inter with fallback)",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.transportstyrelsen.se/Static/css/ts.css?v=7"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No published guidelines located. Values from the site's stylesheet (ts.css, Bootstrap-based); Bootstrap default --bs-primary (#0d6efd) omitted as a framework default."
 }

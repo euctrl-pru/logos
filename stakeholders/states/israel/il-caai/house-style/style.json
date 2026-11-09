@@ -3,7 +3,7 @@
   "status": "none",
   "current_sources": [],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
+  "last_checked": "2026-11-09",
   "colors": [],
   "typography": [],
   "logo_usage": {
@@ -12,6 +12,6 @@
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Checked gov.il department page and en.caa.gov.il for a brand page and site CSS; gov.il returned HTTP 403 and the old domain did not respond, so neither guidelines nor stylesheet could be read."
 }

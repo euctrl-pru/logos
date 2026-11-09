@@ -1,17 +1,79 @@
 {
   "id": "rs-cad",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://cad.gov.rs/files/css/homepage.css?v=1794235137",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    },
+    {
+      "url": "https://cad.gov.rs/files/css/developer.css?v=5",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Navy",
+      "hex": "#002851",
+      "rgb": "0, 40, 81",
+      "cmyk": null,
+      "role": "Info colour (.bg-info/.btn-info) in site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://cad.gov.rs/files/css/homepage.css?v=1794235137"
+    },
+    {
+      "name": "Blue",
+      "hex": "#134481",
+      "rgb": "19, 68, 129",
+      "cmyk": null,
+      "role": "Dark colour (.bg-dark/.btn-dark) in site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://cad.gov.rs/files/css/homepage.css?v=1794235137"
+    },
+    {
+      "name": "Red",
+      "hex": "#EA242C",
+      "rgb": "234, 36, 44",
+      "cmyk": null,
+      "role": "News banner (.header-news) background",
+      "evidence": "observed",
+      "source_url": "https://cad.gov.rs/files/css/homepage.css?v=1794235137"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Inter",
+      "role": "Primary body font (most frequent family; loaded from Google Fonts on the homepage)",
+      "fallbacks": [
+        "serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://cad.gov.rs/files/css/homepage.css?v=1794235137"
+    },
+    {
+      "family": "Manrope",
+      "role": "Secondary font (loaded from Google Fonts on the homepage)",
+      "fallbacks": [
+        "serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://cad.gov.rs/files/css/homepage.css?v=1794235137"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No published guidelines located. Values from the site's homepage.css; only recurring component colours and the loaded Google Fonts are recorded. The stylesheet also names Neue Haas Grotesk Display Pro (not recorded: no font source seen)."
 }

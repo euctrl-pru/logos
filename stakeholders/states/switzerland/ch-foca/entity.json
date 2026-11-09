@@ -1,7 +1,7 @@
 {
   "id": "ch-foca",
-  "name": "Federal Office of Civil Aviation",
-  "acronym": "FOCA",
+  "name": "Bundesamt für Zivilluftfahrt",
+  "acronym": "BAZL",
   "group": "state",
   "country": "Switzerland",
   "iso2": "CH",
@@ -10,16 +10,56 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "bazl.admin.ch",
+    "admin.ch"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Federal Office of Civil Aviation",
+    "FOCA",
+    "Office fédéral de l'aviation civile",
+    "OFAC",
+    "Ufficio federale dell'aviazione civile",
+    "UFAC"
+  ],
+  "notes": "Name and role confirmed on bazl.admin.ch (title 'Our vision : Switzerland is a leading aviation nation'; Swiss national aviation authority within the federal administration). The English name 'Federal Office of Civil Aviation' is kept in aliases; German name is primary. The site carries only the Swiss Confederation identity: a shield (swiss-logo-flag.svg) and the confederation name in four languages (swiss-logo-name.svg), served as separate header files; BAZL has no office-specific logo on its site. Both files are website-served (tier 2). The name SVG has no fill attribute and renders black by default (the site colours it by CSS). No brand page or logo terms located on bazl.admin.ch.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "BAZL-specific logo, dark/white variant, brand guidelines",
+      "reason": "bazl.admin.ch serves only the Swiss Confederation identity pieces in its header; no office logo, brand page or press kit found"
+    }
+  ],
+  "assets": [
+    {
+      "file": "ch-foca-emblem-light-color.svg",
+      "lockup": "emblem",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.bazl.admin.ch/images/swiss-logo-flag.svg",
+      "page_url": "https://www.bazl.admin.ch/en",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "f783a05d8a3ab608117cf568cdf3d330767b9eadb52a8b8228d324ba0b0b903a"
+    },
+    {
+      "file": "ch-foca-wordmark-light-black.svg",
+      "lockup": "wordmark",
+      "background": "light",
+      "color_mode": "black",
+      "transparent": true,
+      "source_url": "https://www.bazl.admin.ch/images/swiss-logo-name.svg",
+      "page_url": "https://www.bazl.admin.ch/en",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "264d36c0747c8f1efb1a9659084e9c4c7c01bbcb5550e00d1dd18f33298ff191"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

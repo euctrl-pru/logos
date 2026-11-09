@@ -1,2 +1,5 @@
 :root {
+  --es-aesa-color-dark-blue: #00335D;
+  --es-aesa-color-bright-blue: #008FE8;
+  --es-aesa-font-body-text-custom-web-font-alias-declared-in-the-stylesheet-underlying-typeface-name-not-stated: pm_regular, Arial, Helvetica, sans-serif;
 }

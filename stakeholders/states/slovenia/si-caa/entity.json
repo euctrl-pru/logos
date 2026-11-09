@@ -1,6 +1,6 @@
 {
   "id": "si-caa",
-  "name": "Civil Aviation Agency of Slovenia",
+  "name": "Javna agencija za civilno letalstvo Republike Slovenije",
   "acronym": "CAA",
   "group": "state",
   "country": "Slovenia",
@@ -10,16 +10,41 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "caa.si"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Civil Aviation Agency of Slovenia",
+    "Slovenian Civil Aviation Agency",
+    "CAA Slovenia",
+    "Agencija za civilno letalstvo"
+  ],
+  "notes": "Name and role confirmed on caa.si (page title 'Javna agencija za civilno letalstvo Republike Slovenije'; logo alt 'Logotip CAA'). Logo is the PNG served in the site header (tier 2, website-served); the footer serves a near-identical PNG, not stored. No brand page or logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant, vector (SVG) version, brand guidelines",
+      "reason": "caa.si serves only small colour PNGs in its header and footer; no brand page, press kit or logo terms page found"
+    }
+  ],
+  "assets": [
+    {
+      "file": "si-caa-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.caa.si/img/header-logo.png",
+      "page_url": "https://www.caa.si/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "4eac2832704309b21fd97dc889157316b43d34e88a2fc0fdc41657fb10a5a00f"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

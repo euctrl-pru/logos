@@ -1,6 +1,6 @@
 {
   "id": "ro-aacr",
-  "name": "Romanian Civil Aeronautical Authority",
+  "name": "Autoritatea Aeronautică Civilă Română",
   "acronym": "AACR",
   "group": "state",
   "country": "Romania",
@@ -10,16 +10,27 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "caa.ro"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "aliases": [
+    "Romanian Civil Aeronautical Authority",
+    "Romanian CAA",
+    "AACR"
+  ],
+  "notes": "Name and role confirmed from caa.ro search-result titles ('Autoritatea Aeronautică Civilă Română', 'Romanian CAA'); the site itself could not be read because caa.ro answers automated requests with a bot-protection (F5 TSPD) challenge script instead of the page, which was not worked around. No logo file could be examined.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "official logo (light, dark, transparent) and brand page",
+      "reason": "caa.ro returns a bot-protection challenge to automated requests, so no page, logo file or brand page could be retrieved; not a publisher-stated restriction"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "Public contact addresses exist on caa.ro (comunicare@caa.ro, contact@caa.ro, per search-result snippet) but none is published for logo use."
   }
 }

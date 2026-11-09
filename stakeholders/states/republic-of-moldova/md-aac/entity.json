@@ -1,0 +1,50 @@
+{
+  "id": "md-aac",
+  "name": "Autoritatea Aeronautică Civilă",
+  "acronym": "AAC",
+  "group": "state",
+  "country": "Republic of Moldova",
+  "iso2": "MD",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [
+    "caa.md"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "Civil Aeronautical Authority of the Republic of Moldova",
+    "Civil Aviation Authority of the Republic of Moldova",
+    "CAA Moldova",
+    "AAC"
+  ],
+  "notes": "Name and role confirmed on caa.md (site title 'Autoritatea Aeronautică Civilă'; English page 'Civil Aeronautical Authority of the Republic of Moldova'). Placeholder id md-caa renamed md-aac after the Romanian acronym; caa.gov.md redirects to caa.md. Logo is the SVG served in the site header (tier 2, website-served; only a colour version offered). No brand page or logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant, brand guidelines",
+      "reason": "caa.md serves only the colour SVG in its header; no brand page, press kit or logo terms page found"
+    }
+  ],
+  "assets": [
+    {
+      "file": "md-aac-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://caa.md/sites/default/files/Logo_CAA_new_1.svg",
+      "page_url": "https://caa.md/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "a920638c1e058f6a9543381383164935e9b9a8c60cc9662d166308c43447c1ef"
+    }
+  ],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": "No logo-use contact published on pages checked."
+  }
+}

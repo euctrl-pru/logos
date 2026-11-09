@@ -1,6 +1,6 @@
 {
   "id": "pl-ulc",
-  "name": "Civil Aviation Authority of Poland",
+  "name": "Urząd Lotnictwa Cywilnego",
   "acronym": "ULC",
   "group": "state",
   "country": "Poland",
@@ -10,16 +10,28 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "ulc.gov.pl"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "aliases": [
+    "Civil Aviation Authority of Poland",
+    "Civil Aviation Authority (Poland)",
+    "CAA Poland",
+    "ULC"
+  ],
+  "notes": "Name and role confirmed from ulc.gov.pl search-result titles ('Civil Aviation Authority', ulc.gov.pl/en/authority); the site itself could not be read because ulc.gov.pl answers automated requests with an Incapsula bot-protection challenge instead of the page, which was not worked around. No logo file could be examined.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "official logo (light, dark, transparent) and brand page",
+      "reason": "ulc.gov.pl returns an Incapsula bot-protection challenge to automated requests, so no page, logo file or brand page could be retrieved; not a publisher-stated restriction"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "General address kancelaria@ulc.gov.pl appears in search-result snippets; none is published for logo use."
   }
 }

@@ -1,17 +1,52 @@
 {
   "id": "gb-caa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.caa.co.uk/css/styles.min.css?rel=1787233641284",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Navy",
+      "hex": "#0C1975",
+      "rgb": "12, 25, 117",
+      "cmyk": null,
+      "role": "Primary action button background and separator rule",
+      "evidence": "observed",
+      "source_url": "https://www.caa.co.uk/css/styles.min.css?rel=1787233641284"
+    },
+    {
+      "name": "Link blue",
+      "hex": "#165D9B",
+      "rgb": "22, 93, 155",
+      "cmyk": null,
+      "role": "Link colour (hover #003078)",
+      "evidence": "observed",
+      "source_url": "https://www.caa.co.uk/css/styles.min.css?rel=1787233641284"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Roboto",
+      "role": "Body text (declared font-family in site stylesheet)",
+      "fallbacks": [],
+      "evidence": "observed",
+      "source_url": "https://www.caa.co.uk/css/styles.min.css?rel=1787233641284"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No published brand guidelines located (the copyright page covers logo permission only). Values from the site's stylesheet; neutral greys, the yellow focus colour and status reds omitted."
 }

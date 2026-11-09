@@ -10,16 +10,40 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "seguridadaerea.gob.es"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Spanish Aviation Safety Agency",
+    "State Aviation Safety Agency",
+    "AESA"
+  ],
+  "notes": "Name and role confirmed on seguridadaerea.gob.es (page title 'AESA-Agencia Estatal de Seguridad Aérea - MTMS'; logo reads 'Agencia Estatal de Seguridad Aérea'). Logo is the PNG served in the site header (tier 2, website-served; only a colour version offered). No brand page or logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant, vector (SVG) version, brand guidelines",
+      "reason": "seguridadaerea.gob.es serves only a small colour PNG in its header; no brand page, press kit or logo terms page found"
+    }
+  ],
+  "assets": [
+    {
+      "file": "es-aesa-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.seguridadaerea.gob.es/sites/default/files/logo-aesa.png",
+      "page_url": "https://www.seguridadaerea.gob.es/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "a9fd9216baca53634bffe24d272f14f15c6925b6ffe32bd96e21cff5d50222e0"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

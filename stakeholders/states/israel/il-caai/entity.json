@@ -10,16 +10,28 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "gov.il"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": "README also listed CAAI as the ANSP; that row is merged here and il-ansp holds the ANSP role until confirmed.",
-  "status": "pending",
-  "gaps": [],
+  "aliases": [
+    "CAA Israel",
+    "רשות התעופה האזרחית",
+    "רת\"א",
+    "Civil Aviation Authority"
+  ],
+  "notes": "Name and role confirmed from search results: the CAAI (Civil Aviation Authority of Israel, replaced the former Civil Aviation Administration in 2005) is the national civil aviation regulator, and its current official site is its department page on gov.il (gov.il/en/departments/civil_aviation_authority_of_israel); the older en.caa.gov.il domain is dated and unreachable. The authority is distinct from the Israel Airports Authority (il-ansp scaffold). The gov.il pages could not be read: gov.il answers automated requests with an HTTP 403 Cloudflare 'Attention Required' page, which was not worked around; the publisher states no restriction. gov.il is a shared government domain; no CAAI-specific logo was seen.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "official logo (light, dark, transparent) and brand page",
+      "reason": "gov.il returns a bare HTTP 403 (Cloudflare) to automated requests and en.caa.gov.il does not respond; no page or logo file could be retrieved; not a publisher-stated restriction"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact seen; the site could not be read."
   }
 }
