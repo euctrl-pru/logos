@@ -1,6 +1,6 @@
 {
   "id": "se-lfv",
-  "name": "Luftfartsverket",
+  "name": "LFV (Luftfartsverket)",
   "acronym": "LFV",
   "group": "state",
   "country": "Sweden",
@@ -10,16 +10,44 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "lfv.se"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "LFV",
+    "Luftfartsverket",
+    "Swedish Air Navigation Services"
+  ],
+  "notes": "lfv.se (Press): 'LFV är ett statligt affärsverk som leder flygtrafiken genom det övre luftrummet' and provides air traffic services at Swedavia and military airfields; LFV owns no airports. The logo is the 300x140 PNG in the site header ('LFVs logotyp', tier 2, website-served; orange on transparent). The press page points to press releases and pictures in a third-party press room (Via-TT), which is not an official domain and was not used. No brand page or logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant and vector (SVG) logo",
+      "reason": "lfv.se serves one orange PNG logo only"
+    },
+    {
+      "need": "brand guidelines and logo terms",
+      "reason": "none located on lfv.se"
+    }
+  ],
+  "assets": [
+    {
+      "file": "se-lfv-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.lfv.se/globalassets/01-om-lfv/logo-orange.png",
+      "page_url": "https://www.lfv.se/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "b3384826e5c86e77961fc13d5d90cdf4a0bcb93d8e09a00071939d11b731f268"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
-    "email": null,
-    "notes": null
+    "logo_permission_url": "https://www.lfv.se/sv/press",
+    "email": "press@lfv.se",
+    "notes": "Press service address on the lfv.se Press page; not a logo-specific contact."
   }
 }

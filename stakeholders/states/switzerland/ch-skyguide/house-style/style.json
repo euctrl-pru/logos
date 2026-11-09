@@ -1,17 +1,54 @@
 {
   "id": "ch-skyguide",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.skyguide.ch/_nuxt/css/d878827.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Skyguide blue",
+      "hex": "#2850A0",
+      "rgb": "40, 80, 160",
+      "cmyk": null,
+      "role": "Blue used in the site stylesheet; matches the sky blue logo colour",
+      "evidence": "observed",
+      "source_url": "https://www.skyguide.ch/_nuxt/css/d878827.css"
+    },
+    {
+      "name": "Dark blue",
+      "hex": "#1E283B",
+      "rgb": "30, 40, 59",
+      "cmyk": null,
+      "role": "Most frequent text/dark colour in the site stylesheet; matches the dark blue logo colour",
+      "evidence": "observed",
+      "source_url": "https://www.skyguide.ch/_nuxt/css/d878827.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Interphases",
+      "role": "Headings (Interphases-DemiBold)",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.skyguide.ch/_nuxt/css/d878827.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed in the skyguide.ch Nuxt stylesheet; hex values compared visually with the official PNG logos. Interphases is the DemiBold heading face named in @font-face rules. No published guidelines located."
 }

@@ -1,17 +1,63 @@
 {
   "id": "tr-dhmi",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.dhmi.gov.tr/Style%20Library/DHMI/css/theme.min.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "DHMİ blue",
+      "hex": "#00316A",
+      "rgb": "0, 49, 106",
+      "cmyk": null,
+      "role": "Theme token --dhm-blue (also --blue) in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.dhmi.gov.tr/Style%20Library/DHMI/css/theme.min.css"
+    },
+    {
+      "name": "DHMİ medium blue",
+      "hex": "#0052B0",
+      "rgb": "0, 82, 176",
+      "cmyk": null,
+      "role": "Theme token --dhm-blue-medium",
+      "evidence": "observed",
+      "source_url": "https://www.dhmi.gov.tr/Style%20Library/DHMI/css/theme.min.css"
+    },
+    {
+      "name": "DHMİ light blue",
+      "hex": "#2ACDF8",
+      "rgb": "42, 205, 248",
+      "cmyk": null,
+      "role": "Theme token --dhm-blue-light",
+      "evidence": "observed",
+      "source_url": "https://www.dhmi.gov.tr/Style%20Library/DHMI/css/theme.min.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Roboto",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.dhmi.gov.tr/Style%20Library/DHMI/css/theme.min.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed in the dhmi.gov.tr theme stylesheet (--dhm-* variables). The emblem artwork itself is blue and yellow; its exact values are not published. No published guidelines located."
 }

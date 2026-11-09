@@ -1,2 +1,7 @@
 :root {
+  --es-enaire-color-enaire-azul-oscuro-pantone-282: #00224c;
+  --es-enaire-color-enaire-azul-claro-pantone-process-cyan: #009fda;
+  --es-enaire-color-enaire-blanco: #ffffff;
+  --es-enaire-font-corporate-typeface-thin-light-regular-semibold-bold: ENAIRE Titillium, Titillium, Arial, sans-serif;
+  --es-enaire-font-office-documents-and-e-mail-when-the-corporate-typeface-is-unavailable: Arial, Helvetica, sans-serif;
 }

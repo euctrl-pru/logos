@@ -1,2 +1,6 @@
 :root {
+  --gb-nats-color-nats-teal: #145569;
+  --gb-nats-color-nats-aqua: #46C3D7;
+  --gb-nats-color-nats-dark: #071920;
+  --gb-nats-font-site-text: Roboto, sans-serif;
 }

@@ -10,16 +10,63 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
-  "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "official_domains": [
+    "enaire.es"
+  ],
+  "terms_url": "https://www.enaire.es/sala_de_prensa/marca_enaire",
+  "aliases": [
+    "ENAIRE",
+    "Entidad Pública Empresarial ENAIRE"
+  ],
+  "notes": "enaire.es press room, 'Marca ENAIRE' page, offers the 'Guía de uso de la marca' (PDF, not stored) and the official logo pack Logotipo_ENAIRE.zip (tier 1): three PNG files (colour 499x64 transparent, colour 2042x621 on white, and a version for dark backgrounds with white lettering and a light-blue symbol). No EPS/SVG in the pack. The guideline says to use the digital files supplied with the manual; logo terms beyond the guideline were not located, so redistribution rights are not confirmed. Pack stored byte-for-byte; the dark file's PNG filename is 'sobre OSCURO'.",
+  "status": "complete",
+  "gaps": [
+    {
+      "need": "vector (SVG/EPS) logo",
+      "reason": "the official logo pack contains PNG files only"
+    }
+  ],
+  "assets": [
+    {
+      "file": "es-enaire-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.enaire.es/docs/inline/es_ES/logotipo/Logotipo_ENAIRE.zip",
+      "page_url": "https://www.enaire.es/sala_de_prensa/marca_enaire",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "18134a80779297bd0692375308df8c2076d3a8223b36713898e2f168fd1215fe"
+    },
+    {
+      "file": "es-enaire-logo-light-color-rgb-large.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.enaire.es/docs/inline/es_ES/logotipo/Logotipo_ENAIRE.zip",
+      "page_url": "https://www.enaire.es/sala_de_prensa/marca_enaire",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "2066f8c0320d0476048c56b62eb211019f0bd1211252f8114ba01e03bdd0cade"
+    },
+    {
+      "file": "es-enaire-logo-dark-color.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.enaire.es/docs/inline/es_ES/logotipo/Logotipo_ENAIRE.zip",
+      "page_url": "https://www.enaire.es/sala_de_prensa/marca_enaire",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "3d3bc2442fd074bca66451e6eff25bbf81b99bfec752a1441fcc30ea1698cd5e"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
-    "email": null,
-    "notes": null
+    "logo_permission_url": "https://www.enaire.es/sala_de_prensa/marca_enaire",
+    "email": "marca@enaire.es",
+    "notes": "Brand mailbox published on the Marca ENAIRE page; the guideline names the Brand Department (Departamento de Marca) for approvals and size questions."
   }
 }

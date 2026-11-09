@@ -1,7 +1,7 @@
 {
   "id": "tr-dhmi",
-  "name": "Directorate General of State Airports Authority",
-  "acronym": "DHMI",
+  "name": "Devlet Hava Meydanları İşletmesi Genel Müdürlüğü (DHMİ)",
+  "acronym": "DHMİ",
   "group": "state",
   "country": "Türkiye",
   "iso2": "TR",
@@ -10,18 +10,69 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "dhmi.gov.tr"
+  ],
   "terms_url": null,
   "aliases": [
-    "Turkey"
+    "DHMI",
+    "DHMİ",
+    "State Airports Authority",
+    "Devlet Hava Meydanları İşletmesi"
   ],
-  "notes": "README row used the name Turkey.",
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "notes": "dhmi.gov.tr: DHMİ (Devlet Hava Meydanları İşletmesi, State Airports Authority of Türkiye) provides air navigation services and operates airports. Logo files are served by the site (tier 2): logo.svg and logo.png from the header, and the 'DHMİ Kurumsal Logo' PDF linked in the site footer (page-linked corporate logo, stored as an official PDF). The site also serves a red Ministry of Transport and Infrastructure logo (red-logo.svg) and a 88th-anniversary logo, which are not DHMİ's own logo and were not stored. No brand page or logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant",
+      "reason": "dhmi.gov.tr serves the full-colour emblem only"
+    },
+    {
+      "need": "brand guidelines and logo terms",
+      "reason": "none located on dhmi.gov.tr"
+    }
+  ],
+  "assets": [
+    {
+      "file": "tr-dhmi-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.dhmi.gov.tr/Style%20Library/DHMI/image/logo.svg",
+      "page_url": "https://www.dhmi.gov.tr/Sayfalar/AnaSayfa.aspx",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "d9a3c58da27a58ad9748ea18f7bad7006b31d39d9b2d955b74b82e1baaed3668"
+    },
+    {
+      "file": "tr-dhmi-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.dhmi.gov.tr/Style%20Library/DHMI/image/logo.png",
+      "page_url": "https://www.dhmi.gov.tr/Sayfalar/AnaSayfa.aspx",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "e2f04d68c50547ed92f62a84401f782ea51b814f745838662b4df51edc4a33ed"
+    },
+    {
+      "file": "tr-dhmi-logo-light-color-corporate.pdf",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.dhmi.gov.tr/Style%20Library/DHMI/image/DHMI-Logo.pdf",
+      "page_url": "https://www.dhmi.gov.tr/Sayfalar/AnaSayfa.aspx",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "f6386c9e262f4401c383c69b3e3687857752f988688c091c6b5f404218f35ff2"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo or press contact read on pages checked."
   }
 }

@@ -1,6 +1,6 @@
 {
   "id": "gb-nats",
-  "name": "National Air Traffic Services",
+  "name": "NATS",
   "acronym": "NATS",
   "group": "state",
   "country": "United Kingdom",
@@ -10,16 +10,79 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "nats.aero"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "NATS (En Route) plc",
+    "National Air Traffic Services"
+  ],
+  "notes": "nats.aero: 'We are the UK's leading provider of air traffic control services.' The logos are the SVG and PNG header logos (teal) and the white logo used on dark backgrounds, referenced as backgrounds in the site's own stylesheet (tier 2, website-served; the PNGs are 201x49). The site's Media Centre and media library pages list news and reports only; no brand page, logo pack or logo terms were located, so redistribution rights are not confirmed.",
+  "status": "complete",
+  "gaps": [
+    {
+      "need": "brand guidelines and logo terms",
+      "reason": "none located on nats.aero; the media library page offers no logo downloads"
+    },
+    {
+      "need": "larger raster logo",
+      "reason": "website-served PNGs are only 201x49; SVGs are available"
+    }
+  ],
+  "assets": [
+    {
+      "file": "gb-nats-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.nats.aero/wp-content/themes/nats/assets/images/logo/nats_logo_header_3d.svg",
+      "page_url": "https://www.nats.aero/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "ca6fcc3bcd020b4bde5da1a5876dc6398b04b1c9c53079ecfe4dbd522e032eae"
+    },
+    {
+      "file": "gb-nats-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.nats.aero/wp-content/themes/nats/assets/images/logo/nats_logo_header_3d.png",
+      "page_url": "https://www.nats.aero/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "1cb94a21811f2e882cf3ecfa06ddc4b13e2218be0084e6026c40030c668dbf5c"
+    },
+    {
+      "file": "gb-nats-logo-dark-white.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.nats.aero/wp-content/themes/nats/assets/images/logo/NATSLogoWhite3D.svg",
+      "page_url": "https://www.nats.aero/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "395d889762b6763fb293e2f6e27f5855fb8130c4ce9d0097eca66eb5a3fa9967"
+    },
+    {
+      "file": "gb-nats-logo-dark-white.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.nats.aero/wp-content/themes/nats/assets/images/logo/NATSLogoWhite3D.png",
+      "page_url": "https://www.nats.aero/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "133eb481361fa20f9fb76681787eea87122b04da25081f6063c25880958a297e"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
+    "logo_permission_url": "https://www.nats.aero/news/media-library/",
     "email": null,
-    "notes": null
+    "notes": "Media library page located; no logo or press email read."
   }
 }

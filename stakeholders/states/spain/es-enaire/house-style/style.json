@@ -1,17 +1,82 @@
 {
   "id": "es-enaire",
-  "status": "none",
-  "current_sources": [],
+  "status": "documented",
+  "current_sources": [
+    {
+      "url": "https://www.enaire.es/docs/inline/es_ES/guía_de_uso_de_la_marca/ENAIRE-Guia_de_uso_de_la_marca.pdf",
+      "kind": "guideline",
+      "version_label": null,
+      "sha256": "47cd8e9422f9df1dee3a0579c8bab01ee4abeccac35bf5aa54567c5293105055",
+      "retrieved": "2026-11-09"
+    },
+    {
+      "url": "https://www.enaire.es/sala_de_prensa/marca_enaire",
+      "kind": "brand-page",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "ENAIRE Azul Oscuro (Pantone 282)",
+      "hex": "#00224c",
+      "rgb": "0, 34, 76",
+      "cmyk": "100, 80, 0, 70",
+      "role": "Main corporate colour",
+      "evidence": "guideline",
+      "source_url": "https://www.enaire.es/docs/inline/es_ES/guía_de_uso_de_la_marca/ENAIRE-Guia_de_uso_de_la_marca.pdf"
+    },
+    {
+      "name": "ENAIRE Azul Claro (Pantone Process Cyan)",
+      "hex": "#009fda",
+      "rgb": "0, 159, 218",
+      "cmyk": "100, 0, 0, 0",
+      "role": "Detail and highlight colour",
+      "evidence": "guideline",
+      "source_url": "https://www.enaire.es/docs/inline/es_ES/guía_de_uso_de_la_marca/ENAIRE-Guia_de_uso_de_la_marca.pdf"
+    },
+    {
+      "name": "ENAIRE Blanco",
+      "hex": "#ffffff",
+      "rgb": "255, 255, 255",
+      "cmyk": "0, 0, 0, 0",
+      "role": "Background and negative logo colour",
+      "evidence": "guideline",
+      "source_url": "https://www.enaire.es/docs/inline/es_ES/guía_de_uso_de_la_marca/ENAIRE-Guia_de_uso_de_la_marca.pdf"
+    }
+  ],
+  "typography": [
+    {
+      "family": "ENAIRE Titillium",
+      "role": "Corporate typeface (Thin, Light, Regular, SemiBold, Bold)",
+      "fallbacks": [
+        "Titillium",
+        "Arial",
+        "sans-serif"
+      ],
+      "evidence": "guideline",
+      "source_url": "https://www.enaire.es/docs/inline/es_ES/guía_de_uso_de_la_marca/ENAIRE-Guia_de_uso_de_la_marca.pdf"
+    },
+    {
+      "family": "Arial",
+      "role": "Office documents and e-mail when the corporate typeface is unavailable",
+      "fallbacks": [
+        "Helvetica",
+        "sans-serif"
+      ],
+      "evidence": "guideline",
+      "source_url": "https://www.enaire.es/docs/inline/es_ES/guía_de_uso_de_la_marca/ENAIRE-Guia_de_uso_de_la_marca.pdf"
+    }
+  ],
   "logo_usage": {
-    "clear_space": null,
-    "min_size": null,
-    "background_rules": null,
-    "misuse": null
+    "clear_space": "Surround the mark with as much free space as possible, away from other graphic elements",
+    "min_size": "3 mm height for the mark in all applications",
+    "background_rules": "Preferred on white; then corporate colour backgrounds; dark blue monochrome on light grey; white negative on dark or non-corporate dark colours; black positive where quality cannot be guaranteed",
+    "misuse": "Do not distort, recolour, rotate, apply 3D effects, change the order or proportion of logotype and symbol, tile the mark, place it on busy images or non-approved background colours, or use low-resolution files"
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "From the ENAIRE Guía de uso de la marca (PDF, not stored). Write ENAIRE always in capitals. The guideline lists the symbol as complementary to the logotype; fluid configuration needs Brand Department approval."
 }

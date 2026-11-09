@@ -1,17 +1,63 @@
 {
   "id": "gb-nats",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.nats.aero/wp-content/cache/autoptimize/css/autoptimize_9578abb316d48b488f639e55914fe5c1.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "NATS teal",
+      "hex": "#145569",
+      "rgb": "20, 85, 105",
+      "cmyk": null,
+      "role": "Fill of the official SVG logo; frequent brand colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.nats.aero/wp-content/cache/autoptimize/css/autoptimize_9578abb316d48b488f639e55914fe5c1.css"
+    },
+    {
+      "name": "NATS aqua",
+      "hex": "#46C3D7",
+      "rgb": "70, 195, 215",
+      "cmyk": null,
+      "role": "Accent colour in the site stylesheet (hover and highlight)",
+      "evidence": "observed",
+      "source_url": "https://www.nats.aero/wp-content/cache/autoptimize/css/autoptimize_9578abb316d48b488f639e55914fe5c1.css"
+    },
+    {
+      "name": "NATS dark",
+      "hex": "#071920",
+      "rgb": "7, 25, 32",
+      "cmyk": null,
+      "role": "Dark colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.nats.aero/wp-content/cache/autoptimize/css/autoptimize_9578abb316d48b488f639e55914fe5c1.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Roboto",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.nats.aero/wp-content/cache/autoptimize/css/autoptimize_9578abb316d48b488f639e55914fe5c1.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed in the nats.aero autoptimized stylesheet; #145569 equals the logo SVG fill. Other colours (#B93296, #50C364, social-media colours) look like category or third-party colours and are not recorded. No published guidelines located."
 }

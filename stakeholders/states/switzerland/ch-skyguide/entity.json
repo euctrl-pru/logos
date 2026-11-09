@@ -1,7 +1,7 @@
 {
   "id": "ch-skyguide",
-  "name": "skyguide",
-  "acronym": "skyguide",
+  "name": "Skyguide, Swiss air navigation services",
+  "acronym": "Skyguide",
   "group": "state",
   "country": "Switzerland",
   "iso2": "CH",
@@ -10,18 +10,70 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "skyguide.ch",
+    "api.skyguide.ch"
+  ],
   "terms_url": null,
   "aliases": [
-    "Swiss Air Navigation Services Ltd"
+    "Skyguide",
+    "skyguide",
+    "Skyguide S.A.",
+    "Swiss air navigation services"
   ],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "notes": "skyguide.ch Newsroom > Media library has a 'Logos (.png format)' section (tier 1) with three RGB PNGs of the wordmark: sky blue, dark blue (positive, for light backgrounds) and white (negative, for dark backgrounds), each 4251x1347 with transparent background. The files are hosted on api.skyguide.ch (the publisher's content host, listed in official_domains and referenced directly from the media library page). The page footer links 'Terms & conditions' but no logo-specific terms or brand guidelines were found, so redistribution rights are not confirmed.",
+  "status": "complete",
+  "gaps": [
+    {
+      "need": "vector (SVG/EPS) logo",
+      "reason": "the media library offers PNG logos only"
+    },
+    {
+      "need": "brand guidelines and logo terms",
+      "reason": "none located on skyguide.ch"
+    }
+  ],
+  "assets": [
+    {
+      "file": "ch-skyguide-logo-light-color-skyblue.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://api.skyguide.ch/wp-content/uploads/2021/09/SKY_Logo_rgb_pos_skyblue.png",
+      "page_url": "https://www.skyguide.ch/newsroom/media-library",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "94bf834d91eabe0bf4345b6ffe8b6780eaab03debc2c7c4fefb722f533edf754"
+    },
+    {
+      "file": "ch-skyguide-logo-light-color-skydarkblue.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://api.skyguide.ch/wp-content/uploads/2021/09/SKY_Logo_rgb_pos_skydarkblue.png",
+      "page_url": "https://www.skyguide.ch/newsroom/media-library",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "448f7058a4ad7302531acf7aa668425b65fa1d10307a12d3e9f99f20a92c0552"
+    },
+    {
+      "file": "ch-skyguide-logo-dark-white.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://api.skyguide.ch/wp-content/uploads/2021/08/SKY_Logo_rgb_neg_skywhite-1.png",
+      "page_url": "https://www.skyguide.ch/newsroom/media-library",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "16d765b8d4104cb6f7a8669c700f243c72d16ce9f65b358b0e46d7b07421325b"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
+    "logo_permission_url": "https://www.skyguide.ch/newsroom/media-library",
     "email": null,
-    "notes": null
+    "notes": "Media library page lists only the general info@skyguide.ch address; no logo or press contact read."
   }
 }

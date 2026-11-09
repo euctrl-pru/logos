@@ -1,17 +1,45 @@
 {
   "id": "se-lfv",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.lfv.se/Frontend/Styles/main-sass.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Orange",
+      "hex": "#EA7600",
+      "rgb": "234, 118, 0",
+      "cmyk": null,
+      "role": "Accent in the site stylesheet (header toggle, block borders, buttons); matches the orange family of the logo",
+      "evidence": "observed",
+      "source_url": "https://www.lfv.se/Frontend/Styles/main-sass.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Lato",
+      "role": "Site text and headings",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.lfv.se/Frontend/Styles/main-sass.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed in the lfv.se main-sass.css. #EA7600 is the recurring accent; the logo PNG uses two orange tones, whose exact values are not published. No published guidelines located."
 }

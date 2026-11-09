@@ -1,6 +1,6 @@
 {
   "id": "ua-uksatse",
-  "name": "Ukrainian State Air Traffic Services Enterprise",
+  "name": "State Enterprise of Air Traffic Services of Ukraine (UkSATSE)",
   "acronym": "UkSATSE",
   "group": "state",
   "country": "Ukraine",
@@ -10,16 +10,45 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "uksatse.ua"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "UkSATSE",
+    "Ukraerorukh",
+    "Украероруху",
+    "Державне підприємство обслуговування повітряного руху України"
+  ],
+  "notes": "uksatse.ua page title: 'Офіційний веб-сайт Украероруху - Державного підприємства обслуговування повітряного руху України' (UkSATSE). The only logo located is the 63x92 GIF in the site header (/img/style_images/logo.gif, tier 2, website-served; blue artwork). The og:image fb-logo-256.jpg named in the page returns 404. No brand page, press kit or logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant, larger and vector logo",
+      "reason": "uksatse.ua serves only a 63x92 GIF logo; og:image logo file returns 404"
+    },
+    {
+      "need": "brand guidelines and logo terms",
+      "reason": "none located on uksatse.ua"
+    }
+  ],
+  "assets": [
+    {
+      "file": "ua-uksatse-logo-light-color.gif",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://uksatse.ua/img/style_images/logo.gif",
+      "page_url": "https://uksatse.ua/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "cf5459e7a2bc5bdd947cb22226443d609bf6d504ff50976d2dfdef8ed04964d5"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo or press contact read on pages checked."
   }
 }
