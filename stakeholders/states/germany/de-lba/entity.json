@@ -18,12 +18,12 @@
     "Federal Aviation Office",
     "German Federal Aviation Office"
   ],
-  "notes": "Site lba.de (English: Federal Aviation Office) references a header logo at https://www.lba.de/SiteGlobals/Frontend/Images/logo.jpg in its page HTML. tools/fetch_asset.py received a bare HTTP 403 for that file, and a scripted request for the German home page also received 403. No page of lba.de was found stating a logo-use or access restriction, so this is recorded as not-found rather than restricted. Nothing was downloaded and the 403 was not worked around.",
+  "notes": "Site lba.de (English: Federal Aviation Office) references a header logo at https://www.lba.de/SiteGlobals/Frontend/Images/logo.jpg in its page HTML. this tool's requests (tools/fetch_asset.py for that file and a scripted request for the German home page) each received a bare HTTP 403; whether other clients are blocked is not known. No page of lba.de was found stating a logo-use or access restriction, so this is recorded as not-found rather than restricted. Nothing was downloaded and the 403 was not worked around. Left for manual addition from a browser by a person.",
   "status": "not-found",
   "gaps": [
     {
       "need": "LBA logo files, dark variant and guidelines",
-      "reason": "bare HTTP 403 from lba.de to automated requests for logo.jpg and the German home page; the publisher states no logo restriction on pages read; no press kit or logo page reachable. Contact route: Press page on lba.de"
+      "reason": "bare HTTP 403 received by this tool's requests to lba.de for logo.jpg and the German home page; the publisher states no logo restriction on pages read; no press kit or logo page reachable. Contact route: Press page on lba.de. Left for manual addition from a browser"
     }
   ],
   "assets": [],

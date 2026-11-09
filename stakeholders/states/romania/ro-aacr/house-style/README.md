@@ -16,4 +16,4 @@ None recorded.
 
 ## Notes
 
-Checked caa.ro for a brand page and site CSS; the site served only a bot-protection challenge to automated requests, so neither guidelines nor stylesheet could be read.
+Checked caa.ro for a brand page and site CSS; this tool's requests received only a bot-protection challenge, so neither guidelines nor stylesheet could be read.

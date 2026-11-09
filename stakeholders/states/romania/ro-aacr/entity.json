@@ -19,18 +19,18 @@
     "Romanian CAA",
     "AACR"
   ],
-  "notes": "Name and role confirmed from caa.ro search-result titles ('Autoritatea Aeronautică Civilă Română', 'Romanian CAA'); the site itself could not be read because caa.ro answers automated requests with a bot-protection (F5 TSPD) challenge script instead of the page, which was not worked around. No logo file could be examined.",
+  "notes": "Name and role confirmed from caa.ro search-result titles ('Autoritatea Aeronautică Civilă Română', 'Romanian CAA'); the site itself could not be read because this tool's requests (curl) to caa.ro received a bot-protection (F5 TSPD) challenge script instead of the page; whether other clients get it is not known. Left for manual addition from a browser by a person; the block was not worked around. No logo file could be examined.",
   "status": "not-found",
   "gaps": [
     {
       "need": "official logo (light, dark, transparent) and brand page",
-      "reason": "caa.ro returns a bot-protection challenge to automated requests, so no page, logo file or brand page could be retrieved; not a publisher-stated restriction"
+      "reason": "this tool's requests to caa.ro received a bot-protection challenge instead of the page; not a publisher-stated restriction. Left for manual addition from a browser"
     }
   ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": "Public contact addresses exist on caa.ro (comunicare@caa.ro, contact@caa.ro, per search-result snippet) but none is published for logo use."
+    "notes": "No logo-use contact seen; the site could not be read by this tool."
   }
 }

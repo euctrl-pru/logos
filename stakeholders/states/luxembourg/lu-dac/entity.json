@@ -30,8 +30,8 @@
   ],
   "assets": [
     {
-      "file": "lu-dac-logo-light-color.svg",
-      "lockup": "logo",
+      "file": "lu-dac-emblem-light-color.svg",
+      "lockup": "emblem",
       "background": "light",
       "color_mode": "color",
       "transparent": true,

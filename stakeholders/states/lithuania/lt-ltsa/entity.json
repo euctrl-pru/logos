@@ -19,12 +19,12 @@
     "Lithuanian Transport Safety Administration",
     "LTSA"
   ],
-  "notes": "Site ltsa.lrv.lt (ltsa.lt redirects to it) answers HTTP 403 to all automated requests, so no page could be read and nothing was fetched. Role per web-search results only (not read on an official page): since 1 January 2019 Lithuanian civil aviation oversight is split between LTSA (state-level functions: legislation, sanctions, passenger rights, noise, financial supervision of carriers) and the Transport Competence Agency (TKA, tka.lt, technical oversight such as licensing and certification), which ECAC lists as the civil aviation authority. tka.lt and the old caa.lt (redirects to tka.lt) also return 403 to automated requests. TKA has no entity in the scaffold and none was created; the list may need a Lithuania TKA entity (caa) if the split is confirmed manually.",
+  "notes": "Site ltsa.lrv.lt (ltsa.lt redirects to it) answered HTTP 403 to this tool's requests (whether other clients are blocked is not known), so no page could be read and nothing was fetched. Role per web-search results only (not read on an official page): since 1 January 2019 Lithuanian civil aviation oversight is split between LTSA (state-level functions: legislation, sanctions, passenger rights, noise, financial supervision of carriers) and the Transport Competence Agency (TKA, tka.lt, technical oversight such as licensing and certification), which ECAC lists as the civil aviation authority. tka.lt and the old caa.lt (redirects to tka.lt) also return 403 to automated requests. A separate lt-tka entity (caa) was added in the fix round; the civil aviation authority role is shared between LTSA and TKA, and ECAC lists TKA as the civil aviation authority. This tool's 403 was not worked around; LTSA's own pages remain unread.",
   "status": "not-found",
   "gaps": [
     {
       "need": "logo files and house style",
-      "reason": "ltsa.lrv.lt returns HTTP 403 to automated requests; not worked around. Pages, brand page and CSS could not be inspected."
+      "reason": "ltsa.lrv.lt returned HTTP 403 to this tool's requests; not worked around. Pages, brand page and CSS could not be inspected. Left for manual addition from a browser"
     }
   ],
   "assets": [],

@@ -16,4 +16,4 @@ None recorded.
 
 ## Notes
 
-Checked ltsa.lrv.lt, ltsa.lt, tka.lt and caa.lt: all return HTTP 403 to automated requests, so no guidelines or site CSS could be read. Not worked around.
+Checked ltsa.lrv.lt, ltsa.lt, tka.lt and caa.lt: all returned HTTP 403 to this tool's requests, so no guidelines or site CSS could be read. Not worked around.

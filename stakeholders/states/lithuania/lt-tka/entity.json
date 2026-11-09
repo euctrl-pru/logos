@@ -1,0 +1,37 @@
+{
+  "id": "lt-tka",
+  "name": "Transporto kompetencijų agentūra (Transport Competence Agency)",
+  "acronym": "TKA",
+  "group": "state",
+  "country": "Lithuania",
+  "iso2": "LT",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [
+    "tka.lt"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "Transport Competence Agency",
+    "TKA",
+    "Civil Aviation Administration (former, dissolved 2018/2019)",
+    "caa.lt"
+  ],
+  "notes": "Added in the CAA fix round. Search results for tka.lt pages ('About Transport Competence Agency', aviation security catalogue) and the ECAC Lithuania page identify TKA as a body performing state management of Lithuanian civil aviation since the budgetary Civil Aviation Administration was dissolved on 1 January 2019 (licensing aviation specialists, certifying airfields and organisations, supervision, civil aircraft register); ECAC lists TKA as the civil aviation authority and LTSA's Civil Aviation Division as a participating administration. Role is shared with LTSA (lt-ltsa), so both keep the caa type. tka.lt (and caa.lt, which redirects to it) returned HTTP 403 to this tool's requests (curl), so no official page, logo or CSS could be read here; whether other clients are blocked is not known. The 403 was not worked around.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "official logo (light, dark, transparent) and brand page",
+      "reason": "this tool's requests to tka.lt received a bare HTTP 403, so no page or logo file was retrieved; not a publisher-stated restriction. Left for manual addition from a browser"
+    }
+  ],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": "No logo-use contact seen; the site could not be read by this tool."
+  }
+}

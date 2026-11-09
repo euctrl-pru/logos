@@ -20,18 +20,18 @@
     "CAA Poland",
     "ULC"
   ],
-  "notes": "Name and role confirmed from ulc.gov.pl search-result titles ('Civil Aviation Authority', ulc.gov.pl/en/authority); the site itself could not be read because ulc.gov.pl answers automated requests with an Incapsula bot-protection challenge instead of the page, which was not worked around. No logo file could be examined.",
+  "notes": "Name and role confirmed from ulc.gov.pl search-result titles ('Civil Aviation Authority', ulc.gov.pl/en/authority); the site itself could not be read because this tool's requests (curl) to ulc.gov.pl received an Incapsula bot-protection challenge script instead of the page; whether other clients get it is not known. Left for manual addition from a browser by a person; the block was not worked around. No logo file could be examined.",
   "status": "not-found",
   "gaps": [
     {
       "need": "official logo (light, dark, transparent) and brand page",
-      "reason": "ulc.gov.pl returns an Incapsula bot-protection challenge to automated requests, so no page, logo file or brand page could be retrieved; not a publisher-stated restriction"
+      "reason": "this tool's requests to ulc.gov.pl received an Incapsula bot-protection challenge instead of the page; not a publisher-stated restriction. Left for manual addition from a browser"
     }
   ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": "General address kancelaria@ulc.gov.pl appears in search-result snippets; none is published for logo use."
+    "notes": "No logo-use contact seen; the site could not be read by this tool."
   }
 }

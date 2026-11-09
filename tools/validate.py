@@ -317,7 +317,14 @@ def _unsafe_svg(data: bytes):
         return "script element"
     if re.search(r"\son[a-z]+\s*=", text, re.I):
         return "event handler attribute"
-    if re.search(r"(?:xlink:)?href\s*=\s*[\"']\s*(?!#)[^\"']", text, re.I):
+    for m in re.finditer(r"(?:xlink:)?href\s*=\s*([\"'])(.*?)\1", text, re.I | re.S):
+        value = m.group(2).strip()
+        if value.startswith("#") or not value:
+            continue
+        if re.fullmatch(r"data:image/(?:png|jpeg|webp|gif);base64,[A-Za-z0-9+/=\s]*", value, re.I):
+            continue
+        return "non-local href"
+    if re.search(r"(?:xlink:)?href\s*=\s*[^\"'\s>]", text, re.I):
         return "non-local href"
     return None
 

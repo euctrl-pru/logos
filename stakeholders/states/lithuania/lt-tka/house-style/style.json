@@ -1,0 +1,17 @@
+{
+  "id": "lt-tka",
+  "status": "none",
+  "current_sources": [],
+  "previous_sources": [],
+  "last_checked": "2026-11-09",
+  "colors": [],
+  "typography": [],
+  "logo_usage": {
+    "clear_space": null,
+    "min_size": null,
+    "background_rules": null,
+    "misuse": null
+  },
+  "retrieved": "2026-11-09",
+  "notes": "Checked tka.lt for a brand page and site CSS; this tool's requests received HTTP 403, so neither guidelines nor stylesheet could be read."
+}

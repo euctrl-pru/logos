@@ -13,5 +13,5 @@
     "misuse": null
   },
   "retrieved": "2026-11-09",
-  "notes": "Checked: lba.de returned HTTP 403 to automated requests for the German home page and the logo file, so no stylesheet could be read. No guidelines located."
+  "notes": "Checked: this tool's requests to lba.de received HTTP 403 for the German home page and the logo file, so no stylesheet could be read. No guidelines located."
 }

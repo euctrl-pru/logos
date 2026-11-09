@@ -16,4 +16,4 @@ None recorded.
 
 ## Notes
 
-Checked avia.gov.ua for a brand page and site CSS; the site returned HTTP 403 to automated requests, so neither guidelines nor stylesheet could be read.
+Checked avia.gov.ua for a brand page and site CSS; this tool's requests received HTTP 403, so neither guidelines nor stylesheet could be read.

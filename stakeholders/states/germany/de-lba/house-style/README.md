@@ -16,4 +16,4 @@ None recorded.
 
 ## Notes
 
-Checked: lba.de returned HTTP 403 to automated requests for the German home page and the logo file, so no stylesheet could be read. No guidelines located.
+Checked: this tool's requests to lba.de received HTTP 403 for the German home page and the logo file, so no stylesheet could be read. No guidelines located.

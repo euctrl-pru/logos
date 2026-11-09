@@ -8,8 +8,7 @@
   "also_countries": [],
   "membership": "member",
   "types": [
-    "caa",
-    "ansp"
+    "caa"
   ],
   "official_domains": [
     "hcaa.gov.gr"
@@ -20,7 +19,7 @@
     "ΑΠΑ",
     "ΥΠΑ"
   ],
-  "notes": "Name and role confirmed on hcaa.gov.gr/en (title 'HELLENIC CIVIL AVIATION AUTHORITY - HCAA'; the site covers regulation, air-navigation and airport content under one body). Web search found Greek press (news.gtp.gr, Oct 2025) describing the 2025 reform that makes the CAA a public-law entity that continues as ANSP and airport manager; older documents (EUROCONTROL LSSIP 2022) list a separate HASP. No separate ANSP site or entity was identified on the official page, so both types are kept on this single folder (README-derived role not changed). The logo is an SVG served by hcaa.gov.gr in its site header and footer (tier 2, website-served). No logo terms located, so redistribution rights are not confirmed.",
+  "notes": "Name and role confirmed on hcaa.gov.gr/en (title 'HELLENIC CIVIL AVIATION AUTHORITY - HCAA'; the site covers regulation, air-navigation and airport content under one body). Web search found Greek press (news.gtp.gr, Oct 2025) describing the 2025 reform that makes the CAA a public-law entity that continues as ANSP and airport manager; hcaa.gov.gr itself lists the Hellenic Aviation Service Provider (HASP) as a separate related body (menu 'Related Bodies > HASP', linking to ypa.gr) and publishes a press release on the EASA certification of HASP, and EUROCONTROL's LSSIP lists HASP as the ANSP. The ANSP role was therefore split out: this folder is now caa only and a pending gr-hasp scaffold was added for the ANSP batch (the October 2025 press description of the CAA reform continuing as ANSP was not reconciled with the official pages). The logo is an SVG served by hcaa.gov.gr in its site header and footer (tier 2, website-served). No logo terms located, so redistribution rights are not confirmed.",
   "status": "partial",
   "gaps": [
     {

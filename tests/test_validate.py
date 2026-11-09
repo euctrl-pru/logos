@@ -200,12 +200,24 @@ class SniffAndSvg(Base):
 
     def test_svg_with_script_rejected(self):
         bads = (b"<script>alert(1)</script>", b'<rect onclick="x()"/>',
-                b'<image href="https://evil.example/a.png"/>')
+                b'<image href="https://evil.example/a.png"/>',
+                b'<image href="data:image/svg+xml;base64,PHN2Zy8+"/>',
+                b'<image xlink:href="data:text/html;base64,PGI+"/>',
+                b'<image href="data:image/png,notbase64"/>')
         for i, bad in enumerate(bads):
             data = b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">' + bad + b"</svg>"
             with self.subTest(bad=bad):
                 d = self.entity_with_svg(data, id=f"xx-bad{i}")
                 self.assertError(self.errors(d), "unsafe svg")
+
+    def test_svg_embedded_raster_data_uri_allowed(self):
+        for i, mime in enumerate(("png", "jpeg", "webp", "gif")):
+            data = (b'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
+                    b'viewBox="0 0 1 1"><image xlink:href="data:image/' + mime.encode()
+                    + b';base64,AAAA"/><use href="#a"/></svg>')
+            with self.subTest(mime=mime):
+                d = self.entity_with_svg(data, id=f"xx-ok{i}")
+                self.assertFalse([e for e in self.errors(d) if "unsafe svg" in e])
 
     def _svg(self, body):
         p = self.root / "t.svg"

@@ -20,18 +20,18 @@
     "Державіаслужба",
     "Derzhaviasluzhba"
   ],
-  "notes": "Name and role confirmed only from search results and the government directory page my.gov.ua/info/department/1581 (Ukraine's civil aviation regulator, under the Ministry of Infrastructure; official site avia.gov.ua). The site itself could not be read: avia.gov.ua returns HTTP 403 (Forbidden) to automated requests, which was not worked around. The publisher states no restriction.",
+  "notes": "Name and role confirmed only from search results and the government directory page my.gov.ua/info/department/1581 (Ukraine's civil aviation regulator, under the Ministry of Infrastructure; official site avia.gov.ua). The site itself could not be read: this tool's requests (curl and fetch_asset) received HTTP 403 (Forbidden) from avia.gov.ua; whether other clients are blocked is not known. The publisher states no restriction. Left for manual addition from a browser by a person; the block was not worked around.",
   "status": "not-found",
   "gaps": [
     {
       "need": "official logo (light, dark, transparent) and brand page",
-      "reason": "avia.gov.ua returns a bare HTTP 403 to automated requests, so no page or logo file could be retrieved; not a publisher-stated restriction"
+      "reason": "this tool's requests to avia.gov.ua received a bare HTTP 403, so no page or logo file was retrieved; not a publisher-stated restriction. Left for manual addition from a browser"
     }
   ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": "General address vdz@avia.gov.ua appears in search-result snippets; none is published for logo use."
+    "notes": "No logo-use contact seen; the site could not be read by this tool."
   }
 }
