@@ -1,11 +1,41 @@
 {
   "id": "be-bcaa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://mobilit.belgium.be/themes/custom/mobility/css/base/elements.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-09",
-  "colors": [],
-  "typography": [],
+  "colors": [
+    {
+      "name": "Link blue",
+      "hex": "#056F95",
+      "rgb": "5, 111, 149",
+      "cmyk": null,
+      "role": "Link colour on the FPS Mobility site",
+      "evidence": "observed",
+      "source_url": "https://mobilit.belgium.be/themes/custom/mobility/css/base/elements.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Open Sans",
+      "role": "Body and headings",
+      "fallbacks": [
+        "Arial",
+        "Verdana",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://mobilit.belgium.be/themes/custom/mobility/css/base/elements.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
@@ -13,5 +43,5 @@
     "misuse": null
   },
   "retrieved": "2026-11-09",
-  "notes": "No guideline located; site CSS not examined."
+  "notes": "Observed from the FPS Mobility and Transport theme CSS (the parent department of BCAA); no guidelines located."
 }

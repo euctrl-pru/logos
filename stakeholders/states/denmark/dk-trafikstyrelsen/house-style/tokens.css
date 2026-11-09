@@ -1,2 +1,7 @@
 :root {
+  --dk-trafikstyrelsen-color-brand-a-green: #566036;
+  --dk-trafikstyrelsen-color-brand-b-orange: #C53500;
+  --dk-trafikstyrelsen-color-brand-c-dark-green: #2C3804;
+  --dk-trafikstyrelsen-font-base-text-font-base-family: ItalianPlateNo2Expanded Regular;
+  --dk-trafikstyrelsen-font-headings-font-heading-family: ItalianPlateNo2Expanded Bold;
 }

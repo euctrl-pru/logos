@@ -1,11 +1,53 @@
 {
   "id": "ge-gcaa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://gcaa.ge/",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-09",
-  "colors": [],
-  "typography": [],
+  "colors": [
+    {
+      "name": "Primary blue",
+      "hex": "#1484DC",
+      "rgb": "20, 132, 220",
+      "cmyk": null,
+      "role": "Avada theme --primary_color (inline site CSS)",
+      "evidence": "observed",
+      "source_url": "https://gcaa.ge/"
+    },
+    {
+      "name": "Footer blue",
+      "hex": "#013F7A",
+      "rgb": "1, 63, 122",
+      "cmyk": null,
+      "role": "Footer background (--footer_bg_color)",
+      "evidence": "observed",
+      "source_url": "https://gcaa.ge/"
+    }
+  ],
+  "typography": [
+    {
+      "family": "nusxuri",
+      "role": "Body text (Georgian font, --body_typography-font-family)",
+      "fallbacks": [],
+      "evidence": "observed",
+      "source_url": "https://gcaa.ge/"
+    },
+    {
+      "family": "mtavruli",
+      "role": "Headings (Georgian font, --h1_typography-font-family)",
+      "fallbacks": [],
+      "evidence": "observed",
+      "source_url": "https://gcaa.ge/"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
@@ -13,5 +55,5 @@
     "misuse": null
   },
   "retrieved": "2026-11-09",
-  "notes": "No guideline located; site CSS not examined."
+  "notes": "Observed from the CSS custom properties inlined in the home page (Avada theme); no guidelines located."
 }

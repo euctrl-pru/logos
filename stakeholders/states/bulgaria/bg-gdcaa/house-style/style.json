@@ -1,11 +1,29 @@
 {
   "id": "bg-gdcaa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.caa.bg/sites/default/files/css/css_7fUWrIEZy6LVqkZYxkMbIUQmXag9RAJ_4OS9NBEYiB8.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-09",
   "colors": [],
-  "typography": [],
+  "typography": [
+    {
+      "family": "Open Sans",
+      "role": "Headings and links (site theme CSS)",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.caa.bg/sites/default/files/css/css_7fUWrIEZy6LVqkZYxkMbIUQmXag9RAJ_4OS9NBEYiB8.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
@@ -13,5 +31,5 @@
     "misuse": null
   },
   "retrieved": "2026-11-09",
-  "notes": "No guideline located; site CSS not examined."
+  "notes": "Observed from the site's Drupal theme CSS. The other stylesheets carry generic Bootstrap 2 colours that are not clearly branding, so no colours are recorded. No guidelines located."
 }

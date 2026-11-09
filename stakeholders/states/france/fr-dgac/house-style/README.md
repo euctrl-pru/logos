@@ -16,4 +16,4 @@ None recorded.
 
 ## Notes
 
-No public guideline located; the DGAC charte graphique 2022 appears to be internal.
+Checked: the DGAC pages on ecologie.gouv.fr use the ministry's DSFR theme (the State's identity, not a DGAC brand), and the former DGAC sites are offline. No public DGAC guideline; the charte graphique DGAC 2022 is internal.

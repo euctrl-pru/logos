@@ -1,11 +1,59 @@
 {
   "id": "al-aac",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.aac.gov.al/wp-content/cache/et/212174/et-core-unified-17942321318235.min.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-09",
-  "colors": [],
-  "typography": [],
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#007ABF",
+      "rgb": "0, 122, 191",
+      "cmyk": null,
+      "role": "Most frequent accent colour in the site's customised Divi stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.aac.gov.al/wp-content/cache/et/212174/et-core-unified-17942321318235.min.css"
+    },
+    {
+      "name": "Red",
+      "hex": "#F52326",
+      "rgb": "245, 35, 38",
+      "cmyk": null,
+      "role": "Secondary accent colour in the same stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.aac.gov.al/wp-content/cache/et/212174/et-core-unified-17942321318235.min.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Lato",
+      "role": "Site text (Divi custom CSS)",
+      "fallbacks": [
+        "Helvetica",
+        "Arial",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.aac.gov.al/wp-content/cache/et/212174/et-core-unified-17942321318235.min.css"
+    },
+    {
+      "family": "Open Sans",
+      "role": "Secondary site font",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.aac.gov.al/wp-content/cache/et/212174/et-core-unified-17942321318235.min.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
@@ -13,5 +61,5 @@
     "misuse": null
   },
   "retrieved": "2026-11-09",
-  "notes": "No guideline located; site CSS not examined."
+  "notes": "Observed from the site's compiled Divi custom stylesheet; no published guidelines located. Colours are the most frequent non-neutral values in that file, not documented brand colours."
 }

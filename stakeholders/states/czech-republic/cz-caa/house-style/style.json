@@ -1,10 +1,37 @@
 {
   "id": "cz-caa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.caa.gov.cz/wp-content/uploads/wp-less-cache/mainStyle.css?ver=1743751064",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-09",
-  "colors": [],
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#125290",
+      "rgb": "18, 82, 144",
+      "cmyk": null,
+      "role": "Site header background",
+      "evidence": "observed",
+      "source_url": "https://www.caa.gov.cz/wp-content/uploads/wp-less-cache/mainStyle.css?ver=1743751064"
+    },
+    {
+      "name": "Red",
+      "hex": "#D42E12",
+      "rgb": "212, 46, 18",
+      "cmyk": null,
+      "role": "Heading and link colour",
+      "evidence": "observed",
+      "source_url": "https://www.caa.gov.cz/wp-content/uploads/wp-less-cache/mainStyle.css?ver=1743751064"
+    }
+  ],
   "typography": [],
   "logo_usage": {
     "clear_space": null,
@@ -13,5 +40,5 @@
     "misuse": null
   },
   "retrieved": "2026-11-09",
-  "notes": "No guideline located; site CSS not examined for colours or fonts."
+  "notes": "Observed from the site's compiled mainStyle.css; no font family is declared in the rules examined and no guidelines located."
 }

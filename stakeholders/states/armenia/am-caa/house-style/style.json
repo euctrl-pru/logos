@@ -1,11 +1,48 @@
 {
   "id": "am-caa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://aviation.am/assets/index-ce5a98b0.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-09",
-  "colors": [],
-  "typography": [],
+  "colors": [
+    {
+      "name": "Navy",
+      "hex": "#1D2D5B",
+      "rgb": "29, 45, 91",
+      "cmyk": null,
+      "role": "Site header background",
+      "evidence": "observed",
+      "source_url": "https://aviation.am/assets/index-ce5a98b0.css"
+    },
+    {
+      "name": "Blue",
+      "hex": "#004D99",
+      "rgb": "0, 77, 153",
+      "cmyk": null,
+      "role": "Active menu and link colour",
+      "evidence": "observed",
+      "source_url": "https://aviation.am/assets/index-ce5a98b0.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Noto Sans Armenian",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://aviation.am/assets/index-ce5a98b0.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
@@ -13,5 +50,5 @@
     "misuse": null
   },
   "retrieved": "2026-11-09",
-  "notes": "No guideline located; site CSS not examined."
+  "notes": "Observed from the site's CSS bundle; no published guidelines located. The magenta #bd13b8 in that file is only a keyboard-focus outline and is not recorded."
 }

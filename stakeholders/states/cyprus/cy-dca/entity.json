@@ -20,15 +20,28 @@
     "DCA Cyprus",
     "Τμήμα Πολιτικής Αεροπορίας"
   ],
-  "notes": "Role split verified: the DCA (mcw.gov.cy/mcw/dca) is responsible for the provision and regulation of air traffic services in the Nicosia FIR and the Larnaca and Paphos towers, so it fills both CAA and ANSP roles on this single entity (source once). Its legacy Domino site shows a 'Civil Aviation Department Emblem' only as a 100x57 GIF (topRight.gif) in the page header, and GIF is not a supported format for this collection, so nothing was stored. No brand page or terms located.",
-  "status": "not-found",
+  "notes": "Role split verified: the DCA (mcw.gov.cy/mcw/dca) is responsible for the provision and regulation of air traffic services in the Nicosia FIR and the Larnaca and Paphos towers, so it fills both CAA and ANSP roles on this single entity (source once). The only logo located is the 'Civil Aviation Department Emblem' (alt text) in the header of its legacy Domino pages: a 100x57 GIF slice (topRight.gif, globe artwork on a blue gradient) served by mcw.gov.cy (tier 2, website-served; GIF support added to the validator for this). It is a low-resolution page-header image, not a published logo file. No brand page or terms located, so redistribution rights are not confirmed. The GIF has its transparency flag set but every pixel is opaque (checked with ImageMagick), so the record says transparent=false; validate.py, which tests only the flag, reports a mismatch.",
+  "status": "partial",
   "gaps": [
     {
-      "need": "logo file in a supported format (SVG, PNG, WebP), dark variant and guidelines",
-      "reason": "mcw.gov.cy/mcw/dca serves its emblem only as a 100x57 GIF header slice (topRight.gif), which the collection cannot store; no brand page, press kit or guidelines located"
+      "need": "high-resolution or vector logo, dark variant and guidelines",
+      "reason": "mcw.gov.cy/mcw/dca serves its emblem only as a 100x57 GIF header slice; no brand page, press kit or guidelines located"
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "file": "cy-dca-emblem-light-color.gif",
+      "lockup": "emblem",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.mcw.gov.cy/mcw/dca/dca.nsf/topRight.gif",
+      "page_url": "https://www.mcw.gov.cy/mcw/dca/dca.nsf/DMLindex_en/DMLindex_en?OpenDocument",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "9191e8855cb78f23d5c55891009d1944863e7d3baa7480f81b3d9a849a057fef"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,

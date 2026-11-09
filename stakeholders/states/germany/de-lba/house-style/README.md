@@ -16,4 +16,4 @@ None recorded.
 
 ## Notes
 
-No guideline located; lba.de blocked automated requests with HTTP 403.
+Checked: lba.de returned HTTP 403 to automated requests for the German home page and the logo file, so no stylesheet could be read. No guidelines located.

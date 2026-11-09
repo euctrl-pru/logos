@@ -16,4 +16,4 @@ None recorded.
 
 ## Notes
 
-No guideline located; site CSS not examined.
+Checked the site's Joomla 'flex' template CSS (templates/flex/css/template.css and presets/preset4.css) and page head: generic template styling with no clear brand palette, and body font not identified (page loads Open Sans and Raleway from Google Fonts). No guidelines located.

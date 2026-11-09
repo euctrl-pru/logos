@@ -1,11 +1,51 @@
 {
   "id": "ee-transpordiamet",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.transpordiamet.ee/sites/default/files/css/css_1yccEqcdoFWNNLPq9zaPR4VaDYgRm61fhB3eO1fV5oc.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-09",
-  "colors": [],
-  "typography": [],
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#003087",
+      "rgb": "0, 48, 135",
+      "cmyk": null,
+      "role": "Theme --blue; link colour; matches the logo SVG fill",
+      "evidence": "observed",
+      "source_url": "https://www.transpordiamet.ee/sites/default/files/css/css_1yccEqcdoFWNNLPq9zaPR4VaDYgRm61fhB3eO1fV5oc.css"
+    },
+    {
+      "name": "Indigo",
+      "hex": "#006EB5",
+      "rgb": "0, 110, 181",
+      "cmyk": null,
+      "role": "Primary button colour (.btn-primary)",
+      "evidence": "observed",
+      "source_url": "https://www.transpordiamet.ee/sites/default/files/css/css_1yccEqcdoFWNNLPq9zaPR4VaDYgRm61fhB3eO1fV5oc.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Roboto",
+      "role": "Headings",
+      "fallbacks": [
+        "Segoe UI",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.transpordiamet.ee/sites/default/files/css/css_1yccEqcdoFWNNLPq9zaPR4VaDYgRm61fhB3eO1fV5oc.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
@@ -13,5 +53,5 @@
     "misuse": null
   },
   "retrieved": "2026-11-09",
-  "notes": "No guideline located; site CSS not examined."
+  "notes": "Observed from the site's theme CSS; no guidelines located."
 }

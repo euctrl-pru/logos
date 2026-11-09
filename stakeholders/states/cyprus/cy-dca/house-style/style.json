@@ -1,11 +1,29 @@
 {
   "id": "cy-dca",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.mcw.gov.cy/mcw/dca/dca.nsf/dca.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-09",
   "colors": [],
-  "typography": [],
+  "typography": [
+    {
+      "family": "Verdana",
+      "role": "Site text and form fields",
+      "fallbacks": [
+        "Arial"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.mcw.gov.cy/mcw/dca/dca.nsf/dca.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
@@ -13,5 +31,5 @@
     "misuse": null
   },
   "retrieved": "2026-11-09",
-  "notes": "No guideline located; site is a legacy Domino site with no CSS brand information examined."
+  "notes": "Observed from the legacy Domino site's dca.css and page markup (font face Verdana); no brand colours identifiable. No guidelines located."
 }

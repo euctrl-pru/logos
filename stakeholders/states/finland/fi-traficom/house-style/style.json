@@ -1,11 +1,52 @@
 {
   "id": "fi-traficom",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.traficom.fi/assets/root-DkiD0-s4.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-09",
-  "colors": [],
-  "typography": [],
+  "colors": [
+    {
+      "name": "Brand blue",
+      "hex": "#002C74",
+      "rgb": "0, 44, 116",
+      "cmyk": null,
+      "role": "--color-brand-base; matches the logo SVG fill",
+      "evidence": "observed",
+      "source_url": "https://www.traficom.fi/assets/root-DkiD0-s4.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Open Sans",
+      "role": "Body (--font-body)",
+      "fallbacks": [
+        "Helvetica",
+        "Arial",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.traficom.fi/assets/root-DkiD0-s4.css"
+    },
+    {
+      "family": "Montserrat",
+      "role": "Headings (--font-heading)",
+      "fallbacks": [
+        "Avenir",
+        "Arial",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.traficom.fi/assets/root-DkiD0-s4.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
@@ -13,5 +54,5 @@
     "misuse": null
   },
   "retrieved": "2026-11-09",
-  "notes": "No guideline located; site CSS not examined."
+  "notes": "Observed from the site's CSS custom properties. The kuvapankki.traficom.fi image bank may hold guidelines but could not be browsed."
 }

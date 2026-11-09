@@ -1,11 +1,39 @@
 {
   "id": "at-austro-control",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.austrocontrol.at/jart/prj3/ac/main.css?v=20251008",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-09",
-  "colors": [],
-  "typography": [],
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#0E4194",
+      "rgb": "14, 65, 148",
+      "cmyk": null,
+      "role": "Most frequent non-neutral colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.austrocontrol.at/jart/prj3/ac/main.css?v=20251008"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Open Sans",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.austrocontrol.at/jart/prj3/ac/main.css?v=20251008"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
@@ -13,5 +41,5 @@
     "misuse": null
   },
   "retrieved": "2026-11-09",
-  "notes": "No guideline located; site CSS not examined."
+  "notes": "Observed from the site's main.css; no published guidelines located (Mediathek offers press photos only)."
 }

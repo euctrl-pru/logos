@@ -1,11 +1,62 @@
 {
   "id": "dk-trafikstyrelsen",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://cdn.trafikstyrelsen.dk/Assets/Clients/trafikstyrelsen/Themes/TST-2026/Release/theme.min.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-09",
-  "colors": [],
-  "typography": [],
+  "colors": [
+    {
+      "name": "Brand A (green)",
+      "hex": "#566036",
+      "rgb": "86, 96, 54",
+      "cmyk": null,
+      "role": "Primary brand colour (--color-brand-a); matches the logo SVG fill",
+      "evidence": "observed",
+      "source_url": "https://cdn.trafikstyrelsen.dk/Assets/Clients/trafikstyrelsen/Themes/TST-2026/Release/theme.min.css"
+    },
+    {
+      "name": "Brand B (orange)",
+      "hex": "#C53500",
+      "rgb": "197, 53, 0",
+      "cmyk": null,
+      "role": "Brand accent (--color-brand-b)",
+      "evidence": "observed",
+      "source_url": "https://cdn.trafikstyrelsen.dk/Assets/Clients/trafikstyrelsen/Themes/TST-2026/Release/theme.min.css"
+    },
+    {
+      "name": "Brand C (dark green)",
+      "hex": "#2C3804",
+      "rgb": "44, 56, 4",
+      "cmyk": null,
+      "role": "Brand colour (--color-brand-c)",
+      "evidence": "observed",
+      "source_url": "https://cdn.trafikstyrelsen.dk/Assets/Clients/trafikstyrelsen/Themes/TST-2026/Release/theme.min.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "ItalianPlateNo2Expanded Regular",
+      "role": "Base text (--font-base-family)",
+      "fallbacks": [],
+      "evidence": "observed",
+      "source_url": "https://cdn.trafikstyrelsen.dk/Assets/Clients/trafikstyrelsen/Themes/TST-2026/Release/theme.min.css"
+    },
+    {
+      "family": "ItalianPlateNo2Expanded Bold",
+      "role": "Headings (--font-heading-family)",
+      "fallbacks": [],
+      "evidence": "observed",
+      "source_url": "https://cdn.trafikstyrelsen.dk/Assets/Clients/trafikstyrelsen/Themes/TST-2026/Release/theme.min.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
@@ -13,5 +64,5 @@
     "misuse": null
   },
   "retrieved": "2026-11-09",
-  "notes": "No guideline located; site CSS not examined."
+  "notes": "Observed from the theme CSS custom properties of the Trafikstyrelsen theme (the active :root block; the same file also contains a default theme with other values). No guidelines located."
 }

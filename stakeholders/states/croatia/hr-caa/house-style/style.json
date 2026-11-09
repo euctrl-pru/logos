@@ -1,11 +1,29 @@
 {
   "id": "hr-caa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.ccaa.hr/pages/assets/styles/style.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-09",
   "colors": [],
-  "typography": [],
+  "typography": [
+    {
+      "family": "Open Sans",
+      "role": "Body text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.ccaa.hr/pages/assets/styles/style.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
@@ -13,5 +31,5 @@
     "misuse": null
   },
   "retrieved": "2026-11-09",
-  "notes": "No guideline located; site CSS not examined."
+  "notes": "Observed from the site's style.css; colours in it are mixed UI values with no clear brand palette, so none are recorded. No guidelines located."
 }
