@@ -19,12 +19,12 @@
     "EUROCONTROL Performance Review Commission",
     "Performance Review Unit (supporting unit)"
   ],
-  "notes": "The PRC is an independent body of seven experts reporting to the EUROCONTROL Permanent Commission, supported by the Performance Review Unit (PRU); its pages on eurocontrol.int (air-navigation-services-performance-review) use the EUROCONTROL identity. Not to be confused with the SES Performance Review Body. The PRU's Aviation Intelligence Portal (ansperformance.eu) is a separate domain and was not checked for a logo.",
+  "notes": "The PRC is an independent body of seven experts reporting to the EUROCONTROL Permanent Commission, supported by the Performance Review Unit (PRU); its pages on eurocontrol.int (air-navigation-services-performance-review) use the EUROCONTROL identity. Not to be confused with the SES Performance Review Body. The PRU's Aviation Intelligence Portal (ansperformance.eu, developed by the EUROCONTROL Aviation Intelligence Unit) was checked on 2026-11-09 (home, /about/prc/, /about/us/, /about/aiu/, /about/disclaimer/): its header carries only the EUROCONTROL standard logo (/images/header/EUROCONTROL-logo-standard-rgb.svg) and the remaining images are photos, banners, app-store badges and QR codes, with no PRC or PRU logo and no brand or downloads page. ansperformance.eu is therefore not added to official_domains, because no asset is taken from it.",
   "status": "not-found",
   "gaps": [
     {
       "need": "PRC-specific logo",
-      "reason": "Checked the PRC page (eurocontrol.int/air-navigation-services-performance-review), the brand page and the 2024 Visual Identity Guide on 2026-11-08: EUROCONTROL publishes no separate PRC logo. The ansperformance.eu portal was not examined."
+      "reason": "Checked on 2026-11-08 and 2026-11-09: the PRC page on eurocontrol.int, the brand page, the 2024 Visual Identity Guide and the PRU's own portal ansperformance.eu (home and about pages) publish no separate PRC or PRU logo; the portal header uses the EUROCONTROL standard logo."
     }
   ],
   "assets": [],

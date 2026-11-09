@@ -3,7 +3,7 @@
   "status": "none",
   "current_sources": [],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
+  "last_checked": "2026-11-09",
   "colors": [],
   "typography": [],
   "logo_usage": {
@@ -13,5 +13,5 @@
     "misuse": null
   },
   "retrieved": "2026-11-08",
-  "notes": "No PRC-specific house style found; follows the EUROCONTROL Visual Identity 2024 Guide (see ectl style record)."
+  "notes": "No PRC-specific house style found. Checked the PRC page on eurocontrol.int, the brand page, the 2024 Visual Identity Guide and the PRU's ansperformance.eu portal (2026-11-09): all use the EUROCONTROL identity (see ectl style record) and the portal publishes no PRC or PRU guidelines. Portal CSS was not examined."
 }

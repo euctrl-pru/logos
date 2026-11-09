@@ -17,7 +17,7 @@
   "aliases": [
     "European Aviation Safety Agency"
   ],
-  "notes": "EASA publishes no brand page, press kit or logo download page (the brand and press-kit URLs tried return 404); the files are the logos served by easa.europa.eu itself, stored unmodified: the full-colour logo from the site's splash images (navy square and wordmark with yellow bird and stars) and the header logo (white wordmark with yellow bird, for the dark header). The copyright page grants general reproduction with source acknowledgement save where prior permission is stated, but says nothing specific about the EASA logo, so treat redistribution rights as unconfirmed.",
+  "notes": "These are website-served files (tier 2), not a brand-kit download: EASA publishes no brand page, press kit, logo download page or vector (EPS/PDF) logo set that could be found (guessed brand and press-kit URLs return 404; web search of easa.europa.eu found none), so the two SVGs are the logos easa.europa.eu itself serves, stored unmodified: the full-colour logo from the site's splash images (navy square and wordmark with yellow bird and stars) and the header logo (white wordmark with yellow bird, for the dark header). Status is complete because a light, a dark and transparent assets exist, but there is no official variant set (no black, no CMYK, no guidelines). The copyright page grants general reproduction with source acknowledgement save where prior permission is stated, but says nothing specific about the EASA logo, so treat redistribution rights as unconfirmed.",
   "status": "complete",
   "gaps": [],
   "assets": [
