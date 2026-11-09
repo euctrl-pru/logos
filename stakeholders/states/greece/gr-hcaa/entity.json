@@ -11,16 +11,40 @@
     "caa",
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "hcaa.gov.gr"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": "README lists this body as both CAA and ANSP; verify the role split during sourcing.",
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Αρχή Πολιτικής Αεροπορίας",
+    "ΑΠΑ",
+    "ΥΠΑ"
+  ],
+  "notes": "Name and role confirmed on hcaa.gov.gr/en (title 'HELLENIC CIVIL AVIATION AUTHORITY - HCAA'; the site covers regulation, air-navigation and airport content under one body). Web search found Greek press (news.gtp.gr, Oct 2025) describing the 2025 reform that makes the CAA a public-law entity that continues as ANSP and airport manager; older documents (EUROCONTROL LSSIP 2022) list a separate HASP. No separate ANSP site or entity was identified on the official page, so both types are kept on this single folder (README-derived role not changed). The logo is an SVG served by hcaa.gov.gr in its site header and footer (tier 2, website-served). No logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant, brand guidelines",
+      "reason": "hcaa.gov.gr serves only one full-colour SVG (header and footer); no brand page or press kit located on the site"
+    }
+  ],
+  "assets": [
+    {
+      "file": "gr-hcaa-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://hcaa.gov.gr/themes/custom/avtheme/logo.svg",
+      "page_url": "https://hcaa.gov.gr/en",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "6a25ca85a5b972a0173af9b24966635ebef13243f4c6e9b97ce8fa81f041d29c"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "Contact page https://hcaa.gov.gr/en/epikoinonia/online-forms/contact-us exists; no logo-use contact published (footer email is obfuscated and general)."
   }
 }

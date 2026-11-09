@@ -8,19 +8,27 @@
   "also_countries": [],
   "membership": "member",
   "types": [
-    "caa",
-    "ansp"
+    "caa"
   ],
-  "official_domains": [],
-  "terms_url": null,
-  "aliases": [],
-  "notes": "README lists this body as both CAA and ANSP; verify the role split during sourcing.",
-  "status": "pending",
-  "gaps": [],
+  "official_domains": [
+    "iaa.ie"
+  ],
+  "terms_url": "https://www.iaa.ie/about-us/about-the-irish-aviation-authority/iaa-logo-policy",
+  "aliases": [
+    "IAA"
+  ],
+  "notes": "List correction: types changed from caa+ansp to caa only. Per web search of airnav.ie and iaa.ie, AirNav Ireland (airnav.ie) took over air navigation service provision from 1 May 2023 and is a separate ANSP; the IAA now holds the safety and security regulation functions merged with the Commission for Aviation Regulation. No ANSP entity for AirNav Ireland exists in the scaffold and none was created here (outside this CAA batch); it should be added in the ANSP batch. The role is confirmed on iaa.ie ('safety regulatory functions includes certifying and registering aircraft airworthiness, licensing...'). Logo terms: the IAA Logo Policy (April 2023) says the IAA generally does not grant permission for third parties to use its corporate logo, permits current licence/certificate/approval holders to use it for the licensed activity only, and forbids reproducing it in any format other than the original; permission requests go to media@iaa.ie. iaa.ie does serve the SVG in its header (/Content/images/logo-IAA.svg) but, because of the stated limit and because this repository is public on GitHub, it was not stored.",
+  "status": "restricted",
+  "gaps": [
+    {
+      "need": "logo files (all variants)",
+      "reason": "IAA Logo Policy (April 2023, iaa.ie/docs/default-source/misc/iaa-logo-policy.pdf) states the IAA generally does not grant third parties permission to use its corporate logo; requests in writing to media@iaa.ie"
+    }
+  ],
   "assets": [],
   "contact": {
-    "logo_permission_url": null,
-    "email": null,
-    "notes": null
+    "logo_permission_url": "https://www.iaa.ie/about-us/about-the-irish-aviation-authority/iaa-logo-policy",
+    "email": "media@iaa.ie",
+    "notes": "Published in the IAA Logo Policy: applications state applicant details, purpose, period and location of use."
   }
 }

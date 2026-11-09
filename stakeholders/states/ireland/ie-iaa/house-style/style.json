@@ -1,17 +1,43 @@
 {
   "id": "ie-iaa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.iaa.ie/Content/css/latestnews.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Navy",
+      "hex": "#000066",
+      "rgb": "0, 0, 102",
+      "cmyk": null,
+      "role": "Strap/headline text in latestnews.css; also the main fill in the site's header logo SVG",
+      "evidence": "observed",
+      "source_url": "https://www.iaa.ie/Content/css/latestnews.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Aeonik",
+      "role": "Section font for the latest-news block (font-family: Aeonik)",
+      "fallbacks": [],
+      "evidence": "observed",
+      "source_url": "https://www.iaa.ie/Content/css/latestnews.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No brand guidelines published; the IAA Logo Policy (April 2023) covers logo permission only and gives no colours or fonts. Site main CSS is the Bootstrap 5 default theme (#0d6efd etc.), which was ignored. Colour and font come from the site's own Content/css/latestnews.css (and tile.css uses Aeonik too); the navy matches a fill in the logo SVG seen on the site. The logo SVG itself was not stored (restricted)."
 }

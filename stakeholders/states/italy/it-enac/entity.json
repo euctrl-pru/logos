@@ -10,16 +10,50 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "enac.gov.it"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Italian Civil Aviation Authority"
+  ],
+  "notes": "Role confirmed on enac.gov.it (site title 'Ente Nazionale per l'Aviazione Civile'; the Italian civil aviation authority, with a Drones section and aircraft registry). Logos are PNG files served by enac.gov.it in the site header (colour: cropped-enac-logo.png) and footer (white: enac-logo-bianco.png), tier 2, website-served; both 594x842 RGBA. No brand page or logo-use terms located (a Board resolution 25/2021 on the institutional logo restyling exists as a PDF on enac.gov.it; it was not used as a source), so redistribution rights are not confirmed. ENAC's drone-entities page warns recognised entities not to use the ENAC logo in ways implying endorsement.",
+  "status": "complete",
+  "gaps": [
+    {
+      "need": "vector (SVG) logo and brand guidelines",
+      "reason": "enac.gov.it serves only PNG files; no brand page or downloads page found"
+    }
+  ],
+  "assets": [
+    {
+      "file": "it-enac-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.enac.gov.it/app/uploads/2024/01/cropped-enac-logo.png",
+      "page_url": "https://www.enac.gov.it/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "e04e7d59189cee6ac43f13c2f51badb7f258569a6cd6f56ede69900b3a45f878"
+    },
+    {
+      "file": "it-enac-logo-dark-white.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.enac.gov.it/app/uploads/2024/04/enac-logo-bianco.png",
+      "page_url": "https://www.enac.gov.it/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "469959742898d2a10ca6001f75993806d7ab51e94cf5a19f0936e46bc6f8f19b"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

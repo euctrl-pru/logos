@@ -1,0 +1,50 @@
+{
+  "id": "hu-kozlekedesi-hatosag",
+  "name": "Közlekedési Hatóság (Transport Authority)",
+  "acronym": null,
+  "group": "state",
+  "country": "Hungary",
+  "iso2": "HU",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [
+    "kozlekedesihatosag.kormany.hu"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "Hungarian Transport Authority",
+    "Nemzeti Közlekedési Hatóság",
+    "NKH",
+    "Légügyi szakterület"
+  ],
+  "notes": "List correction: the README-derived 'Hungarian National Transport Authority' (NKH, nkh.gov.hu) is stale: nkh.gov.hu now returns 404 and the former Aviation Authority work sits on the Közlekedési Hatóság site kozlekedesihatosag.kormany.hu. Role confirmed on its page /hu/web/legugyi-szakterulet: civil aviation state tasks are designated by Government Decree 382/2016 (XII. 2.) and performed by the aviation departments (főosztály) under the Deputy State Secretariat for Transport Strategy and Authority Affairs of the transport ministry; military aviation is separate (Ministry of Defence). The site's header logo (nkh-theme/images/logo.png, tier 2 website-served, exact host in official_domains) is the ministry's government identity (Hungarian coat of arms plus 'Közlekedési és Beruházási Minisztérium'), not a separate logo of the authority; it is the only logo the site shows. No logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "authority's own logo, dark/white variant, brand guidelines",
+      "reason": "the site shows only the ministry's government-identity PNG; no brand page or press kit found on kozlekedesihatosag.kormany.hu"
+    }
+  ],
+  "assets": [
+    {
+      "file": "hu-kozlekedesi-hatosag-emblem-light-color.png",
+      "lockup": "emblem",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://kozlekedesihatosag.kormany.hu/o/nkh-theme/images/logo.png",
+      "page_url": "https://kozlekedesihatosag.kormany.hu/hu/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "42f458cf5a80c339ae3195caede8fb2e5f4cbc84a2d8b4beb91e635c99edc945"
+    }
+  ],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": "No logo-use contact published on pages checked."
+  }
+}

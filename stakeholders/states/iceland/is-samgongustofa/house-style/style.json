@@ -1,0 +1,25 @@
+{
+  "id": "is-samgongustofa",
+  "status": "none",
+  "current_sources": [
+    {
+      "url": "https://www.icetra.is/_next/static/css/9898e81da8eff325.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
+  "previous_sources": [],
+  "last_checked": "2026-11-09",
+  "colors": [],
+  "typography": [],
+  "logo_usage": {
+    "clear_space": null,
+    "min_size": null,
+    "background_rules": null,
+    "misuse": null
+  },
+  "retrieved": "2026-11-09",
+  "notes": "No brand guidelines located. Checked the site CSS: the page is built on the shared island.is government-portal design system (IBM Plex Sans, #0061FF blue and others), which is the portal's styling rather than a Samgöngustofa brand, so nothing was recorded. The logo's own colours were not read from a vector source."
+}

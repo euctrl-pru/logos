@@ -1,17 +1,57 @@
 {
   "id": "gr-hcaa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://hcaa.gov.gr/sites/default/files/css/css_-mxm_iD2apt5lRWY9VMYxpU6SANwVs3nP2vbha8tuzQ.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#1D63BD",
+      "rgb": "29, 99, 189",
+      "cmyk": null,
+      "role": "Logo accent and link/menu colour (a{color}, active menu background)",
+      "evidence": "observed",
+      "source_url": "https://hcaa.gov.gr/sites/default/files/css/css_-mxm_iD2apt5lRWY9VMYxpU6SANwVs3nP2vbha8tuzQ.css"
+    },
+    {
+      "name": "Orange",
+      "hex": "#FD7F23",
+      "rgb": "253, 127, 35",
+      "cmyk": null,
+      "role": "Logo accent and active main-menu item background",
+      "evidence": "observed",
+      "source_url": "https://hcaa.gov.gr/sites/default/files/css/css_-mxm_iD2apt5lRWY9VMYxpU6SANwVs3nP2vbha8tuzQ.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Helvetica Neue",
+      "role": "Body (body font stack)",
+      "fallbacks": [
+        "Helvetica",
+        "Roboto",
+        "Arial",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://hcaa.gov.gr/sites/default/files/css/css_-mxm_iD2apt5lRWY9VMYxpU6SANwVs3nP2vbha8tuzQ.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "No brand guidelines located on hcaa.gov.gr. Colours are those used by the logo SVG (fills #1D63BD, #FD7F23, grey #757575) and repeated in the site CSS for links and menu; Foundation framework defaults (e.g. #1779ba) were ignored. Fonts are the body stack declared in the site CSS."
 }

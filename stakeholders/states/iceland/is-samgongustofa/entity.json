@@ -1,0 +1,51 @@
+{
+  "id": "is-samgongustofa",
+  "name": "Icelandic Transport Authority (Samgöngustofa)",
+  "acronym": "ICETRA",
+  "group": "state",
+  "country": "Iceland",
+  "iso2": "IS",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [
+    "icetra.is",
+    "samgongustofa.is",
+    "island.is",
+    "images.ctfassets.net"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "Samgöngustofa",
+    "Icelandic Transport Authority"
+  ],
+  "notes": "Renamed from is-icetra to is-samgongustofa. Role confirmed on island.is/en/o/transport-authority (reached via icetra.is and samgongustofa.is): 'responsible for the administration and supervision of aviation, maritime and road traffic safety', with an Aviation section. CDN ruling: the logo is a PNG on the Contentful CDN images.ctfassets.net, referenced directly by an <img> on the authority's page (alt 'The Icelandic Transport Authority Frontpage'); the page is served from icetra.is/samgongustofa.is and lands on the Icelandic government portal island.is, so island.is and the CDN host are listed in official_domains (tier 2, website-served). It is the 'S' symbol alone (400x400 RGBA PNG). No logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "full logo with name, dark/white variant, brand guidelines",
+      "reason": "the authority's page serves only the 400x400 colour 'S' symbol; no brand page or press kit located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "is-samgongustofa-icon-light-color.png",
+      "lockup": "icon",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://images.ctfassets.net/8k0h54kbe6bj/3EumKpWqbPFygVWxWteoW/f6d093ae4e3ad80f8336cc0675b300db/Samgongustofa-stakt-400-400.png",
+      "page_url": "https://island.is/en/o/transport-authority",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "d3590b25b012e11e790852d0ff96b1e5b3bdb383c4ba38c941a551c56a3d6fa2"
+    }
+  ],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": "No logo-use contact published on pages checked."
+  }
+}

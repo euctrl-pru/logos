@@ -1,0 +1,35 @@
+{
+  "id": "hu-kozlekedesi-hatosag",
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://kozlekedesihatosag.kormany.hu/o/nkh-theme/css/main.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
+  "previous_sources": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#053D88",
+      "rgb": "5, 61, 136",
+      "cmyk": null,
+      "role": "Headings and link titles in the site theme (e.g. #featured-news-title, .asset-title)",
+      "evidence": "observed",
+      "source_url": "https://kozlekedesihatosag.kormany.hu/o/nkh-theme/css/main.css"
+    }
+  ],
+  "typography": [],
+  "logo_usage": {
+    "clear_space": null,
+    "min_size": null,
+    "background_rules": null,
+    "misuse": null
+  },
+  "retrieved": "2026-11-09",
+  "notes": "No brand guidelines found on the site. Only the theme colour used for headings is recorded; the Clay/Liferay framework greys were ignored. Georgia is declared for some badge/heading elements and a Goudy Old Style font-face is bundled, but neither was clearly the site's primary brand font, so no typography is recorded."
+}
