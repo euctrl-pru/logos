@@ -1,7 +1,7 @@
 {
   "id": "cz-caa",
-  "name": "Czech Republic civil aviation authority (to be confirmed)",
-  "acronym": null,
+  "name": "Úřad pro civilní letectví (Civil Aviation Authority of the Czech Republic)",
+  "acronym": "ÚCL",
   "group": "state",
   "country": "Czech Republic",
   "iso2": "CZ",
@@ -10,16 +10,65 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "caa.gov.cz",
+    "caa.cz"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": "Placeholder. No README row existed for this state; body to be confirmed in sourcing.",
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Civil Aviation Authority of the Czech Republic",
+    "Czech CAA",
+    "CAA CR"
+  ],
+  "notes": "Name confirmed from the site title (caa.gov.cz). Files are the header images that caa.gov.cz references from its own stylesheet (mainStyle.css background-image rules) and the footer image, all served from wp-content/themes/ucl/img on caa.gov.cz (tier 2, website-served). The circular emblem is coloured; the two text wordmarks (English and Czech) are near-white artwork for dark backgrounds. No combined emblem plus wordmark file is served. No brand page or terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "combined logo lockup in light and dark versions, vector and guidelines",
+      "reason": "caa.gov.cz serves the emblem and the white wordmarks as separate PNGs; no brand page, press kit or guidelines located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "cz-caa-emblem-light-color.png",
+      "lockup": "emblem",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.caa.gov.cz/wp-content/themes/ucl/img/header/logo.png",
+      "page_url": "https://www.caa.gov.cz/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "bdeef6c2c4bb2e2148e76bb34924b5db70dd3a06ed1d921c848321405830934c"
+    },
+    {
+      "file": "cz-caa-wordmark-dark-white-en.png",
+      "lockup": "wordmark",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.caa.gov.cz/wp-content/themes/ucl/img/header/logo_text_en.png",
+      "page_url": "https://www.caa.gov.cz/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "6f899202daf5ceed5ee69c56f50e7e7f13eea57829a4a19c960dad55bc4f5c10"
+    },
+    {
+      "file": "cz-caa-wordmark-dark-white-cs.png",
+      "lockup": "wordmark",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.caa.gov.cz/wp-content/themes/ucl/img/header/logo_text.png",
+      "page_url": "https://www.caa.gov.cz/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "b91b828f23b85a9585c762ca4cbd91c1d0c5c18aab2dce751eda4a0321bd26a8"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

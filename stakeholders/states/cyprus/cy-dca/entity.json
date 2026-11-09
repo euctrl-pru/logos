@@ -11,16 +11,27 @@
     "caa",
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "mcw.gov.cy"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": "README lists this body as both CAA and ANSP; verify the role split during sourcing.",
-  "status": "pending",
-  "gaps": [],
+  "aliases": [
+    "Department of Civil Aviation",
+    "DCA Cyprus",
+    "Τμήμα Πολιτικής Αεροπορίας"
+  ],
+  "notes": "Role split verified: the DCA (mcw.gov.cy/mcw/dca) is responsible for the provision and regulation of air traffic services in the Nicosia FIR and the Larnaca and Paphos towers, so it fills both CAA and ANSP roles on this single entity (source once). Its legacy Domino site shows a 'Civil Aviation Department Emblem' only as a 100x57 GIF (topRight.gif) in the page header, and GIF is not a supported format for this collection, so nothing was stored. No brand page or terms located.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "logo file in a supported format (SVG, PNG, WebP), dark variant and guidelines",
+      "reason": "mcw.gov.cy/mcw/dca serves its emblem only as a 100x57 GIF header slice (topRight.gif), which the collection cannot store; no brand page, press kit or guidelines located"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

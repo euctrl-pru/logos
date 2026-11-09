@@ -1,7 +1,7 @@
 {
   "id": "hr-caa",
   "name": "Croatian Civil Aviation Agency",
-  "acronym": "CAA",
+  "acronym": "CCAA",
   "group": "state",
   "country": "Croatia",
   "iso2": "HR",
@@ -10,16 +10,51 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "ccaa.hr"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Hrvatska agencija za civilno zrakoplovstvo",
+    "HACZ"
+  ],
+  "notes": "Logos are the SVGs served by ccaa.hr (tier 2, website-served): logo.svg is the header logo (CCAA mark with 'Croatian Civil Aviation Agency' text; the file contains hidden white layers, stored unchanged) and logo1.svg is the mark alone, used in the site's mobile menu. No brand page or terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant and brand guidelines",
+      "reason": "ccaa.hr serves only coloured SVGs; no brand page, press kit or guidelines located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "hr-caa-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.ccaa.hr/pages/assets/img/logo.svg",
+      "page_url": "https://www.ccaa.hr/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "7df058972a18edc29c1592b95e88d3bd4661cc5883c072ecd9ae1cb814c33783"
+    },
+    {
+      "file": "hr-caa-icon-light-color.svg",
+      "lockup": "icon",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.ccaa.hr/pages/assets/img/logo1.svg",
+      "page_url": "https://www.ccaa.hr/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "d95a487f653b7fc54df8bb976741c169692902a0e1a38b28685bfe7410d6818b"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

@@ -1,0 +1,52 @@
+{
+  "id": "dk-trafikstyrelsen",
+  "name": "Trafikstyrelsen (Danish Civil Aviation and Railway Authority)",
+  "acronym": null,
+  "group": "state",
+  "country": "Denmark",
+  "iso2": "DK",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [
+    "trafikstyrelsen.dk",
+    "cdn.trafikstyrelsen.dk"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "Danish Transport Authority",
+    "Danish Civil Aviation and Railway Authority",
+    "Danish Civil Aviation Authority",
+    "Trafikstyrelsen",
+    "Statens Luftfartsvæsen"
+  ],
+  "notes": "The Danish CAA role is held by Trafikstyrelsen, whose logo carries the tagline 'Danish Civil Aviation and Railway Authority'. The logo SVG is hosted on the publisher's website CDN (cdn.trafikstyrelsen.dk) and referenced directly by trafikstyrelsen.dk/presserum, so it is treated as tier 2 (website-served) with the CDN host listed in official_domains. No brand page or logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant and brand guidelines",
+      "reason": "trafikstyrelsen.dk press room shows only the green SVG logo; no logo download page or guidelines located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "dk-trafikstyrelsen-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://cdn.trafikstyrelsen.dk/trafikstyrelsen/Media/637878541015384704/groen-90-web-logo.svg",
+      "page_url": "https://www.trafikstyrelsen.dk/presserum",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "cd3b15508e3ee362e55a4bb09c4bd6d6b9b420e5e40ff024e070b3954b5d816a"
+    }
+  ],
+  "contact": {
+    "logo_permission_url": "https://www.trafikstyrelsen.dk/presserum",
+    "email": "presse@trafikstyrelsen.dk",
+    "notes": "Press address published on the press room page; no logo-specific route stated."
+  }
+}

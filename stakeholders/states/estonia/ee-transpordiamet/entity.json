@@ -1,0 +1,48 @@
+{
+  "id": "ee-transpordiamet",
+  "name": "Transpordiamet (Estonian Transport Administration)",
+  "acronym": null,
+  "group": "state",
+  "country": "Estonia",
+  "iso2": "EE",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [
+    "transpordiamet.ee"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "Estonian Transport Administration",
+    "Estonian Civil Aviation Authority"
+  ],
+  "notes": "Transpordiamet (Transport Administration) was created on 1 January 2021 by merging the Civil Aviation Administration, Road Administration and Maritime Administration, as stated on transpordiamet.ee/en, and carries the aviation and aviation safety remit. The logo is the header SVG served by transpordiamet.ee (tier 2, website-served): coat of arms, wordmark and a Ukraine-solidarity ribbon, on a white rectangle, stored unchanged as served. No brand page or terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "transparent, dark variant, logo without ribbon and guidelines",
+      "reason": "transpordiamet.ee serves only one SVG header banner with white background rect and ribbon; no brand page located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "ee-transpordiamet-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.transpordiamet.ee/sites/default/files/Transpordiamet_EST.svg",
+      "page_url": "https://www.transpordiamet.ee/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "79c13238ef42460e9ccc61b92e091a4a8405e1c80be7899e9dba78ad54694e4d"
+    }
+  ],
+  "contact": {
+    "logo_permission_url": "https://www.transpordiamet.ee/uudised-ametist-ja-kontakt/kontaktid/kontaktid-pressile",
+    "email": null,
+    "notes": "Press contact page published by Transpordiamet; no logo-specific route stated."
+  }
+}
