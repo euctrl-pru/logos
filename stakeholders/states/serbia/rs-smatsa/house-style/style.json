@@ -1,17 +1,54 @@
 {
   "id": "rs-smatsa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.smatsa.rs/main.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#1a4860",
+      "rgb": "26, 72, 96",
+      "cmyk": null,
+      "role": "Theme token --blue in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.smatsa.rs/main.css"
+    },
+    {
+      "name": "Red",
+      "hex": "#bf2940",
+      "rgb": "191, 41, 64",
+      "cmyk": null,
+      "role": "Theme token --red in the site stylesheet (hover and button accents)",
+      "evidence": "observed",
+      "source_url": "https://www.smatsa.rs/main.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Sarabun",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.smatsa.rs/main.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed in the smatsa.rs main stylesheet :root tokens and body font. The logo itself uses lighter blue and grey stripes, so the theme colours are site UI colours and not confirmed logo colours. No published guidelines located."
 }

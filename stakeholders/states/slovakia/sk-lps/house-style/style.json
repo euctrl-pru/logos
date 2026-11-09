@@ -1,17 +1,54 @@
 {
   "id": "sk-lps",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.lps.sk/media/t4/optimize/css/7615dea1a0215bd63a82191d419ad723.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Primary blue",
+      "hex": "#0069a7",
+      "rgb": "0, 105, 167",
+      "cmyk": null,
+      "role": "Theme token --color-primary in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.lps.sk/media/t4/optimize/css/7615dea1a0215bd63a82191d419ad723.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Jost",
+      "role": "Headings and mega menu",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.lps.sk/media/t4/optimize/css/7615dea1a0215bd63a82191d419ad723.css"
+    },
+    {
+      "family": "Barlow",
+      "role": "Body text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.lps.sk/media/t4/optimize/css/7615dea1a0215bd63a82191d419ad723.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed in the lps.sk Joomla template stylesheet (--color-primary, --heading-font-family, --body-font-family). The template ships other default colours (e.g. #4d6bff) that are not recorded. No published guidelines located."
 }

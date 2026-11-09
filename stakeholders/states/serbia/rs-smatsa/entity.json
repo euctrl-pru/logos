@@ -1,6 +1,6 @@
 {
   "id": "rs-smatsa",
-  "name": "Serbia and Montenegro Air Traffic Services",
+  "name": "Serbia and Montenegro Air Traffic Services (SMATSA)",
   "acronym": "SMATSA",
   "group": "state",
   "country": "Serbia",
@@ -12,16 +12,56 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "smatsa.rs"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": "One provider for Serbia and Montenegro; README lists it under both states.",
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "SMATSA",
+    "SMATSA llc",
+    "Serbia and Montenegro Air Traffic Services SMATSA llc"
+  ],
+  "notes": "smatsa.rs/en: 'Serbia and Montenegro Air Traffic Services SMATSA llc'; its core business is air navigation services provision for Serbia and Montenegro (also_countries ME). Logos are PNG files served by the smatsa.rs site (tier 2, website-served): the header colour logo and the footer white logo. The Media > Press kit page lists brochures (PDF) only, no logo pack. No brand page or logo terms located, so redistribution rights are not confirmed.",
+  "status": "complete",
+  "gaps": [
+    {
+      "need": "vector (SVG) logo",
+      "reason": "smatsa.rs serves PNG files only"
+    },
+    {
+      "need": "brand guidelines and logo terms",
+      "reason": "none located on smatsa.rs; the press kit page offers brochures only"
+    }
+  ],
+  "assets": [
+    {
+      "file": "rs-smatsa-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.smatsa.rs/images/logo.png",
+      "page_url": "https://www.smatsa.rs/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "c6e25a4b2f99ecd358f368d5d86fce38e2a2ce6fc44050a8c3e92170bc7e94c2"
+    },
+    {
+      "file": "rs-smatsa-logo-dark-white.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.smatsa.rs/images/footer-logo.png",
+      "page_url": "https://www.smatsa.rs/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "e7631d40b019c1ddd42ecd83af9f795fa32bbe972764f123cf692532a7fc2334"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo or press contact read on pages checked."
   }
 }

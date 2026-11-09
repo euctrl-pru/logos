@@ -1,17 +1,63 @@
 {
   "id": "pl-pansa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.pansa.pl/wp-content/themes/pansa-theme/assets/css/theme.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Navy",
+      "hex": "#0f304d",
+      "rgb": "15, 48, 77",
+      "cmyk": null,
+      "role": "Primary colour (theme token) and colour of the official logo",
+      "evidence": "observed",
+      "source_url": "https://www.pansa.pl/wp-content/themes/pansa-theme/assets/css/theme.css"
+    },
+    {
+      "name": "Light blue",
+      "hex": "#5795ca",
+      "rgb": "87, 149, 202",
+      "cmyk": null,
+      "role": "Accent colour (theme token)",
+      "evidence": "observed",
+      "source_url": "https://www.pansa.pl/wp-content/themes/pansa-theme/assets/css/theme.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Red Hat Display",
+      "role": "Headings",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.pansa.pl/wp-content/themes/pansa-theme/assets/css/theme.css"
+    },
+    {
+      "family": "Red Hat Text",
+      "role": "Body text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.pansa.pl/wp-content/themes/pansa-theme/assets/css/theme.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Colours and fonts are the WordPress theme.json preset tokens (primary, accent, heading/body font) emitted in the pansa.pl page and theme stylesheet; the logo SVG fill #0f304d equals the primary token. No published guidelines located."
 }

@@ -1,6 +1,6 @@
 {
   "id": "ro-romatsa",
-  "name": "Romanian Air Traffic Services Administration",
+  "name": "Romanian Air Traffic Services Administration (ROMATSA)",
   "acronym": "ROMATSA",
   "group": "state",
   "country": "Romania",
@@ -10,16 +10,43 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "romatsa.ro"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "ROMATSA",
+    "Administraţia română a serviciilor de trafic aerian"
+  ],
+  "notes": "romatsa.ro title: 'Administraţia română a serviciilor de trafic aerian' (ROMATSA). The only logo located is the 146x80 PNG /assets/images/logo1.png used in the site header (tier 2, website-served, alt text 'ROMATSA'): green emblem with white lettering on a transparent background, so it suits dark backgrounds only. No brand page, press kit or logo terms located; the media section (/ro/c/media) lists press releases only, and some requests to the site's media pages return a bot-challenge script. Redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "light variant and higher-resolution or vector logo",
+      "reason": "romatsa.ro serves only a small 146x80 PNG with white lettering; no brand page or press kit found"
+    },
+    {
+      "need": "brand guidelines and logo terms",
+      "reason": "none located on romatsa.ro"
+    }
+  ],
+  "assets": [
+    {
+      "file": "ro-romatsa-logo-dark-color.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.romatsa.ro/assets/images/logo1.png",
+      "page_url": "https://www.romatsa.ro/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "a00eb4a7baa64af7fd9e900de79b2f85ffbb35b95c437b25a6f38dc19b8577fe"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo or press contact read on pages checked."
   }
 }

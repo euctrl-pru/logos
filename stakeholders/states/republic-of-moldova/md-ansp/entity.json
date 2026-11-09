@@ -1,7 +1,7 @@
 {
   "id": "md-ansp",
-  "name": "Republic of Moldova air navigation service provider (to be confirmed)",
-  "acronym": null,
+  "name": "Moldavian Air Traffic Services Authority (MOLDATSA)",
+  "acronym": "MOLDATSA",
   "group": "state",
   "country": "Republic of Moldova",
   "iso2": "MD",
@@ -10,16 +10,26 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "moldatsa.md"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": "Placeholder. No README row existed for this state; body to be confirmed in sourcing.",
-  "status": "pending",
-  "gaps": [],
+  "aliases": [
+    "MOLDATSA",
+    "Întreprinderea de Stat pentru Utilizarea Spațiului Aerian și Deservirea Traficului Aerian"
+  ],
+  "notes": "moldatsa.md describes itself as 'Întreprinderea de Stat pentru Utilizarea Spațiului Aerian și Deservirea Traficului Aerian MOLDATSA'; its web manifest names it 'Moldavian Air Traffic Services Authority'. The site is a client-rendered React app whose logo is drawn as an inline SVG component inside the JavaScript bundle, with no standalone logo file referenced (inline-only SVG, so not recorded). Only a 192px PNG favicon/app icon is served, which does not count. No brand page, press kit or logo terms located.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "official logo files",
+      "reason": "moldatsa.md embeds its logo only as inline SVG in its JS bundle and publishes no brand page or press kit; left for manual addition"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo or press contact read on pages checked."
   }
 }

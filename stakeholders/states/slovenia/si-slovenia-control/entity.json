@@ -1,6 +1,6 @@
 {
   "id": "si-slovenia-control",
-  "name": "Slovenia Control",
+  "name": "Kontrola zračnega prometa Slovenije, d.o.o. (Slovenia Control)",
   "acronym": "Slovenia Control",
   "group": "state",
   "country": "Slovenia",
@@ -10,16 +10,44 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "sloveniacontrol.si"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Slovenia Control",
+    "Kontrola zračnega prometa Slovenije",
+    "SLOVENIA CONTROL, Slovenian Air Navigation Services Ltd."
+  ],
+  "notes": "sloveniacontrol.si (Za javnost / About us): 'Kontrola zračnega prometa Slovenije, d.o.o.' provides air traffic services, CNS and AIS in Slovenia. The logo is the 200x95 PNG that the site declares as its web logo (/PublishingImages/logo_si.png, tier 2, website-served; blue and grey artwork on transparent background). No brand page, press kit or logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant and vector (SVG) logo",
+      "reason": "sloveniacontrol.si serves one small colour PNG only"
+    },
+    {
+      "need": "brand guidelines and logo terms",
+      "reason": "none located on sloveniacontrol.si"
+    }
+  ],
+  "assets": [
+    {
+      "file": "si-slovenia-control-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.sloveniacontrol.si/PublishingImages/logo_si.png",
+      "page_url": "https://www.sloveniacontrol.si/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "5e0c0e51232ed526c79a0a950ad26d0930b0bed4d594c1b9bed3c19df9e5f926"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo or press contact read on pages checked."
   }
 }

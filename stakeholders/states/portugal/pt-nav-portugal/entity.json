@@ -10,18 +10,43 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "nav.pt"
+  ],
   "terms_url": null,
   "aliases": [
-    "Navegação Aérea de Portugal"
+    "Navegação Aérea de Portugal",
+    "NAV Portugal, E.P.E."
   ],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "notes": "nav.pt manifest names the organisation 'Navegação Aérea de Portugal' (short name NAV); the site presents it as NAV Portugal. The logo is /static/logo.svg, referenced by the site's JavaScript bundle on nav.pt (tier 2, website-served; blue artwork). No brand page, press kit or logo terms located (the site is a client-rendered app), so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant",
+      "reason": "nav.pt serves one blue SVG logo only"
+    },
+    {
+      "need": "brand guidelines and logo terms",
+      "reason": "none located on nav.pt"
+    }
+  ],
+  "assets": [
+    {
+      "file": "pt-nav-portugal-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.nav.pt/static/logo.svg",
+      "page_url": "https://www.nav.pt/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "02fdef0fa9853f9bb64ae574eeaebfd47022fe583ff0ffe32efb945a6bda884d"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo or press contact read on pages checked."
   }
 }

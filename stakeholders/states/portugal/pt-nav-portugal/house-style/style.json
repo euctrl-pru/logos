@@ -1,17 +1,63 @@
 {
   "id": "pt-nav-portugal",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.nav.pt/_next/static/css/8bbd046962b84ae8.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Logo blue",
+      "hex": "#008fbf",
+      "rgb": "0, 143, 191",
+      "cmyk": null,
+      "role": "Fill of the official SVG logo served by the site",
+      "evidence": "observed",
+      "source_url": "https://www.nav.pt/static/logo.svg"
+    },
+    {
+      "name": "Site blue",
+      "hex": "#0099ba",
+      "rgb": "0, 153, 186",
+      "cmyk": null,
+      "role": "Most frequent brand colour in the site stylesheet (links, accents)",
+      "evidence": "observed",
+      "source_url": "https://www.nav.pt/_next/static/css/8bbd046962b84ae8.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Montserrat",
+      "role": "Site text and headings",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.nav.pt/_next/static/css/8bbd046962b84ae8.css"
+    },
+    {
+      "family": "Open Sans",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.nav.pt/_next/static/css/5f3a948e26b5ee8c.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed in the nav.pt Next.js stylesheets; #0099ba is the dominant accent colour. Other greys and navy (#00305b) were not clearly brand colours and are not recorded. No published guidelines located."
 }

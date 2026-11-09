@@ -1,2 +1,6 @@
 :root {
+  --pl-pansa-color-navy: #0f304d;
+  --pl-pansa-color-light-blue: #5795ca;
+  --pl-pansa-font-headings: Red Hat Display, sans-serif;
+  --pl-pansa-font-body-text: Red Hat Text, sans-serif;
 }

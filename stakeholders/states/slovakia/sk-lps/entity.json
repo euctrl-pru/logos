@@ -1,7 +1,7 @@
 {
   "id": "sk-lps",
-  "name": "LPS Slovakia",
-  "acronym": "LPS",
+  "name": "Letové prevádzkové služby Slovenskej republiky, štátny podnik (LPS SR)",
+  "acronym": "LPS SR",
   "group": "state",
   "country": "Slovakia",
   "iso2": "SK",
@@ -10,18 +10,57 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "lps.sk"
+  ],
   "terms_url": null,
   "aliases": [
-    "Letové Prevádzkové Služby Slovenskej Republiky"
+    "LPS",
+    "LPS SR",
+    "LPS SR, š. p.",
+    "Slovak Air Navigation Services"
   ],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "notes": "lps.sk title 'LPS SR, š. p.' (Letové prevádzkové služby Slovenskej republiky, štátny podnik), the state air navigation service provider. Logos are PNG files served by lps.sk (tier 2, website-served): a blue logo (56x75) and a white inverted logo (151x200), both transparent. The Press centre lists news, reports and disclaimers but no brand page or logo terms, so redistribution rights are not confirmed.",
+  "status": "complete",
+  "gaps": [
+    {
+      "need": "vector (SVG) and higher-resolution colour logo",
+      "reason": "lps.sk serves small PNG files only (colour logo 56x75)"
+    },
+    {
+      "need": "brand guidelines and logo terms",
+      "reason": "none located on lps.sk"
+    }
+  ],
+  "assets": [
+    {
+      "file": "sk-lps-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.lps.sk/images/logo_lps.png",
+      "page_url": "https://www.lps.sk/sk/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "e599bdf4d1949b69f0e3400ecbb7ddfe20c3dcacc8c01e3cb1bcd017e54d67e5"
+    },
+    {
+      "file": "sk-lps-logo-dark-white.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.lps.sk/images/logo_lps_inv.png",
+      "page_url": "https://www.lps.sk/sk/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "c7952caab9643052ebc95894f9bc56bfe3c2f40798e8d0f82ad23f2e7f20964b"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo or press contact read on pages checked."
   }
 }

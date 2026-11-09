@@ -3,7 +3,7 @@
   "status": "none",
   "current_sources": [],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
+  "last_checked": "2026-11-09",
   "colors": [],
   "typography": [],
   "logo_usage": {
@@ -12,6 +12,6 @@
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Checked the sloveniacontrol.si SharePoint stylesheet /Style Library/AIP/CSS/portal.css: it sets Segoe UI (SharePoint default) and Bootstrap defaults; the only distinctive colour (#00aeef) appears in the shop section only, so neither was clearly site branding and none is recorded. No published guidelines located."
 }

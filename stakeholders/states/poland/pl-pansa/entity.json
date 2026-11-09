@@ -10,16 +10,128 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "pansa.pl"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "PANSA",
+    "PAŻP",
+    "Polska Agencja Żeglugi Powietrznej"
+  ],
+  "notes": "pansa.pl: 'Polska Agencja Żeglugi Powietrznej (PAŻP)' is the only institution in Poland that trains and employs civil air traffic controllers. Logos come from the 'Logotyp Pansa' page in the media section (tier 1): colour and white packs (zips) with SVG, PNG, JPG, EPS, PDF and AI members. The AI files are not stored (unsupported format). No logo terms page or usage rules located, so redistribution rights are not confirmed.",
+  "status": "complete",
+  "gaps": [
+    {
+      "need": "brand guidelines and logo terms",
+      "reason": "none located on pansa.pl; the logotyp page offers downloads only"
+    },
+    {
+      "need": "AI source files",
+      "reason": "format not supported by the repository; available in the official zip packs"
+    }
+  ],
+  "assets": [
+    {
+      "file": "pl-pansa-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.pansa.pl/wp-content/uploads/2026/05/PANSAlogoRGB.svg",
+      "page_url": "https://www.pansa.pl/logotyp-pansa/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "044e3eff61c3fab2a65d8ec161e158660af416413f2433abb70e054a2299e7c3"
+    },
+    {
+      "file": "pl-pansa-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.pansa.pl/wp-content/uploads/2026/05/logo_pansa_color.zip",
+      "page_url": "https://www.pansa.pl/logotyp-pansa/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "f9e3b4079d138e75108e1eedfae2d7ae11af16ec88fe56255e8c3ac906d97da0"
+    },
+    {
+      "file": "pl-pansa-logo-light-color.jpg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.pansa.pl/wp-content/uploads/2026/05/logo_pansa_color.zip",
+      "page_url": "https://www.pansa.pl/logotyp-pansa/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "8d2166014e058cc40ac06bbd389d297a494138fb49290c347df8d3555e3924eb"
+    },
+    {
+      "file": "pl-pansa-logo-light-color-pantone540.eps",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.pansa.pl/wp-content/uploads/2026/05/logo_pansa_color.zip",
+      "page_url": "https://www.pansa.pl/logotyp-pansa/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "1482b3b868865e5489b03cc7a93b93000c0abed65fbc96434ba4a93f9377648e"
+    },
+    {
+      "file": "pl-pansa-logo-light-color-pantone540.pdf",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.pansa.pl/wp-content/uploads/2026/05/logo_pansa_color.zip",
+      "page_url": "https://www.pansa.pl/logotyp-pansa/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "9452fb35652ac3f79a7cf2831256018c88676621f869b1cb73252ba58ad143cb"
+    },
+    {
+      "file": "pl-pansa-logo-dark-white.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.pansa.pl/wp-content/uploads/2026/05/logo_pansa_white.zip",
+      "page_url": "https://www.pansa.pl/logotyp-pansa/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "103e724d9a312a751311aaa31f4aed0ca8735491bb26161c0c9c09c736832741"
+    },
+    {
+      "file": "pl-pansa-logo-dark-white.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.pansa.pl/wp-content/uploads/2026/05/logo_pansa_white.zip",
+      "page_url": "https://www.pansa.pl/logotyp-pansa/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "718a3ed035a4a4daee7cdfc37fb5381f70ee555851f914715e048f72f7eec1e5"
+    },
+    {
+      "file": "pl-pansa-logo-dark-white.eps",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": false,
+      "source_url": "https://www.pansa.pl/wp-content/uploads/2026/05/logo_pansa_white.zip",
+      "page_url": "https://www.pansa.pl/logotyp-pansa/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "125f4757807a4fab6a0c3c5545fd2570996080acd8c6d5b32ed959ce579ad43f"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
-    "email": null,
-    "notes": null
+    "logo_permission_url": "https://www.pansa.pl/logotyp-pansa/",
+    "email": "marcin.hadaj@pansa.pl",
+    "notes": "Press spokesperson listed on the pansa.pl Logotyp/Media page; not a logo-specific contact."
   }
 }
