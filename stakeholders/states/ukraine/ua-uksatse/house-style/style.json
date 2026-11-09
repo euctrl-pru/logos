@@ -13,5 +13,5 @@
     "misuse": null
   },
   "retrieved": "2026-11-09",
-  "notes": "Checked the uksatse.ua home page and its stylesheet (css.php?d=1, 1 KB): it contains only generic greys (#F0F0F0, #474747) and no font families, and the site's other styles are inline or in images, so no brand colours or fonts were clearly identifiable. No published guidelines located."
+  "notes": "No house style recorded: this tool's requests to the official site could not read its pages or stylesheet (see entity notes); left for manual addition."
 }

@@ -1,6 +1,6 @@
 {
   "id": "ro-romatsa",
-  "name": "Romanian Air Traffic Services Administration (ROMATSA)",
+  "name": "Romanian Air Traffic Services Administration",
   "acronym": "ROMATSA",
   "group": "state",
   "country": "Romania",
@@ -10,43 +10,21 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [
-    "romatsa.ro"
-  ],
+  "official_domains": [],
   "terms_url": null,
-  "aliases": [
-    "ROMATSA",
-    "Administraţia română a serviciilor de trafic aerian"
-  ],
-  "notes": "romatsa.ro title: 'Administraţia română a serviciilor de trafic aerian' (ROMATSA). The only logo located is the 146x80 PNG /assets/images/logo1.png used in the site header (tier 2, website-served, alt text 'ROMATSA'): green emblem with white lettering on a transparent background, so it suits dark backgrounds only. No brand page, press kit or logo terms located; the media section (/ro/c/media) lists press releases only, and some requests to the site's media pages return a bot-challenge script. Redistribution rights are not confirmed.",
-  "status": "partial",
+  "aliases": [],
+  "notes": "romatsa.ro: this tool's requests receive a bot-challenge script instead of the site's pages (and the stylesheet request is reset), so no name or role confirmation, logo, brand page or terms could be read. Name is the scaffold name, unconfirmed on an official page.",
+  "status": "not-found",
   "gaps": [
     {
-      "need": "light variant and higher-resolution or vector logo",
-      "reason": "romatsa.ro serves only a small 146x80 PNG with white lettering; no brand page or press kit found"
-    },
-    {
-      "need": "brand guidelines and logo terms",
-      "reason": "none located on romatsa.ro"
+      "need": "official logo files, house style, name and role confirmation, contact",
+      "reason": "this tool's requests to romatsa.ro receive a bot challenge; left for manual addition"
     }
   ],
-  "assets": [
-    {
-      "file": "ro-romatsa-logo-dark-color.png",
-      "lockup": "logo",
-      "background": "dark",
-      "color_mode": "color",
-      "transparent": true,
-      "source_url": "https://www.romatsa.ro/assets/images/logo1.png",
-      "page_url": "https://www.romatsa.ro/",
-      "source_tier": 2,
-      "retrieved": "2026-11-09",
-      "sha256": "a00eb4a7baa64af7fd9e900de79b2f85ffbb35b95c437b25a6f38dc19b8577fe"
-    }
-  ],
+  "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": "No logo or press contact read on pages checked."
+    "notes": "No contact read; the official site could not be read by this tool."
   }
 }
