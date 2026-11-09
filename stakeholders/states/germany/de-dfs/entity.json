@@ -10,16 +10,60 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "dfs.de"
+  ],
   "terms_url": null,
   "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "notes": "dfs.de (title 'DFS Deutsche Flugsicherung GmbH') serves its logos as SVG in the site header and footer: the horizontal wordmark with emblem, the emblem alone and a vertical wordmark, all in negative (white) form for dark backgrounds (tier 2, website-served; file names end in rgb-neg). No positive (colour) version, brand page, press-kit logo download or logo terms located on the Media pages, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "light-background (colour) logo and brand guidelines",
+      "reason": "dfs.de serves only the negative (white) SVG logos; the Media pages (Press, Photos and videos, Publications) list no logo downloads or guidelines"
+    }
+  ],
+  "assets": [
+    {
+      "file": "de-dfs-logo-dark-white.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.dfs.de/homepage/dfs-bild-wortmarke-horizontal-rgb-neg-54px.svg?cid=idq.22xx&resize=41017b:175x",
+      "page_url": "https://www.dfs.de/homepage/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "b4a12acebed9fe0bcb9e7609363fc472ca95fb285b5defbfe0d27b68005c174c"
+    },
+    {
+      "file": "de-dfs-icon-dark-white.svg",
+      "lockup": "icon",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.dfs.de/homepage/dfs-bildmarke-rgb-neg-54px.svg?cid=ify.22xv&resize=ac1815:150x",
+      "page_url": "https://www.dfs.de/homepage/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "4b4a9b4dd3a927c70a01bd29e11654198452e73aff333205f2ca3a37cb79a646"
+    },
+    {
+      "file": "de-dfs-logo-dark-white-vertical.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.dfs.de/:res/modules/dfs/homepage/default/img/DFS_Bild_Wortmarke_vertikal_RGB_neg_54px.svg?fp=1d0f8cf0e572",
+      "page_url": "https://www.dfs.de/homepage/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "1d0f8cf0e572b897465c2032dd5f20b592c564b954ed36708e766fa988f6d064"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

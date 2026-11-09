@@ -1,0 +1,57 @@
+{
+  "id": "ee-eans",
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.eans.ee/sites/default/files/css/css_NtuDnaumJBwXhOZuAgmBSJiCWtSB_Y1qW5a5MHdmUCg.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
+  "previous_sources": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#0039A2",
+      "rgb": "0, 57, 162",
+      "cmyk": null,
+      "role": "Most frequent non-neutral colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.eans.ee/sites/default/files/css/css_NtuDnaumJBwXhOZuAgmBSJiCWtSB_Y1qW5a5MHdmUCg.css"
+    },
+    {
+      "name": "Yellow",
+      "hex": "#FCE300",
+      "rgb": "252, 227, 0",
+      "cmyk": null,
+      "role": "Accent colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.eans.ee/sites/default/files/css/css_NtuDnaumJBwXhOZuAgmBSJiCWtSB_Y1qW5a5MHdmUCg.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Barlow",
+      "role": "Site text",
+      "fallbacks": [
+        "Arial",
+        "Helvetica Neue",
+        "Helvetica",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.eans.ee/sites/default/files/css/css_NtuDnaumJBwXhOZuAgmBSJiCWtSB_Y1qW5a5MHdmUCg.css"
+    }
+  ],
+  "logo_usage": {
+    "clear_space": null,
+    "min_size": null,
+    "background_rules": null,
+    "misuse": null
+  },
+  "retrieved": "2026-11-09",
+  "notes": "Observed from the aggregated eans.ee theme stylesheet. No published guidelines located."
+}

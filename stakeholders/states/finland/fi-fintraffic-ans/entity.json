@@ -1,0 +1,34 @@
+{
+  "id": "fi-fintraffic-ans",
+  "name": "Fintraffic Air Navigation Services Ltd (Fintraffic ANS)",
+  "acronym": "Fintraffic ANS",
+  "group": "state",
+  "country": "Finland",
+  "iso2": "FI",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "ansp"
+  ],
+  "official_domains": [
+    "fintraffic.fi"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "Fintraffic ANS"
+  ],
+  "notes": "Renamed from placeholder fi-ansp. The official page https://www.fintraffic.fi/en/ans is titled 'Fintraffic Air Navigation Services Ltd' and its menu covers Air Navigation Services (ATC services, AIS, flight procedure design). The Fintraffic logo on fintraffic.fi exists only as a symbol inside the sprite sheet /themes/custom/traffic/dist/sprites/graphics.svg (referenced as graphics.svg#logo), not as a standalone logo file, and storing the whole sprite would not be a logo asset; no standalone file was located. The site's media page (/en/media), other brand-style paths and the site stylesheets returned HTTP 406 to this tool's requests.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "official logo (light, dark, transparent) and brand page",
+      "reason": "this tool's requests to fintraffic.fi media and brand paths received HTTP 406 and the logo is only a sprite symbol in the page; not a publisher-stated restriction. Left for manual addition from a browser"
+    }
+  ],
+  "assets": [],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": "No logo-use contact read; the media page could not be read by this tool."
+  }
+}

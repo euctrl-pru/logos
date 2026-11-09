@@ -10,16 +10,36 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "naviair.dk"
+  ],
   "terms_url": null,
   "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "notes": "naviair.dk (Danish only; /en returns 404) describes Naviair as an air navigation service provider with Copenhagen FIR and Nuuk operations. The only logo found is logo_naviair.png, the white wordmark with lime bar that the site stylesheet loads as the header background image (tier 2, website-served; the stylesheet on naviair.dk references it directly). The press section (Presse, Pressekontakt) lists news and contacts but no logo downloads or brand page. No logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "light-background (colour) logo, vector (SVG) logo and brand guidelines",
+      "reason": "naviair.dk serves only the white-on-transparent PNG for its dark header; the Presse pages offer no logo downloads or guidelines"
+    }
+  ],
+  "assets": [
+    {
+      "file": "dk-naviair-logo-dark-color.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.naviair.dk/media/sitelayouts/41/logo_naviair.png",
+      "page_url": "https://www.naviair.dk/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "82ac00d55ed0d394d630461bce1cfbf2463973f17cc9654df188357baa4a56cc"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
+    "logo_permission_url": "https://www.naviair.dk/presse/pressekontakt",
     "email": null,
-    "notes": null
+    "notes": "Press contact page published by Naviair; no logo-specific route stated."
   }
 }

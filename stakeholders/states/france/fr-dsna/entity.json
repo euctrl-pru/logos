@@ -1,6 +1,6 @@
 {
   "id": "fr-dsna",
-  "name": "Direction des Services de la Navigation Aérienne",
+  "name": "Direction des Services de la Navigation Aérienne (DSNA)",
   "acronym": "DSNA",
   "group": "state",
   "country": "France",
@@ -10,16 +10,39 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "dsna.fr"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "DGAC/DSNA",
+    "French Air Navigation Service Provider"
+  ],
+  "notes": "The official DSNA portal dsna.fr describes itself as 'DGAC/DSNA French Air Navigation Service Provider' (copyright DSNA); DSNA is a directorate of the DGAC under the French ministry, so it has no separate corporate identity beyond the DGAC/DSNA mark. The only logo found is the DGAC/DSNA mark (dgac wordmark over a DSNA tag) served as the portal's header image (tier 2, website-served). The older dsna.aviation-civile.gouv.fr host did not respond to this tool, and the ministry site ecologie.gouv.fr was not found to carry a DSNA page or brand kit. No logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark variant, vector (SVG) logo and brand guidelines",
+      "reason": "dsna.fr serves one 282x281 colour PNG; no brand page, press kit or guidelines located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "fr-dsna-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.dsna.fr/images/dgac-dsna.png",
+      "page_url": "https://www.dsna.fr/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "5e517ee6e9e02f0fe90a872fbd2f437f280873db6ccd2a6abb528f69ecc3d1dc"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "dsna.fr has a Contact us link but no logo-use contact was read."
   }
 }

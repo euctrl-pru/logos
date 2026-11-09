@@ -1,2 +1,6 @@
 :root {
+  --dk-naviair-color-lime: #BAD80A;
+  --dk-naviair-color-dark-teal: #103A43;
+  --dk-naviair-font-headings-web-font-name-as-declared-in-the-stylesheet: TitilliumBold, sans-serif;
+  --dk-naviair-font-body-text: Verdana, Geneva, sans-serif;
 }

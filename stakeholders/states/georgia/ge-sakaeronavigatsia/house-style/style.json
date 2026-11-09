@@ -1,0 +1,54 @@
+{
+  "id": "ge-sakaeronavigatsia",
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://airnav.ge/scripts/frontend/css/main.css?v=1617894031",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
+  "previous_sources": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Navy",
+      "hex": "#1A1F4A",
+      "rgb": "26, 31, 74",
+      "cmyk": null,
+      "role": "Most frequent non-neutral colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://airnav.ge/scripts/frontend/css/main.css?v=1617894031"
+    },
+    {
+      "name": "Yellow",
+      "hex": "#FEC033",
+      "rgb": "254, 192, 51",
+      "cmyk": null,
+      "role": "Accent colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://airnav.ge/scripts/frontend/css/main.css?v=1617894031"
+    }
+  ],
+  "typography": [
+    {
+      "family": "FiraGO",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://airnav.ge/scripts/frontend/css/main.css?v=1617894031"
+    }
+  ],
+  "logo_usage": {
+    "clear_space": null,
+    "min_size": null,
+    "background_rules": null,
+    "misuse": null
+  },
+  "retrieved": "2026-11-09",
+  "notes": "Observed from airnav.ge main.css. No published guidelines located; the logo page offers PDF logo files only."
+}

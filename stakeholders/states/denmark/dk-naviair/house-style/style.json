@@ -1,17 +1,64 @@
 {
   "id": "dk-naviair",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.naviair.dk/setup/csscache/package_1808475481.min.css?v=1234.1237",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Lime",
+      "hex": "#BAD80A",
+      "rgb": "186, 216, 10",
+      "cmyk": null,
+      "role": "Most frequent non-neutral colour in the site stylesheet; matches the logo bar",
+      "evidence": "observed",
+      "source_url": "https://www.naviair.dk/setup/csscache/package_1808475481.min.css?v=1234.1237"
+    },
+    {
+      "name": "Dark teal",
+      "hex": "#103A43",
+      "rgb": "16, 58, 67",
+      "cmyk": null,
+      "role": "Dark accent in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.naviair.dk/setup/csscache/package_1808475481.min.css?v=1234.1237"
+    }
+  ],
+  "typography": [
+    {
+      "family": "TitilliumBold",
+      "role": "Headings (web font name as declared in the stylesheet)",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.naviair.dk/setup/csscache/package_1808475481.min.css?v=1234.1237"
+    },
+    {
+      "family": "Verdana",
+      "role": "Body text",
+      "fallbacks": [
+        "Geneva",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.naviair.dk/setup/csscache/package_1808475481.min.css?v=1234.1237"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed from the naviair.dk site stylesheet. No published guidelines located."
 }

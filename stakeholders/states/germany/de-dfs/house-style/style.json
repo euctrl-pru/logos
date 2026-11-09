@@ -1,17 +1,55 @@
 {
   "id": "de-dfs",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.dfs.de/:res/modules/module-view.css?fp=6c8647c45fcd",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#0A3C87",
+      "rgb": "10, 60, 135",
+      "cmyk": null,
+      "role": "Most frequent non-neutral colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.dfs.de/:res/modules/module-view.css?fp=6c8647c45fcd"
+    },
+    {
+      "name": "Lime",
+      "hex": "#C3F519",
+      "rgb": "195, 245, 25",
+      "cmyk": null,
+      "role": "Accent colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.dfs.de/:res/modules/module-view.css?fp=6c8647c45fcd"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Roboto",
+      "role": "Site text",
+      "fallbacks": [
+        "Arial",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.dfs.de/:res/modules/module-view.css?fp=6c8647c45fcd"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed from the dfs.de module stylesheet. No published guidelines located."
 }

@@ -1,0 +1,52 @@
+{
+  "id": "ge-sakaeronavigatsia",
+  "name": "Sakaeronavigatsia",
+  "acronym": null,
+  "group": "state",
+  "country": "Georgia",
+  "iso2": "GE",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "ansp"
+  ],
+  "official_domains": [
+    "airnav.ge"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "საქაერონავიგაცია",
+    "Georgia Air Navigation"
+  ],
+  "notes": "Renamed from placeholder ge-ansp. The official site airnav.ge (English page titled 'Sakaeronavigatsia'; Georgian title საქაერონავიგაცია) has an English 'Company logo' page under Media with PDF downloads (Logo_full_eng.pdf, Logo_full_geo.pdf, Logo_full_biling.pdf), described as 'the Georgian and the English versions of the graphic logo'. PDF is not a supported format, so those were not stored. Stored instead is the header logo.svg served by airnav.ge (tier 2, website-served): a white version for the site's dark header. No usage terms located on the logo page, so redistribution rights are not confirmed. The page lists the body alongside the Georgian Civil Aviation Agency (GCAA) as a separate organisation. Its legal form (Ltd) was not read on the pages checked.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "light-background colour logo in a supported format",
+      "reason": "airnav.ge Company logo page offers PDF only (Logo_full_eng, Logo_full_geo, Logo_full_biling); the only SVG served is the white header version"
+    },
+    {
+      "need": "brand guidelines",
+      "reason": "none located on airnav.ge"
+    }
+  ],
+  "assets": [
+    {
+      "file": "ge-sakaeronavigatsia-logo-dark-white.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://airnav.ge/images/front/logo.svg",
+      "page_url": "https://airnav.ge/en",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "3fda85727ba3ec61b06ee5ea9e4ade2ad66edcbce530f4e4ef9b8dab350676d3"
+    }
+  ],
+  "contact": {
+    "logo_permission_url": "https://airnav.ge/en/saqaeronavigatsiis-logo",
+    "email": null,
+    "notes": "Company logo page is the publisher's logo route; no logo-use email stated (the footer lists a general office address)."
+  }
+}
