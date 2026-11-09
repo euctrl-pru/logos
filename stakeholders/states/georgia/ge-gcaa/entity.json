@@ -1,0 +1,48 @@
+{
+  "id": "ge-gcaa",
+  "name": "Georgian Civil Aviation Agency",
+  "acronym": "GCAA",
+  "group": "state",
+  "country": "Georgia",
+  "iso2": "GE",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [
+    "gcaa.ge"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "საქართველოს სამოქალაქო ავიაციის სააგენტო",
+    "Civil Aviation Agency of Georgia"
+  ],
+  "notes": "Name confirmed from the logo on gcaa.ge. Logo is the header image served by gcaa.ge (tier 2, website-served; 140px file referenced as the 2x srcset of the 70px header logo). It is opaque PNG. No brand page or terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark variant, transparent or vector logo and guidelines",
+      "reason": "gcaa.ge serves a PNG logo only; no brand page, press kit or guidelines located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "ge-gcaa-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://gcaa.ge/wp-content/uploads/2020/10/140.png",
+      "page_url": "https://gcaa.ge/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "3e0095705a651d8fab81f4c1ec96875425844cc4ac2beeffa0ad5f37ba7ac222"
+    }
+  ],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": "No logo-use contact published on pages checked."
+  }
+}

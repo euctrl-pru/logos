@@ -1,0 +1,61 @@
+{
+  "id": "fi-traficom",
+  "name": "Traficom (Finnish Transport and Communications Agency)",
+  "acronym": null,
+  "group": "state",
+  "country": "Finland",
+  "iso2": "FI",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [
+    "traficom.fi"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "Finnish Transport and Communications Agency",
+    "Liikenne- ja viestintävirasto",
+    "Finnish Transport and Communications Agency Traficom"
+  ],
+  "notes": "Traficom is the Finnish transport regulator that carries Finland's civil aviation authority role; the role was not stated on the pages checked here and is taken from the agency's transport remit. Logos are SVG files served by traficom.fi in its site header (tier 2, website-served; the full logo carries the English tagline 'Finnish Transport and Communications Agency'; the wordmark is the same logo without tagline). Traficom also runs an official image bank (kuvapankki.traficom.fi, MediaHub with a 'Logot' album per web search) that is a JavaScript application whose content could not be read by these tools, so no tier-1 files were taken from it. No logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark/white variant and brand guidelines",
+      "reason": "traficom.fi serves only the dark blue/grey SVGs; the kuvapankki.traficom.fi image bank (Logot album) is a JavaScript app that could not be browsed, so any white version or guidelines there were not checked"
+    }
+  ],
+  "assets": [
+    {
+      "file": "fi-traficom-with-slogan-light-color.svg",
+      "lockup": "with-slogan",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.traficom.fi/files/icons/svg/logo_traficom_en_nopadding.svg",
+      "page_url": "https://www.traficom.fi/en",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "38b8e2c13c717f81f738c4396edf6932992d6ab551eb375d59eeaccb5a4c0e6e"
+    },
+    {
+      "file": "fi-traficom-wordmark-light-color.svg",
+      "lockup": "wordmark",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.traficom.fi/files/icons/svg/logo_traficom_nopaddin%20pelkka%20logo.svg",
+      "page_url": "https://www.traficom.fi/en",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "8d981e097f7d71f67a6da5619f8e2f72d923b6a1731409baedf403b7a4bb2d43"
+    }
+  ],
+  "contact": {
+    "logo_permission_url": "https://www.traficom.fi/en/traficom/media-enquiries",
+    "email": null,
+    "notes": "Media enquiries page links to the image bank; no logo-use contact address located."
+  }
+}

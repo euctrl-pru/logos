@@ -1,6 +1,6 @@
 {
   "id": "fr-dgac",
-  "name": "Direction Générale de l'Aviation Civile",
+  "name": "Direction générale de l'Aviation civile",
   "acronym": "DGAC",
   "group": "state",
   "country": "France",
@@ -10,16 +10,26 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "ecologie.gouv.fr"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "aliases": [
+    "French Civil Aviation Authority",
+    "French Civil Aviation Authority (DGAC)"
+  ],
+  "notes": "Confirmed on ecologie.gouv.fr (ministry site) as the French national regulatory and safety oversight authority; the DGAC also provides air navigation services through its DSNA service (separate entity fr-dsna). The former dgac.fr / aviation-civile.gouv.fr sites no longer respond. The DGAC pages on ecologie.gouv.fr carry the ministry's own identity and no DGAC logo file or brand page. A search result mentions an internal DGAC 2022 graphic charter; none is public, and Wikimedia files were not used.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "DGAC logo files and brand guidelines",
+      "reason": "former DGAC sites are offline; ecologie.gouv.fr DGAC pages reference no DGAC logo file or brand page, and the charte graphique DGAC 2022 is not published"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

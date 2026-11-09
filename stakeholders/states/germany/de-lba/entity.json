@@ -10,16 +10,26 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "lba.de"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "aliases": [
+    "Federal Aviation Office",
+    "German Federal Aviation Office"
+  ],
+  "notes": "Site lba.de (English: Federal Aviation Office) lists a header logo at https://www.lba.de/SiteGlobals/Frontend/Images/logo.jpg (a JPEG, referenced in the page's own HTML). tools/fetch_asset.py received HTTP 403 for that file, and my scripted request for the German home page also received 403, so no logo was downloaded and no access restriction was bypassed.",
+  "status": "restricted",
+  "gaps": [
+    {
+      "need": "LBA logo files, dark variant and guidelines",
+      "reason": "lba.de answered HTTP 403 to the fetch tool for logo.jpg (and a 403 to a scripted request for the German home page); no press kit or logo page was reachable. Contact route: the Press page on lba.de"
+    }
+  ],
   "assets": [],
   "contact": {
-    "logo_permission_url": null,
+    "logo_permission_url": "https://www.lba.de/EN/Press/Press_node.html",
     "email": null,
-    "notes": null
+    "notes": "Press page linked from the LBA English site; no logo-use address read."
   }
 }
