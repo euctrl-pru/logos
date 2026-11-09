@@ -20,12 +20,12 @@
     "Crocontrol",
     "CCL"
   ],
-  "notes": "crocontrol.hr (page title 'Crocontrol - Hrvatska kontrola zračne plovidbe', copyright 'Croatia Control') has a Graphic Materials page under Media ('Here you can find our logos') offering a JPG preview plus EPS and AI zip packages. Stored: the JPG from that page (tier 1) and the square icon from the site header (tier 2, website-served). The EPS and AI packages are not a supported format and were not stored. No usage terms stated on the page, so redistribution rights are not confirmed.",
+  "notes": "crocontrol.hr (page title 'Crocontrol - Hrvatska kontrola zračne plovidbe', copyright 'Croatia Control') has a Graphic Materials page under Media ('Here you can find our logos') offering a JPG preview plus EPS and AI zip packages. Stored: the JPG and the EPS from the zip on that page (tier 1; the EPS source_url is the zip), plus the square icon from the site header (tier 2, website-served). The EPS was rendered in scratch with Ghostscript and confirmed as the Croatia Control logo; its transparency is recorded as false (not determined by the validator). The AI zip package was not stored (AI is not an accepted format). No usage terms stated on the page, so redistribution rights are not confirmed.",
   "status": "partial",
   "gaps": [
     {
-      "need": "dark variant, transparent logo and vector (SVG) logo",
-      "reason": "Graphic Materials page offers one opaque JPG (223x113) and EPS/AI packages, not a supported format; no white or transparent version published"
+      "need": "dark variant, transparent logo and SVG",
+      "reason": "Graphic Materials page offers an opaque JPG, an EPS (colour) and an AI package; no white or transparent version published"
     },
     {
       "need": "brand guidelines",
@@ -56,6 +56,18 @@
       "source_tier": 2,
       "retrieved": "2026-11-09",
       "sha256": "5741cb8a3a621b46f231cf0e4e08327ff02174a29959be1f2702ff2e8597df18"
+    },
+    {
+      "file": "hr-croatia-control-logo-light-color-vector.eps",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.crocontrol.hr/app/uploads/2020/05/CCL-logo.eps_.zip",
+      "page_url": "https://www.crocontrol.hr/en/media/graphic-materials/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "6594f05bc1800471d2de886fbf844ddc4719784f7fe4f805b2b50b840162cc24"
     }
   ],
   "contact": {

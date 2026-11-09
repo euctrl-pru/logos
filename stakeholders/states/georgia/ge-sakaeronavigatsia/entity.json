@@ -18,12 +18,12 @@
     "საქაერონავიგაცია",
     "Georgia Air Navigation"
   ],
-  "notes": "Renamed from placeholder ge-ansp. The official site airnav.ge (English page titled 'Sakaeronavigatsia'; Georgian title საქაერონავიგაცია) has an English 'Company logo' page under Media with PDF downloads (Logo_full_eng.pdf, Logo_full_geo.pdf, Logo_full_biling.pdf), described as 'the Georgian and the English versions of the graphic logo'. PDF is not a supported format, so those were not stored. Stored instead is the header logo.svg served by airnav.ge (tier 2, website-served): a white version for the site's dark header. No usage terms located on the logo page, so redistribution rights are not confirmed. The page lists the body alongside the Georgian Civil Aviation Agency (GCAA) as a separate organisation. Its legal form (Ltd) was not read on the pages checked.",
-  "status": "partial",
+  "notes": "Renamed from placeholder ge-ansp. The official site airnav.ge (English page titled 'Sakaeronavigatsia'; Georgian title საქაერონავიგაცია) has an English 'Company logo' page under Media with PDF downloads (Logo_full_eng.pdf, Logo_full_geo.pdf, Logo_full_biling.pdf), described as 'the Georgian and the English versions of the graphic logo'. The three PDFs (English, Georgian, bilingual; yellow wings emblem with grey wordmark) are stored as the official logo files (tier 1) and each was rendered in scratch with Ghostscript to confirm; their transparency is recorded as false (not determined by the validator). Also stored is the header logo.svg served by airnav.ge (tier 2, website-served): a white version for the site's dark header. No usage terms located on the logo page, so redistribution rights are not confirmed. The page lists the body alongside the Georgian Civil Aviation Agency (GCAA) as a separate organisation. Its legal form (Ltd) was not read on the pages checked.",
+  "status": "complete",
   "gaps": [
     {
-      "need": "light-background colour logo in a supported format",
-      "reason": "airnav.ge Company logo page offers PDF only (Logo_full_eng, Logo_full_geo, Logo_full_biling); the only SVG served is the white header version"
+      "need": "SVG or PNG colour logo",
+      "reason": "airnav.ge Company logo page offers PDF only"
     },
     {
       "need": "brand guidelines",
@@ -42,6 +42,42 @@
       "source_tier": 2,
       "retrieved": "2026-11-09",
       "sha256": "3fda85727ba3ec61b06ee5ea9e4ade2ad66edcbce530f4e4ef9b8dab350676d3"
+    },
+    {
+      "file": "ge-sakaeronavigatsia-logo-light-color-en.pdf",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://airnav.ge/storage/files/doc/Logo_full_eng.pdf",
+      "page_url": "https://airnav.ge/en/saqaeronavigatsiis-logo",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "98433a0763f951a8594d28a8d97fe4c90b1f5ef8ebace47308bc1be60924519a"
+    },
+    {
+      "file": "ge-sakaeronavigatsia-logo-light-color-ka.pdf",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://airnav.ge/storage/files/doc/Logo_full_geo.pdf",
+      "page_url": "https://airnav.ge/en/saqaeronavigatsiis-logo",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "c4d734a00196cf523ed3a6ac49b737b3ed25b90399b3a590cef65318293b80f0"
+    },
+    {
+      "file": "ge-sakaeronavigatsia-logo-light-color-bilingual.pdf",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://airnav.ge/storage/files/doc/Logo_full_biling.pdf",
+      "page_url": "https://airnav.ge/en/saqaeronavigatsiis-logo",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "ac77530ecfeb56c39fbde464545f115872e84995a82d6e3df87ce8b8fb5046d1"
     }
   ],
   "contact": {

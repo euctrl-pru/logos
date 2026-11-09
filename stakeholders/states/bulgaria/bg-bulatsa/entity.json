@@ -17,12 +17,12 @@
   "aliases": [
     "State Enterprise Bulgarian Air Traffic Services Authority"
   ],
-  "notes": "bulatsa.com Corporate identity page publishes official logo downloads and terms: use of the BULATSA logo is allowed only when it is not used for aims incompatible with BULATSA, is not used to bind BULATSA to a document, product or activity unless BULATSA is a co-organiser or written permission is obtained, and is used only in its official published version; changing elements within the logo is strictly forbidden. The two official zip packages (logo horizontal BG/EN; symbol, watermark and slogan) contain only EPS and PDF files, which are not a supported format here, so they were not stored and no derived PNG/SVG was made. Stored instead are files served by bulatsa.com itself (tier 2, website-served): the colour JPEG (the site's Open Graph logo, opaque, CMYK) and the white SVG from the theme header for dark backgrounds. README row for BULATSA as aviation authority is merged here; bg-gdcaa holds the CAA role.",
+  "notes": "bulatsa.com Corporate identity page publishes official logo downloads and terms: use of the BULATSA logo is allowed only when it is not used for aims incompatible with BULATSA, is not used to bind BULATSA to a document, product or activity unless BULATSA is a co-organiser or written permission is obtained, and is used only in its official published version; changing elements within the logo is strictly forbidden. The two official zip packages (logo horizontal BG/EN; symbol, watermark and slogan) were downloaded directly from bulatsa.com and one EPS per distinct variant is stored (tier 1, source_url is the zip): horizontal logo EN, horizontal logo BG, vertical logo, EN and BG wordmarks, bird symbol and wing symbol. The packs also hold the same artwork as PDF and the slogan 'The invisible part of flight' as a separate EPS/PDF, which were not stored. Some EPS artboards (the horizontal and vertical logos) stack several colour and black variants on one page; the EPS files are stored unmodified, so all variants come with each file, and their transparency is recorded as false (not determined by the validator). Each EPS was rendered in scratch with Ghostscript and confirmed to be BULATSA artwork. The site-served files are the colour JPEG (the site's Open Graph logo, opaque, CMYK) and the white SVG from the theme header for dark backgrounds. README row for BULATSA as aviation authority is merged here; bg-gdcaa holds the CAA role.",
   "status": "complete",
   "gaps": [
     {
-      "need": "vector colour logo and transparent colour logo in a supported format",
-      "reason": "official zip packages on the Corporate identity page contain EPS and PDF only; the colour logo served as a raster is an opaque JPEG"
+      "need": "separate single-variant colour/white/black files and PNG or SVG exports",
+      "reason": "official packs are EPS/PDF only and several artboards stack colour and black variants; no SVG or PNG offered"
     },
     {
       "need": "brand guidelines document",
@@ -53,6 +53,90 @@
       "source_tier": 2,
       "retrieved": "2026-11-09",
       "sha256": "4d853f5c2f82d982a5ee1acc43f6a460e65c67d6ca98f79a6ebabe25cce24004"
+    },
+    {
+      "file": "bg-bulatsa-logo-light-color-en.eps",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.bulatsa.com/wp-content/uploads/2020/02/logo_i_znak_horizontal_0.zip",
+      "page_url": "https://www.bulatsa.com/en/media-center/corporate-identity/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "1c1623da5b310e53dc7a9cffd664e81c856949d489addaee5e5600ffaa64bfeb"
+    },
+    {
+      "file": "bg-bulatsa-logo-light-color-bg.eps",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.bulatsa.com/wp-content/uploads/2020/02/znak_simvol_voden_znak_0.zip",
+      "page_url": "https://www.bulatsa.com/en/media-center/corporate-identity/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "ed82b9fbb17cd79a31c4835bb94c8878844afb112280dc8a55bf370bbbe1eaef"
+    },
+    {
+      "file": "bg-bulatsa-logo-light-color-vertical.eps",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.bulatsa.com/wp-content/uploads/2020/02/znak_simvol_voden_znak_0.zip",
+      "page_url": "https://www.bulatsa.com/en/media-center/corporate-identity/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "46741e2ba7b3aa5b9b7e9ba49dfb1c23e29b4af65ae8d96e02a309b925680a0f"
+    },
+    {
+      "file": "bg-bulatsa-wordmark-light-color-en.eps",
+      "lockup": "wordmark",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.bulatsa.com/wp-content/uploads/2020/02/znak_simvol_voden_znak_0.zip",
+      "page_url": "https://www.bulatsa.com/en/media-center/corporate-identity/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "a68d68decf679b3b48cfa5ed26b9fddad3b14c6c33dae08d9cde64a3539f0332"
+    },
+    {
+      "file": "bg-bulatsa-wordmark-light-color-bg.eps",
+      "lockup": "wordmark",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.bulatsa.com/wp-content/uploads/2020/02/znak_simvol_voden_znak_0.zip",
+      "page_url": "https://www.bulatsa.com/en/media-center/corporate-identity/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "609d5ada5579e3e0d1e9ed0f1689d19adc9f7e8dad2f6332e2a8c1ad4673cd4b"
+    },
+    {
+      "file": "bg-bulatsa-icon-light-color-bird.eps",
+      "lockup": "icon",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.bulatsa.com/wp-content/uploads/2020/02/znak_simvol_voden_znak_0.zip",
+      "page_url": "https://www.bulatsa.com/en/media-center/corporate-identity/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "5b3e70b5a8d4a7913c16e60739faded5af04a74dd1fc77e38124510ed3bafe26"
+    },
+    {
+      "file": "bg-bulatsa-icon-light-color-wing.eps",
+      "lockup": "icon",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.bulatsa.com/wp-content/uploads/2020/02/znak_simvol_voden_znak_0.zip",
+      "page_url": "https://www.bulatsa.com/en/media-center/corporate-identity/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "4c2a82f57667f28ca250858a6190a70b9bdc30d247ead8df2109d0323c12273b"
     }
   ],
   "contact": {
