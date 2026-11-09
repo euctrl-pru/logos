@@ -39,7 +39,7 @@ STATUSES = {"complete", "partial", "restricted", "not-found", "not-applicable", 
 LOCKUPS = {"logo", "icon", "wordmark", "emblem", "boxed", "with-slogan"}
 BACKGROUNDS = {"light", "dark", "any"}
 COLOR_MODES = {"color", "white", "black", "mono"}
-EXTENSIONS = {"svg": "svg", "png": "png", "jpg": "jpg", "jpeg": "jpg", "pdf": "pdf", "eps": "eps", "webp": "webp"}
+EXTENSIONS = {"svg": "svg", "png": "png", "jpg": "jpg", "jpeg": "jpg", "pdf": "pdf", "eps": "eps", "webp": "webp", "gif": "gif"}
 ENTITY_FIELDS = ["id", "name", "acronym", "group", "country", "iso2", "also_countries", "membership",
                  "types", "official_domains", "terms_url", "aliases", "notes", "status", "gaps", "assets", "contact"]
 SOURCE_KINDS = {"guideline", "brand-page", "website-css"}
@@ -56,6 +56,8 @@ def sniff_format(data: bytes):
         return "jpg"
     if data[:4] == b"RIFF" and data[8:12] == b"WEBP":
         return "webp"
+    if data.startswith((b"GIF87a", b"GIF89a")):
+        return "gif"
     if data.startswith(b"%PDF-"):
         return "pdf"
     if data.startswith(b"%!PS") or data.startswith(b"\xc5\xd0\xd3\xc6"):
@@ -248,6 +250,47 @@ def _webp_transparent(data: bytes) -> bool:
     return False
 
 
+def _gif_transparent(data: bytes) -> bool:
+    """True only when a Graphic Control Extension has its transparency flag set."""
+    n = len(data)
+    if n < 13:
+        return False
+    flags = data[10]
+    pos = 13
+    if flags & 0x80:
+        pos += 3 * (2 << (flags & 7))
+
+    def skip_sub_blocks(i):
+        while i < n:
+            size = data[i]
+            i += 1
+            if size == 0:
+                return i
+            i += size
+        return n
+
+    while pos < n:
+        block = data[pos]
+        if block == 0x21:  # extension
+            if pos + 2 >= n:
+                return False
+            if data[pos + 1] == 0xF9:
+                if pos + 3 < n and data[pos + 2] >= 4 and data[pos + 3] & 1:
+                    return True
+            pos = skip_sub_blocks(pos + 2)
+        elif block == 0x2C:  # image descriptor
+            if pos + 10 > n:
+                return False
+            lflags = data[pos + 9]
+            pos += 10
+            if lflags & 0x80:
+                pos += 3 * (2 << (lflags & 7))
+            pos = skip_sub_blocks(pos + 1)  # LZW minimum code size, then data
+        else:
+            return False
+    return False
+
+
 def is_transparent(path: Path) -> bool:
     data = Path(path).read_bytes()
     fmt = sniff_format(data)
@@ -258,6 +301,8 @@ def is_transparent(path: Path) -> bool:
             return _webp_transparent(data)
         except (struct.error, IndexError):
             return False
+    if fmt == "gif":
+        return _gif_transparent(data)
     if fmt == "png":
         try:
             return _png_transparent(data)

@@ -145,6 +145,38 @@ class SniffAndSvg(Base):
     def test_webp_lossy_vp8_not_transparent(self):
         self.assertFalse(validate.is_transparent(self._webp("vp8", False)))
 
+    def _gif(self, transparent=None, truncate=None):
+        # 1x1 GIF89a, 2-colour global table; transparent: None = no GCE
+        data = b"GIF89a" + struct.pack("<HHBBB", 1, 1, 0x80, 0, 0) + b"\x00\x00\x00\xff\xff\xff"
+        if transparent is not None:
+            data += b"\x21\xf9\x04" + bytes([1 if transparent else 0]) + b"\x00\x00\x00\x00\x00"
+        data += b"\x2c" + struct.pack("<HHHHB", 0, 0, 1, 1, 0) + b"\x02\x02\x44\x01\x00\x3b"
+        if truncate is not None:
+            data = data[:truncate]
+        p = self.root / "t.gif"
+        p.write_bytes(data)
+        return p
+
+    def test_sniff_gif(self):
+        self.assertEqual(validate.sniff_format(b"GIF89a" + b"\x00" * 10), "gif")
+        self.assertEqual(validate.sniff_format(b"GIF87a" + b"\x00" * 10), "gif")
+
+    def test_gif_extension_allowed(self):
+        self.assertEqual(validate.EXTENSIONS.get("gif"), "gif")
+
+    def test_gif_transparency_flag_is_transparent(self):
+        self.assertTrue(validate.is_transparent(self._gif(True)))
+
+    def test_gif_without_transparency_flag_is_opaque(self):
+        self.assertFalse(validate.is_transparent(self._gif(False)))
+        self.assertFalse(validate.is_transparent(self._gif(None)))
+
+    def test_gif_truncated_is_safe(self):
+        full = len(self._gif(True).read_bytes())
+        for n in range(0, full):
+            validate.is_transparent(self._gif(True, truncate=n))
+        self.assertFalse(validate.is_transparent(self._gif(True, truncate=8)))
+
     def test_webp_extension_allowed(self):
         self.assertEqual(validate.EXTENSIONS.get("webp"), "webp")
 
