@@ -1,6 +1,6 @@
 {
   "id": "al-aac",
-  "name": "Albanian Civil Aviation Authority",
+  "name": "Autoriteti i Aviacionit Civil (Albanian Civil Aviation Authority)",
   "acronym": "AAC",
   "group": "state",
   "country": "Albania",
@@ -10,16 +10,40 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "aac.gov.al"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "ACAA",
+    "Albanian Civil Aviation Authority",
+    "Autoriteti i Aviacionit Civil"
+  ],
+  "notes": "Logo is the header image served by aac.gov.al (tier 2, website-served; filename NEW-LOGO-AAC-2-NE-1.png, uploaded 2026/02). It is a colour lockup showing the Albanian coat of arms with the AAC wordmark. No brand page, press kit or logo terms located, so redistribution rights are not confirmed. Albania's AAC site is the only official identity found.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark variant, vector (SVG) and brand guidelines",
+      "reason": "aac.gov.al serves a single PNG in its header; no brand page, press kit or guidelines located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "al-aac-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.aac.gov.al/wp-content/uploads/2026/02/NEW-LOGO-AAC-2-NE-1.png",
+      "page_url": "https://www.aac.gov.al/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "55dc8929f39b5d52226bdbdd27b3489b9d96f840909bb76469c3f1c2469e9f26"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

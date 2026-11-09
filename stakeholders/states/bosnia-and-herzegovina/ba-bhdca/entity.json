@@ -10,16 +10,38 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "bhdca.gov.ba"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": "README also listed BHDCA as the ANSP; that row is merged here and ba-ansp holds the ANSP role until confirmed.",
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Direkcija za civilno zrakoplovstvo Bosne i Hercegovine"
+  ],
+  "notes": "Site logo confirmed on bhdca.gov.ba (title 'BHDCA'); wordmark reads 'Bosnia and Herzegovina Directorate of Civil Aviation'. The file is a small PNG served in the site header (tier 2, website-served). BHDCA is the civil aviation directorate (CAA); the ANSP role belongs to a separate body (ba-ansp, handled separately). No brand page or terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark variant, larger or vector logo and guidelines",
+      "reason": "bhdca.gov.ba serves a single small opaque PNG; no brand page, press kit or guidelines located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "ba-bhdca-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.bhdca.gov.ba/images/LOGO_BHDCA.png",
+      "page_url": "https://www.bhdca.gov.ba/index.php/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "c68c1e645945c1b07db37e6851b7a2f20c43b82f4218fe3ab8095509e3811815"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

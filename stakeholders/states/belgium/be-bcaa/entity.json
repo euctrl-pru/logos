@@ -10,16 +10,42 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "mobilit.belgium.be"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Directorate-General Air Transport",
+    "Direction générale Transport aérien",
+    "DGTA",
+    "Directoraat-generaal Luchtvaart",
+    "DGLV"
+  ],
+  "notes": "BCAA is the Directorate-General Air Transport within the FPS Mobility and Transport (mobilit.belgium.be/nl/luchtvaart), confirmed through web search of that site; it has no separate website or logo. The only identity located is the FPS Mobility and Transport site logo (a blue picto; the name text is HTML, not part of the file), served by mobilit.belgium.be (tier 2, website-served). It is the parent department's identity, not a BCAA mark. No brand page or terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "BCAA-specific logo, dark variant, wordmark lockup and guidelines",
+      "reason": "mobilit.belgium.be serves only the FPS Mobility picto SVG; no BCAA mark, brand page or guidelines located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "be-bcaa-icon-light-color.svg",
+      "lockup": "icon",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://mobilit.belgium.be/themes/custom/mobility/images/logos/picto-blue.svg",
+      "page_url": "https://mobilit.belgium.be/nl/luchtvaart",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "019fb58afb9b1a6248fd1a4d17d3b17b673d6be92b8703880540129674b1ca09"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

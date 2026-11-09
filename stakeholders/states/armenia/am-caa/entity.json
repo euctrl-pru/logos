@@ -1,7 +1,7 @@
 {
   "id": "am-caa",
-  "name": "Armenia civil aviation authority (to be confirmed)",
-  "acronym": null,
+  "name": "Civil Aviation Committee of the Republic of Armenia",
+  "acronym": "CAC",
   "group": "state",
   "country": "Armenia",
   "iso2": "AM",
@@ -10,16 +10,40 @@
   "types": [
     "caa"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "aviation.am"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": "Placeholder. No README row existed for this state; body to be confirmed in sourcing.",
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Civil Aviation Committee",
+    "Հայաստանի Հանրապետության Քաղաքացիական ավիացիայի կոմիտե",
+    "GDCA"
+  ],
+  "notes": "Body confirmed as the Civil Aviation Committee (aviation.am meta description: Հայաստանի Հանրապետության Քաղաքացիական ավիացիայի կոմիտե). The only logo served is the Armenian state coat of arms, used as the og:image of aviation.am (tier 2, website-served, 217px wide); no separate committee logo located. The state coat of arms is the government identity, not a dedicated CAA mark. The site is a JavaScript app; no brand page or terms located, so redistribution rights are not confirmed. Earlier README placeholder domain caa.am belongs to a different organisation (Communities Association of Armenia) and was not used.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dedicated committee logo, dark variant, vector and guidelines",
+      "reason": "aviation.am serves only the state coat of arms as its logo image; no brand page, press kit or guidelines located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "am-caa-emblem-light-color.png",
+      "lockup": "emblem",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://aviation.am/assets/logo-4b0bc96a.png",
+      "page_url": "https://aviation.am/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "4b0bc96ac7931aee88519cb085d5b5db90aa5ea77a53a962bb216909806778cd"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

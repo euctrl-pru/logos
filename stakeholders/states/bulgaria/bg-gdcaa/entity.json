@@ -1,0 +1,62 @@
+{
+  "id": "bg-gdcaa",
+  "name": "Directorate General Civil Aviation Administration",
+  "acronym": "GDCAA",
+  "group": "state",
+  "country": "Bulgaria",
+  "iso2": "BG",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa"
+  ],
+  "official_domains": [
+    "caa.bg"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "Civil Aviation Administration",
+    "Главна дирекция Гражданска въздухоплавателна администрация",
+    "ГД ГВА",
+    "CAA Bulgaria"
+  ],
+  "notes": "Corrects the README: BULATSA is the air traffic services body (bg-bulatsa), not Bulgaria's CAA. The CAA is the Directorate General Civil Aviation Administration under the Ministry of Transport and Communications (caa.bg). Logos are the English and Bulgarian header images served by caa.bg (tier 2, website-served). No brand page or terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark variant, vector logo and guidelines",
+      "reason": "caa.bg serves opaque PNG header banners only; no brand page, press kit or guidelines located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "bg-gdcaa-logo-light-color-en.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.caa.bg/sites/default/files/uploads/photos_homepage/GVA_logo-title-en.png",
+      "page_url": "https://www.caa.bg/en",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "41f9aaf271f2f2e46ca0407f239e2c704fce0cdbf70f1fbfa3f5f66843dec87b"
+    },
+    {
+      "file": "bg-gdcaa-logo-light-color-bg.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.caa.bg/sites/default/files/uploads/photos_homepage/GVA_logo-title.png",
+      "page_url": "https://www.caa.bg/bg",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "c04846dbd8937ec455184bbcc0e02555caa8277eec2c555d3a2d60291aea0488"
+    }
+  ],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": "No logo-use contact published on pages checked."
+  }
+}

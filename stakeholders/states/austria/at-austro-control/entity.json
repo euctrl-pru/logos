@@ -1,0 +1,49 @@
+{
+  "id": "at-austro-control",
+  "name": "Austro Control GmbH",
+  "acronym": null,
+  "group": "state",
+  "country": "Austria",
+  "iso2": "AT",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "caa",
+    "ansp"
+  ],
+  "official_domains": [
+    "austrocontrol.at"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "Austro Control",
+    "Austrocontrol"
+  ],
+  "notes": "Austro Control's website presents a Luftfahrtbehörde (aviation authority) section covering licensing, certification and safety reporting alongside its air navigation services, so one body fills both roles; the separate placeholder at-ansp was merged here. Logo is the header image logo.png served by austrocontrol.at (tier 2, website-served). The Mediathek offers press photos only, with use of photos by express permission; no logo download or brand page located, so redistribution rights are not confirmed. The legal aviation authority is formally the federal ministry, which was not sourced here.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark variant, transparent/vector logo and brand guidelines",
+      "reason": "austrocontrol.at serves one opaque PNG in its header; Mediathek lists press photos, publications and videos only"
+    }
+  ],
+  "assets": [
+    {
+      "file": "at-austro-control-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.austrocontrol.at/jart/prj3/ac/resources/images/logo.png",
+      "page_url": "https://www.austrocontrol.at/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "50bed91ae51f9cf9a20651995dd905f67f9a05c8d3bffe1ff4da2e69e7b83bae"
+    }
+  ],
+  "contact": {
+    "logo_permission_url": "https://www.austrocontrol.at/unternehmen/medien/kontakt",
+    "email": null,
+    "notes": "Media contact page published by Austro Control; no logo-specific route stated."
+  }
+}
