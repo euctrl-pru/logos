@@ -1,6 +1,6 @@
 {
   "id": "mk-m-nav",
-  "name": "M-NAV",
+  "name": "Government-owned Joint Stock Company for Air Traffic Management and Air Navigation Services M-NAV GOJSC Skopje",
   "acronym": "M-NAV",
   "group": "state",
   "country": "North Macedonia",
@@ -10,18 +10,40 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "m-nav.info"
+  ],
   "terms_url": null,
   "aliases": [
-    "Macedonian Air Navigation Service Provider"
+    "M-NAV",
+    "Macedonian Air Navigation Service Provider",
+    "M-NAV GOJSC Skopje"
   ],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "notes": "Official site 'M-NAV Official web site' at mnavigation.m-nav.info (it lists Air Traffic Control, Technical, AIS and Meteo services and refers to 'M-NAV GOJSC, Skopje'); the alternative domain mnavigation.mk returned HTTP 403 to this tool's requests, and m-nav.info/www.m-nav.info serves an empty page. The company's full legal name is taken from the CANSO listing found by search and from the GOJSC reference on the site, not a full official-page statement. The only logo is the PNG served in the site header (tier 2, website-served): light-blue and white lettering with a plane, visible on dark backgrounds only. No brand page, press kit or logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "light-background logo, vector logo, brand guidelines",
+      "reason": "mnavigation.m-nav.info serves a single 212x92 PNG intended for a dark header; no brand page or press kit located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "mk-m-nav-logo-dark-color.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://mnavigation.m-nav.info/wp-content/uploads/2018/02/LogoWeb.png",
+      "page_url": "https://mnavigation.m-nav.info/?lang=en",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "20f1dbea76fd280e7e72fe97d4688668222ba8b07049a58d61d08ec6369a6aae"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

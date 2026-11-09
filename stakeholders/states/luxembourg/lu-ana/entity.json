@@ -1,7 +1,7 @@
 {
   "id": "lu-ana",
-  "name": "Administration de la Navigation Aérienne",
-  "acronym": "ANA Lux",
+  "name": "Administration de la navigation aérienne",
+  "acronym": "ANA",
   "group": "state",
   "country": "Luxembourg",
   "iso2": "LU",
@@ -10,16 +10,45 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "ana.gouvernement.lu",
+    "ana.public.lu",
+    "cdn.public.lu"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "ANA",
+    "Luxembourg Air Navigation Administration"
+  ],
+  "notes": "ana.gouvernement.lu: 'L'Administration de la navigation aérienne (ANA), placée sous l'autorité du ministère de la Mobilité et des Travaux publics, est le prestataire de service de la navigation aérienne du Luxembourg.' (ana.public.lu redirects there). ANA has no logo of its own on its minisite: the only logo is the Luxembourg Government logo (lion emblem with 'Le Gouvernement du Grand-Duché de Luxembourg'), shown in the page's govbar, so it is recorded as the emblem lockup. It is served from the government CDN host cdn.public.lu and referenced directly by the ana.gouvernement.lu page (hence cdn.public.lu in official_domains, page_url on the publisher's page, tier 2). Only this colour version is referenced on the page. No logo terms located, so redistribution rights are not confirmed; the government identity may carry its own usage rules.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark-background version of the government logo",
+      "reason": "the ana.gouvernement.lu page references only the colour 'gov-light' SVG"
+    },
+    {
+      "need": "ANA-specific logo and brand guidelines",
+      "reason": "the minisite uses the government identity only; none located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "lu-ana-emblem-light-color.svg",
+      "lockup": "emblem",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://cdn.public.lu/pictures/logos/gov/fr/2026/gov-light.svg",
+      "page_url": "https://ana.gouvernement.lu/fr.html",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "a0c903e558db73505784d91d0c4d478cdac7be35c9dd4d077891b7e405c1acd0"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

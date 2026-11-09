@@ -1,17 +1,59 @@
 {
   "id": "lu-ana",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://ana.gouvernement.lu/etc.clientlibs/gouvminisites/clientlibs/theme-01-blue/clientlib-site.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#0869AA",
+      "rgb": "8, 105, 170",
+      "cmyk": null,
+      "role": "Most frequent non-neutral colour in the government minisite theme stylesheet",
+      "evidence": "observed",
+      "source_url": "https://ana.gouvernement.lu/etc.clientlibs/gouvminisites/clientlibs/theme-01-blue/clientlib-site.css"
+    },
+    {
+      "name": "Dark blue",
+      "hex": "#1F3D5E",
+      "rgb": "31, 61, 94",
+      "cmyk": null,
+      "role": "Dark blue in the government minisite theme stylesheet",
+      "evidence": "observed",
+      "source_url": "https://ana.gouvernement.lu/etc.clientlibs/gouvminisites/clientlibs/theme-01-blue/clientlib-site.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Source Sans Pro",
+      "role": "Site text (government minisite theme)",
+      "fallbacks": [
+        "Candara",
+        "Segoe",
+        "Segoe UI",
+        "Optima",
+        "Arial",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://ana.gouvernement.lu/etc.clientlibs/gouvminisites/clientlibs/theme-01-blue/clientlib-site.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed from the shared gouvernement.lu minisite theme (theme-01-blue) used by the ANA minisite, so these are government-theme values rather than ANA-specific. No published guidelines located."
 }

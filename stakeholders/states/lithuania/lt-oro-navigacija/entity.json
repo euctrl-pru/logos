@@ -10,16 +10,24 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "ans.lt",
+    "oronavigacija.lt"
+  ],
   "terms_url": null,
   "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "notes": "Official site could not be read: oronavigacija.lt and ans.lt returned HTTP 403 to this tool's requests, so the current name, role and logo were not verified on an official page. The scaffold name 'Oro navigacija' is retained unverified (domains ans.lt and oronavigacija.lt are taken from the entity's own scaffold name and are unconfirmed).",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "logo files, brand page, house style, official-page verification of name and domain",
+      "reason": "oronavigacija.lt and ans.lt returned HTTP 403 to this tool's requests; left for manual addition"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "Site could not be read by this tool."
   }
 }

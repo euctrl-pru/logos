@@ -1,6 +1,6 @@
 {
   "id": "mt-mats",
-  "name": "Malta Air Traffic Services Ltd",
+  "name": "Malta Air Traffic Services Ltd (MATS)",
   "acronym": "MATS",
   "group": "state",
   "country": "Malta",
@@ -10,16 +10,26 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "maltats.com"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "aliases": [
+    "MATS",
+    "Malta Air Traffic Services"
+  ],
+  "notes": "Official domain maltats.com (found via web search, CANSO and other listings; the placeholder mats.com.mt does not resolve). On 2026-11-09 maltats.com served only an 'Under Maintenance' page signed '2026 Malta Air Traffic Services', with no logo, brand page, press kit or navigation, so no logo or house style could be sourced; the organisation's role as Malta's ANSP is from search results, not from an official page read.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "logo files, brand page, house style, official-page confirmation of role",
+      "reason": "maltats.com showed only a maintenance page on 2026-11-09; retry when the site is back"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "Maintenance page shows no contact."
   }
 }

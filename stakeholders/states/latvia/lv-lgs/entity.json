@@ -1,6 +1,6 @@
 {
   "id": "lv-lgs",
-  "name": "Latvijas Gaisa Satiksme",
+  "name": "Latvijas Gaisa Satiksme (LGS)",
   "acronym": "LGS",
   "group": "state",
   "country": "Latvia",
@@ -10,16 +10,51 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "lgs.lv"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "LGS",
+    "Latvian Air Traffic"
+  ],
+  "notes": "lgs.lv/en: 'The main objective of providing air navigation services is to provide safe services to all airspace users'; operates from Riga Airport. Logos are served by the lgs.lv WordPress theme (tier 2, website-served): a blue SVG (labelled 'LGS logo', mobile header) and a white PNG for dark backgrounds. No brand page, press kit or logo terms located (the press section lists only a press contact), so redistribution rights are not confirmed.",
+  "status": "complete",
+  "gaps": [
+    {
+      "need": "brand guidelines and logo terms",
+      "reason": "none located on lgs.lv; press section offers a press contact only"
+    }
+  ],
+  "assets": [
+    {
+      "file": "lv-lgs-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.lgs.lv/wp-content/themes/lgs/img/logo-mobile.svg",
+      "page_url": "https://www.lgs.lv/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "8a539a6f2569cc9440f430b5b35d980ce374ba13944440446bce1be16db17f6f"
+    },
+    {
+      "file": "lv-lgs-logo-dark-white.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.lgs.lv/wp-content/themes/lgs/img/logo.png",
+      "page_url": "https://www.lgs.lv/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "ce293cd8f680b4509a004939e25fd012536e4352c0f6f0f071e472a73a9a35c2"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
-    "email": null,
-    "notes": null
+    "logo_permission_url": "https://www.lgs.lv/en/the-press/press-office-contact/",
+    "email": "arnis.lapins@lgs.lv",
+    "notes": "Press office contact (Press Secretary) listed on lgs.lv; not a logo-specific contact."
   }
 }

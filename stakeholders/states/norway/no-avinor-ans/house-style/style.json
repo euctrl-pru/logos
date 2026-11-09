@@ -1,17 +1,44 @@
 {
-  "id": "no-avinor",
-  "status": "none",
-  "current_sources": [],
+  "id": "no-avinor-ans",
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://om.avinor.no/dist/client/assets/client-entry-IS2dpCcC.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
+  "last_checked": "2026-11-09",
   "colors": [],
-  "typography": [],
+  "typography": [
+    {
+      "family": "Avinor",
+      "role": "Custom brand typeface referenced by the site stylesheet",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://om.avinor.no/dist/client/assets/client-entry-IS2dpCcC.css"
+    },
+    {
+      "family": "Inter",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://om.avinor.no/dist/client/assets/client-entry-IS2dpCcC.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Fonts observed in the om.avinor.no client stylesheet. No brand colours recorded: the stylesheet is a design-system bundle and clear brand colours could not be identified. Brand manual is available only on request (see entity contact)."
 }

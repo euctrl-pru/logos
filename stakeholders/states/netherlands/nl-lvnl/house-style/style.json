@@ -1,17 +1,54 @@
 {
   "id": "nl-lvnl",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.lvnl.nl/css/style.css?version=13.10.3",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#1E3C82",
+      "rgb": "30, 60, 130",
+      "cmyk": null,
+      "role": "Most frequent colour in the site stylesheet (322 uses)",
+      "evidence": "observed",
+      "source_url": "https://www.lvnl.nl/css/style.css?version=13.10.3"
+    },
+    {
+      "name": "Orange",
+      "hex": "#F05A23",
+      "rgb": "240, 90, 35",
+      "cmyk": null,
+      "role": "Accent colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.lvnl.nl/css/style.css?version=13.10.3"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Neo Sans W01",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.lvnl.nl/css/style.css?version=13.10.3"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed from the lvnl.nl main stylesheet. No published guidelines located."
 }

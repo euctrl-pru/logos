@@ -1,6 +1,6 @@
 {
   "id": "nl-lvnl",
-  "name": "Luchtverkeersleiding Nederland",
+  "name": "Luchtverkeersleiding Nederland (LVNL)",
   "acronym": "LVNL",
   "group": "state",
   "country": "Netherlands",
@@ -10,16 +10,26 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "lvnl.nl"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
+  "aliases": [
+    "LVNL",
+    "Air Traffic Control the Netherlands"
+  ],
+  "notes": "lvnl.nl (Dutch home page, title 'Luchtverkeersleiding Nederland | LVNL') presents LVNL as the Dutch air traffic control organisation ('Vliegverkeer in veilige handen'). The logo is only embedded as an inline SVG sprite symbol (#icon-logo-lvnl in /svg/sprite.svg) with no standalone logo file; the press page (/contact/pers-en-media) links only to a photo/video image bank (beeldbank), with no logos or brand guidelines. A shared icon sprite is not stored as a logo.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "logo files (all variants) and brand guidelines",
+      "reason": "lvnl.nl embeds its logo only as an SVG sprite symbol; press page offers no logo pack or brand page"
+    }
+  ],
   "assets": [],
   "contact": {
-    "logo_permission_url": null,
+    "logo_permission_url": "https://www.lvnl.nl/contact/pers-en-media",
     "email": null,
-    "notes": null
+    "notes": "Press and media page located; no logo-specific address read."
   }
 }

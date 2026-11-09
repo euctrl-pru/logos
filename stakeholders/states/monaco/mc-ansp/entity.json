@@ -1,6 +1,6 @@
 {
   "id": "mc-ansp",
-  "name": "Monaco air navigation service provider (to be confirmed)",
+  "name": "Monaco air navigation service provider (unconfirmed)",
   "acronym": null,
   "group": "state",
   "country": "Monaco",
@@ -13,9 +13,14 @@
   "official_domains": [],
   "terms_url": null,
   "aliases": [],
-  "notes": "Placeholder. No README row existed for this state; body to be confirmed in sourcing.",
-  "status": "pending",
-  "gaps": [],
+  "notes": "No Monegasque ANSP could be identified from an official source. ECAC's Monaco page (ecac-ceac.org/monaco) lists only the Civil Aviation Directorate (Direction de l'Aviation Civile, mc-dac, at the Monaco heliport) as the aviation authority and the Monte Carlo Heliport as the only aerodrome. A French AIP supplement (SIA, lf_sup_2019_127_en.pdf) places Monaco heliport (LNMC) in the Marseille FIR (LFMM) and lists a 'MONACO TWR' frequency, but does not say who provides the service. A France-DSNA-serves-Monaco arrangement is plausible but was NOT confirmed on any official page, so the not-applicable status was not used. Monaco government portals (gouv.mc) return HTTP 403 to automated requests, so the DAC pages could not be read.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "identification of the ANSP serving Monaco (or confirmation that none exists), logo and house style",
+      "reason": "no official source naming the provider found; gouv.mc returned HTTP 403 to this tool's requests; left for manual verification"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,

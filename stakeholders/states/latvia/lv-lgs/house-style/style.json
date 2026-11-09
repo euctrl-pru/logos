@@ -1,17 +1,54 @@
 {
   "id": "lv-lgs",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.lgs.lv/wp-content/themes/lgs/layouts/main.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#003B77",
+      "rgb": "0, 59, 119",
+      "cmyk": null,
+      "role": "Logo colour of the SVG logo served by the site",
+      "evidence": "observed",
+      "source_url": "https://www.lgs.lv/wp-content/themes/lgs/img/logo-mobile.svg"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Roboto Condensed",
+      "role": "Site text and headings",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.lgs.lv/wp-content/themes/lgs/layouts/main.css"
+    },
+    {
+      "family": "Open Sans",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.lgs.lv/wp-content/themes/lgs/layouts/main.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Fonts observed in the lgs.lv theme layout stylesheet; the site stylesheet's UI colours were not clearly brand colours, so only the logo blue is recorded. No published guidelines located."
 }

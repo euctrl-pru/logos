@@ -1,7 +1,7 @@
 {
-  "id": "no-avinor",
-  "name": "Avinor",
-  "acronym": "Avinor",
+  "id": "no-avinor-ans",
+  "name": "Avinor Flysikring AS (Avinor Air Navigation Services)",
+  "acronym": "Avinor ANS",
   "group": "state",
   "country": "Norway",
   "iso2": "NO",
@@ -10,18 +10,40 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "avinor.no"
+  ],
   "terms_url": null,
   "aliases": [
-    "Avinor Air Navigation Services"
+    "Avinor Air Navigation Services",
+    "Avinor Flysikring",
+    "Avinor Flysikring AS"
   ],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "notes": "Renamed from placeholder no-avinor. om.avinor.no (Avinor's corporate site) has a page 'Avinor Air Navigation Services' and publishes the annual reports of Avinor Flysikring AS (e.g. avinor-flysikring-as-annual-report-2025.pdf); that body provides Norway's air navigation services (it states Norway is responsible for ATS in Bodo Oceanic FIR), as a subsidiary of the Avinor group. It has no separate logo: the only logo is the group Avinor logo (aria-label 'Avinor logo'), served as a white SVG (www.avinor.no / om.avinor.no /globalassets/logo.svg, tier 2, website-served) for dark site headers. The Profile Manual page (om.avinor.no/en/about-us/profile-manual/) says brand manual, signage manual, font and logo files are available only by request to Avinor; that gated pack was not requested. No public logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "colour logo for light backgrounds, vector variants and brand manual",
+      "reason": "Avinor provides its brand manual, fonts and logo files only on request (Profile Manual page); the site serves only the white SVG"
+    }
+  ],
+  "assets": [
+    {
+      "file": "no-avinor-ans-logo-dark-white.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.avinor.no/globalassets/logo.svg",
+      "page_url": "https://om.avinor.no/en/aviation-safety/Avinor-Air-Navigation-Services/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "a3913c68efd0a987bfad3d3d110680008acde27ab9780e88f7cf2504d91fce49"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
-    "email": null,
-    "notes": null
+    "logo_permission_url": "https://om.avinor.no/en/about-us/profile-manual/",
+    "email": "kommunikasjon@avinor.no",
+    "notes": "Profile Manual page: logo and brand-manual files are obtained by request to Avinor; address read on that page."
   }
 }
