@@ -1,0 +1,50 @@
+{
+  "id": "cz-rlp",
+  "name": "Řízení letového provozu České republiky, s.p. (ŘLP ČR)",
+  "acronym": "ŘLP ČR",
+  "group": "state",
+  "country": "Czech Republic",
+  "iso2": "CZ",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "ansp"
+  ],
+  "official_domains": [
+    "rlp.cz"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "Air Navigation Services of the Czech Republic",
+    "ANS CR",
+    "ŘLP ČR",
+    "Řízení letového provozu"
+  ],
+  "notes": "Renamed from placeholder cz-ansp. rlp.cz (site title 'Řízení letového provozu') presents Řízení letového provozu České republiky, s.p. as the national air navigation service provider (it announced the SkyBridge alliance with Fintraffic and EANS). The English alias is the body's usual English name, not read on the pages checked (rlp.cz/en returns 404). Only logo found is the Czech-language SVG served in the site footer (tier 2, website-served): white wordmark with coloured emblem, for dark backgrounds. No brand page, press kit or logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "light-background logo, English-language logo and brand guidelines",
+      "reason": "rlp.cz serves only the white-wordmark SVG for dark backgrounds; no brand page, press kit or downloads page located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "cz-rlp-logo-dark-color-cs.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.rlp.cz/content/img/logos/RLP-lg-color-white-cs.svg",
+      "page_url": "https://www.rlp.cz/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "0c176982c0a35d8c6f240ea36089a42c9d96b67fdab8273dc761f70eb9ad66d0"
+    }
+  ],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": "No logo-use contact published on pages checked."
+  }
+}

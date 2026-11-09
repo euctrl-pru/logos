@@ -10,18 +10,50 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "skeyes.be"
+  ],
   "terms_url": null,
   "aliases": [
     "Belgocontrol"
   ],
-  "notes": "README row: Belgocontrol (also known as skeyes).",
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "notes": "skeyes.be About us: 'skeyes is an autonomous public company in charge of the safety of air traffic in the civil airspace for which the Belgian State is responsible.' The former name Belgocontrol (from the repository README row) does not appear on the pages read, so the rename is not independently confirmed on an official page here. Logos are SVG files served by skeyes.be (tier 2, website-served): the teal colour logo with the 'nice to guide you' slogan (linked from the site's Media page) and the white version used in the home page header. The press room press.skeyes.be is a Prezly site whose logo is served from the Prezly CDN, so it was not used. No brand page or logo terms located, so redistribution rights are not confirmed.",
+  "status": "complete",
+  "gaps": [
+    {
+      "need": "brand guidelines and logo without slogan",
+      "reason": "skeyes.be Media page and press.skeyes.be list no brand kit or guidelines; only the slogan lockup is served as SVG"
+    }
+  ],
+  "assets": [
+    {
+      "file": "be-skeyes-with-slogan-light-color.svg",
+      "lockup": "with-slogan",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.skeyes.be/documents/34144/0/logo-skeyes.svg/fad15812-9849-a8e8-eac6-b6ca143998e3?version=1.0&t=1742468028376",
+      "page_url": "https://www.skeyes.be/media",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "bfe3fd5ee6f70b2a573923652d61bf90491f5fa008b8664c6d60ed02df54fd62"
+    },
+    {
+      "file": "be-skeyes-with-slogan-dark-white.svg",
+      "lockup": "with-slogan",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.skeyes.be/documents/34144/0/skeyes1_logo_bl_white.svg/2da7f24d-2952-21f9-d9df-7e67a5a3bb56?version=1.0&t=1742475838331",
+      "page_url": "https://www.skeyes.be/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "309d8555a9b6a6f91543857f8ab79a71219431634c171062ee7eb1011337293f"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published. skeyes.be/contact-us lists a general customer-affairs address and the press room is at https://press.skeyes.be/; neither is stated for logo use."
   }
 }

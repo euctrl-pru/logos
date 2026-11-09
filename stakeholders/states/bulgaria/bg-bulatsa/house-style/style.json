@@ -1,17 +1,54 @@
 {
   "id": "bg-bulatsa",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.bulatsa.com/wp-content/themes/bulatsa-theme/custom.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#0072B9",
+      "rgb": "0, 114, 185",
+      "cmyk": null,
+      "role": "Most frequent non-neutral colour in the theme custom stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.bulatsa.com/wp-content/themes/bulatsa-theme/custom.css"
+    },
+    {
+      "name": "Green",
+      "hex": "#4AAA3A",
+      "rgb": "74, 170, 58",
+      "cmyk": null,
+      "role": "Accent colour in the theme custom stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.bulatsa.com/wp-content/themes/bulatsa-theme/custom.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Open Sans",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.bulatsa.com/wp-content/themes/bulatsa-theme/custom.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed from the bulatsa.com theme stylesheet. The Corporate identity page offers logo packages but no colour or typography guidelines; no guideline document located."
 }

@@ -1,0 +1,44 @@
+{
+  "id": "ba-bhansa",
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.bhansa.gov.ba/css/main.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
+  "previous_sources": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "BHANSA blue",
+      "hex": "#0073AE",
+      "rgb": "0, 115, 174",
+      "cmyk": null,
+      "role": "Most frequent non-neutral colour in the site stylesheet (utility class bhansa-blue-500)",
+      "evidence": "observed",
+      "source_url": "https://www.bhansa.gov.ba/css/main.css"
+    },
+    {
+      "name": "BHANSA yellow",
+      "hex": "#FABA00",
+      "rgb": "250, 186, 0",
+      "cmyk": null,
+      "role": "Accent colour in the site stylesheet (utility class bhansa-yellow-500)",
+      "evidence": "observed",
+      "source_url": "https://www.bhansa.gov.ba/css/main.css"
+    }
+  ],
+  "typography": [],
+  "logo_usage": {
+    "clear_space": null,
+    "min_size": null,
+    "background_rules": null,
+    "misuse": null
+  },
+  "retrieved": "2026-11-09",
+  "notes": "Observed from bhansa.gov.ba/css/main.css, which names the colours bhansa-blue and bhansa-yellow. The stylesheet declares only the Tailwind system font stack, so no brand typeface is recorded. No published guidelines located."
+}

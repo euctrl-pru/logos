@@ -10,18 +10,57 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "crocontrol.hr"
+  ],
   "terms_url": null,
   "aliases": [
-    "Croatian Air Navigation Services Ltd"
+    "Croatian Air Navigation Services Ltd",
+    "Hrvatska kontrola zračne plovidbe",
+    "Crocontrol",
+    "CCL"
   ],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "notes": "crocontrol.hr (page title 'Crocontrol - Hrvatska kontrola zračne plovidbe', copyright 'Croatia Control') has a Graphic Materials page under Media ('Here you can find our logos') offering a JPG preview plus EPS and AI zip packages. Stored: the JPG from that page (tier 1) and the square icon from the site header (tier 2, website-served). The EPS and AI packages are not a supported format and were not stored. No usage terms stated on the page, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark variant, transparent logo and vector (SVG) logo",
+      "reason": "Graphic Materials page offers one opaque JPG (223x113) and EPS/AI packages, not a supported format; no white or transparent version published"
+    },
+    {
+      "need": "brand guidelines",
+      "reason": "none located on crocontrol.hr"
+    }
+  ],
+  "assets": [
+    {
+      "file": "hr-croatia-control-logo-light-color.jpg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.crocontrol.hr/app/uploads/2020/05/CCL-logo-mali.jpg",
+      "page_url": "https://www.crocontrol.hr/en/media/graphic-materials/",
+      "source_tier": 1,
+      "retrieved": "2026-11-09",
+      "sha256": "7412592fa0b6a26f5830ae122fb485e3fb0c38467876b081a171015078f96b1f"
+    },
+    {
+      "file": "hr-croatia-control-icon-light-color.jpg",
+      "lockup": "icon",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.crocontrol.hr/app/uploads/2023/02/crocontrol-logo.jpg",
+      "page_url": "https://www.crocontrol.hr/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "5741cb8a3a621b46f231cf0e4e08327ff02174a29959be1f2702ff2e8597df18"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
+    "logo_permission_url": "https://www.crocontrol.hr/en/media/graphic-materials/",
     "email": null,
-    "notes": null
+    "notes": "Graphic Materials page is the publisher's logo route; no logo-use email stated."
   }
 }

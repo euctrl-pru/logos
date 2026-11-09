@@ -1,6 +1,6 @@
 {
   "id": "al-albcontrol",
-  "name": "Albanian Air Traffic Services",
+  "name": "Albcontrol (Air Navigation Services of Albania)",
   "acronym": "ALBCONTROL",
   "group": "state",
   "country": "Albania",
@@ -10,16 +10,40 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "albcontrol.al"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Albanian Air Traffic Services",
+    "National Air Traffic Agency (ANTA)",
+    "ANTA JSC"
+  ],
+  "notes": "albcontrol.al About Us page: the National Air Traffic Agency (ANTA) was founded in 1992, became a joint stock company in 1999, was renamed ALBCONTROL in 2013, and is now the public non-budgetary entity Albcontrol established by law no. 40/2024 as Albania's air navigation service provider. Logo is the header PNG (red and navy wordmark with the line 'Air Navigation Services of Albania') served by albcontrol.al, tier 2, website-served; no brand page, press kit or logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "dark variant, vector (SVG) logo and brand guidelines",
+      "reason": "albcontrol.al serves one raster PNG in its header; no brand page, press kit or guidelines located on the site"
+    }
+  ],
+  "assets": [
+    {
+      "file": "al-albcontrol-logo-light-color.png",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://albcontrol.al/wp-content/uploads/2024/03/cropped-cropped-logo1-3-1.png",
+      "page_url": "https://www.albcontrol.al/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "f988bdc2063fae1dd724748311da3ac7e8a3e84cd8e8080545b7bb429b971608"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published; only the general contact page https://www.albcontrol.al/contact-us/ exists."
   }
 }

@@ -1,0 +1,72 @@
+{
+  "id": "ba-bhansa",
+  "name": "Bosnia and Herzegovina Air Navigation Services Agency (BHANSA)",
+  "acronym": "BHANSA",
+  "group": "state",
+  "country": "Bosnia and Herzegovina",
+  "iso2": "BA",
+  "also_countries": [],
+  "membership": "member",
+  "types": [
+    "ansp"
+  ],
+  "official_domains": [
+    "bhansa.gov.ba"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "Agencija za pružanje usluga u zračnoj plovidbi BiH",
+    "BH ANSA"
+  ],
+  "notes": "Renamed from placeholder ba-ansp. The bhansa.gov.ba English home page is titled 'BHANSA - Bosnia and Herzegovina air navigation services agency'. Distinct from the civil aviation directorate BHDCA (ba-bhdca). Logos are served by bhansa.gov.ba under /img (tier 2, website-served): the colour SVG, the SVG used in the site footer for dark backgrounds (white text with yellow signal arcs, so a two-colour artwork rather than pure white) and a blue boxed PNG. No brand page or logo terms located, so redistribution rights are not confirmed.",
+  "status": "complete",
+  "gaps": [
+    {
+      "need": "brand guidelines",
+      "reason": "none located on bhansa.gov.ba"
+    }
+  ],
+  "assets": [
+    {
+      "file": "ba-bhansa-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.bhansa.gov.ba/img/bhansa-homepage-logo.svg",
+      "page_url": "https://www.bhansa.gov.ba/hr",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "68b305ff6727ed02a29a0042226b9edb81fef0feda4cd6d3e3d0d7823159044c"
+    },
+    {
+      "file": "ba-bhansa-logo-dark-color.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.bhansa.gov.ba/img/logo-white-footer.svg",
+      "page_url": "https://www.bhansa.gov.ba/hr",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "9600ccb2efab3ee8da4b120629f81aa1e6eb01570472a4713802d185ee69b6d2"
+    },
+    {
+      "file": "ba-bhansa-boxed-light-color.png",
+      "lockup": "boxed",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.bhansa.gov.ba/img/logo-blue-short.png",
+      "page_url": "https://www.bhansa.gov.ba/hr",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "025bb55678363fdb2887a7110e562f691b2ec9be53301e5b435b8dfadee7e36e"
+    }
+  ],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": "No logo-use contact published on pages checked."
+  }
+}

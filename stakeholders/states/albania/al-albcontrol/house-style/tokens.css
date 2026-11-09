@@ -1,2 +1,6 @@
 :root {
+  --al-albcontrol-color-red: #EA1E2C;
+  --al-albcontrol-color-navy: #19232D;
+  --al-albcontrol-font-body-text: Lato, sans-serif;
+  --al-albcontrol-font-headings: Roboto, sans-serif;
 }

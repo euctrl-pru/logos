@@ -1,0 +1,55 @@
+{
+  "id": "am-armats",
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://armats.am/wp-content/uploads/elementor/css/post-20.css?ver=1793790210",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
+  "previous_sources": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Navy",
+      "hex": "#001B48",
+      "rgb": "0, 27, 72",
+      "cmyk": null,
+      "role": "Most frequent non-neutral colour in the home page Elementor stylesheet",
+      "evidence": "observed",
+      "source_url": "https://armats.am/wp-content/uploads/elementor/css/post-20.css?ver=1793790210"
+    },
+    {
+      "name": "Blue",
+      "hex": "#018ABE",
+      "rgb": "1, 138, 190",
+      "cmyk": null,
+      "role": "Accent colour in the home page Elementor stylesheet",
+      "evidence": "observed",
+      "source_url": "https://armats.am/wp-content/uploads/elementor/css/post-20.css?ver=1793790210"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Helvetica",
+      "role": "Elementor text widgets on the home page",
+      "fallbacks": [
+        "Arial",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://armats.am/wp-content/uploads/elementor/css/post-20.css?ver=1793790210"
+    }
+  ],
+  "logo_usage": {
+    "clear_space": null,
+    "min_size": null,
+    "background_rules": null,
+    "misuse": null
+  },
+  "retrieved": "2026-11-09",
+  "notes": "Observed from the home page Elementor stylesheet. The WordPress theme stylesheet (skt-solar-energy) carries a green palette that is generic theme default and was not recorded as branding. No published guidelines located."
+}

@@ -1,17 +1,63 @@
 {
   "id": "al-albcontrol",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.albcontrol.al/",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Red",
+      "hex": "#EA1E2C",
+      "rgb": "234, 30, 44",
+      "cmyk": null,
+      "role": "Theme main colour set in the site's inline customiser CSS",
+      "evidence": "observed",
+      "source_url": "https://www.albcontrol.al/"
+    },
+    {
+      "name": "Navy",
+      "hex": "#19232D",
+      "rgb": "25, 35, 45",
+      "cmyk": null,
+      "role": "Theme secondary and heading colour",
+      "evidence": "observed",
+      "source_url": "https://www.albcontrol.al/"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Lato",
+      "role": "Body text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.albcontrol.al/"
+    },
+    {
+      "family": "Roboto",
+      "role": "Headings",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.albcontrol.al/"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed from the inline customiser CSS on the albcontrol.al home page (theme variables main-color-one, secondary-color, body-font, heading-font); the css source is that page, not a separate stylesheet. No published guidelines located."
 }

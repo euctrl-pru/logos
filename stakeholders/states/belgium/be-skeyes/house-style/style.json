@@ -1,17 +1,72 @@
 {
   "id": "be-skeyes",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.skeyes.be/o/skeyes-base-theme/css/main.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Teal",
+      "hex": "#0E718A",
+      "rgb": "14, 113, 138",
+      "cmyk": null,
+      "role": "Most frequent non-neutral colour in the site theme stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.skeyes.be/o/skeyes-base-theme/css/main.css"
+    },
+    {
+      "name": "Cyan",
+      "hex": "#17B0D9",
+      "rgb": "23, 176, 217",
+      "cmyk": null,
+      "role": "Accent colour in the site theme stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.skeyes.be/o/skeyes-base-theme/css/main.css"
+    },
+    {
+      "name": "Amber",
+      "hex": "#F8B72D",
+      "rgb": "248, 183, 45",
+      "cmyk": null,
+      "role": "Accent colour in the site theme stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.skeyes.be/o/skeyes-base-theme/css/main.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Lora",
+      "role": "Site text",
+      "fallbacks": [
+        "serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.skeyes.be/o/skeyes-base-theme/css/main.css"
+    },
+    {
+      "family": "Montserrat",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.skeyes.be/o/skeyes-base-theme/css/main.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed from the skeyes.be theme stylesheet (frequency of colours and font-family declarations); the logo itself uses a teal (#00778B in the SVG) gradient. No published guidelines located."
 }

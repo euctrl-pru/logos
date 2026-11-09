@@ -1,17 +1,56 @@
 {
   "id": "hr-croatia-control",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.crocontrol.hr/app/themes/crocontrol-theme/dist/styles/main_dacfe958.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Navy",
+      "hex": "#003769",
+      "rgb": "0, 55, 105",
+      "cmyk": null,
+      "role": "Most frequent non-neutral colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.crocontrol.hr/app/themes/crocontrol-theme/dist/styles/main_dacfe958.css"
+    },
+    {
+      "name": "Red",
+      "hex": "#D71920",
+      "rgb": "215, 25, 32",
+      "cmyk": null,
+      "role": "Accent colour in the site stylesheet, matching the logo square",
+      "evidence": "observed",
+      "source_url": "https://www.crocontrol.hr/app/themes/crocontrol-theme/dist/styles/main_dacfe958.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Myriad Pro",
+      "role": "Site text",
+      "fallbacks": [
+        "Segoe UI",
+        "Tahoma",
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.crocontrol.hr/app/themes/crocontrol-theme/dist/styles/main_dacfe958.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed from the crocontrol.hr main stylesheet. No published guidelines located; the Graphic Materials page offers logo files only."
 }

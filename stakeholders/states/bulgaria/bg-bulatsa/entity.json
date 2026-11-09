@@ -1,6 +1,6 @@
 {
   "id": "bg-bulatsa",
-  "name": "Bulgarian Air Traffic Services Authority",
+  "name": "Bulgarian Air Traffic Services Authority (BULATSA)",
   "acronym": "BULATSA",
   "group": "state",
   "country": "Bulgaria",
@@ -10,16 +10,54 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
-  "terms_url": null,
-  "aliases": [],
-  "notes": "README also listed BULATSA as Bulgaria's aviation authority; that row is merged here and bg-gdcaa holds the CAA role.",
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "official_domains": [
+    "bulatsa.com"
+  ],
+  "terms_url": "https://www.bulatsa.com/en/media-center/corporate-identity/",
+  "aliases": [
+    "State Enterprise Bulgarian Air Traffic Services Authority"
+  ],
+  "notes": "bulatsa.com Corporate identity page publishes official logo downloads and terms: use of the BULATSA logo is allowed only when it is not used for aims incompatible with BULATSA, is not used to bind BULATSA to a document, product or activity unless BULATSA is a co-organiser or written permission is obtained, and is used only in its official published version; changing elements within the logo is strictly forbidden. The two official zip packages (logo horizontal BG/EN; symbol, watermark and slogan) contain only EPS and PDF files, which are not a supported format here, so they were not stored and no derived PNG/SVG was made. Stored instead are files served by bulatsa.com itself (tier 2, website-served): the colour JPEG (the site's Open Graph logo, opaque, CMYK) and the white SVG from the theme header for dark backgrounds. README row for BULATSA as aviation authority is merged here; bg-gdcaa holds the CAA role.",
+  "status": "complete",
+  "gaps": [
+    {
+      "need": "vector colour logo and transparent colour logo in a supported format",
+      "reason": "official zip packages on the Corporate identity page contain EPS and PDF only; the colour logo served as a raster is an opaque JPEG"
+    },
+    {
+      "need": "brand guidelines document",
+      "reason": "the Corporate identity page publishes logo packages and a short usage statement but no guidelines PDF"
+    }
+  ],
+  "assets": [
+    {
+      "file": "bg-bulatsa-logo-light-color.jpg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": false,
+      "source_url": "https://www.bulatsa.com/wp-content/uploads/2020/04/LOGO-i-ZNAK-horizontal.jpg",
+      "page_url": "https://www.bulatsa.com/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "ba40758d432ddf775cf5b465c33a621ca9fb53962f31415e3696aaa358efe7b7"
+    },
+    {
+      "file": "bg-bulatsa-logo-dark-color.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.bulatsa.com/wp-content/themes/bulatsa-theme/assets/img/BULATSA_Logo_EN_GreenWhite.svg",
+      "page_url": "https://www.bulatsa.com/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "4d853f5c2f82d982a5ee1acc43f6a460e65c67d6ca98f79a6ebabe25cce24004"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
+    "logo_permission_url": "https://www.bulatsa.com/en/media-center/corporate-identity/",
     "email": null,
-    "notes": null
+    "notes": "Corporate identity page requires written permission from a BULATSA representative for certain uses; the page footer lists a general BULATSA contact but no logo-specific address."
   }
 }

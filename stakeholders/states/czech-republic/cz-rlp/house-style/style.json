@@ -1,0 +1,61 @@
+{
+  "id": "cz-rlp",
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.rlp.cz/content/css/style-custom-2.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    },
+    {
+      "url": "https://www.rlp.cz/content/css/style-custom.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
+  "previous_sources": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Cyan",
+      "hex": "#00ADE9",
+      "rgb": "0, 173, 233",
+      "cmyk": null,
+      "role": "Most frequent non-neutral colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.rlp.cz/content/css/style-custom-2.css"
+    },
+    {
+      "name": "Navy",
+      "hex": "#00205B",
+      "rgb": "0, 32, 91",
+      "cmyk": null,
+      "role": "Dark accent in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.rlp.cz/content/css/style-custom-2.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Roboto",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.rlp.cz/content/css/style-custom.css"
+    }
+  ],
+  "logo_usage": {
+    "clear_space": null,
+    "min_size": null,
+    "background_rules": null,
+    "misuse": null
+  },
+  "retrieved": "2026-11-09",
+  "notes": "Observed from rlp.cz style-custom-2.css (colours) and style-custom.css (font). No published guidelines located."
+}
