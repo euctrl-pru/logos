@@ -1,2 +1,8 @@
 :root {
+  --ie-airnav-color-dark-teal: #183543;
+  --ie-airnav-color-mint-green: #6BFFB8;
+  --ie-airnav-color-deep-green: #042D2D;
+  --ie-airnav-color-green: #13BF8A;
+  --ie-airnav-font-site-text: DM Sans, sans-serif;
+  --ie-airnav-font-headings-and-accents: Outfit, sans-serif;
 }

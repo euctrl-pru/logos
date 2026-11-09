@@ -10,20 +10,25 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "ypa.gr"
+  ],
   "terms_url": null,
   "aliases": [
-    "Υπηρεσία Πολιτικής Αεροπορίας",
-    "Hellenic Air Navigation Service Provider",
-    "YPA"
+    "Hellenic Air Navigation Service Provider"
   ],
-  "notes": "Added in the CAA fix round: hcaa.gov.gr lists HASP as a body related to, and separate from, the HCAA (menu 'Related Bodies > HASP', linking to ypa.gr; press release 'EASA Certification of the Hellenic Aviation Service Provider'). Official domain to be confirmed in the ANSP batch. Sourcing is left to the ANSP batch.",
-  "status": "pending",
-  "gaps": [],
+  "notes": "hcaa.gov.gr/en lists 'HASP' in its related-bodies menu linking to http://www.ypa.gr/en/, separate from the HCAA; that link is the only official-page confirmation of the domain ypa.gr obtained, because ypa.gr itself returned HTTP 403 to this tool's requests (the site could not be read, so HASP's own name, role and branding were not verified there). The scaffold aliases 'Υπηρεσία Πολιτικής Αεροπορίας' and 'YPA' were removed: they are the former Civil Aviation Authority name (HCAA already carries the alias 'ΥΠΑ') and were not shown to refer to HASP.",
+  "status": "not-found",
+  "gaps": [
+    {
+      "need": "logo files, brand page and house style",
+      "reason": "ypa.gr returned HTTP 403 to this tool's requests; left for manual addition"
+    }
+  ],
   "assets": [],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "ypa.gr could not be read by this tool; no logo-use contact seen."
   }
 }

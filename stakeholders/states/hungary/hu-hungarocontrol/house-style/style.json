@@ -1,17 +1,72 @@
 {
   "id": "hu-hungarocontrol",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://en.hungarocontrol.hu/css/portal/portal.min.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#0072CE",
+      "rgb": "0, 114, 206",
+      "cmyk": null,
+      "role": "Primary blue in the site stylesheet; matches logo blue",
+      "evidence": "observed",
+      "source_url": "https://en.hungarocontrol.hu/css/portal/portal.min.css"
+    },
+    {
+      "name": "Dark blue",
+      "hex": "#003C71",
+      "rgb": "0, 60, 113",
+      "cmyk": null,
+      "role": "Dark blue used for text and backgrounds in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://en.hungarocontrol.hu/css/portal/portal.min.css"
+    },
+    {
+      "name": "Orange",
+      "hex": "#FE9900",
+      "rgb": "254, 153, 0",
+      "cmyk": null,
+      "role": "Most frequent accent colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://en.hungarocontrol.hu/css/portal/portal.min.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Titillium Web",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://en.hungarocontrol.hu/css/portal/portal.min.css"
+    },
+    {
+      "family": "Roboto",
+      "role": "Secondary site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://en.hungarocontrol.hu/css/portal/portal.min.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed from the site portal stylesheet. No published guidelines located."
 }

@@ -1,17 +1,63 @@
 {
   "id": "it-enav",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.enav.it/themes/basic/assets/css/style.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
-  "last_checked": "2026-11-08",
-  "colors": [],
-  "typography": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Blue",
+      "hex": "#024089",
+      "rgb": "2, 64, 137",
+      "cmyk": null,
+      "role": "Most frequent non-neutral colour in the site stylesheet; matches logo blue",
+      "evidence": "observed",
+      "source_url": "https://www.enav.it/themes/basic/assets/css/style.css"
+    },
+    {
+      "name": "Green",
+      "hex": "#007859",
+      "rgb": "0, 120, 89",
+      "cmyk": null,
+      "role": "Accent in the site stylesheet; matches logo green",
+      "evidence": "observed",
+      "source_url": "https://www.enav.it/themes/basic/assets/css/style.css"
+    },
+    {
+      "name": "Navy",
+      "hex": "#002249",
+      "rgb": "0, 34, 73",
+      "cmyk": null,
+      "role": "Dark blue in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.enav.it/themes/basic/assets/css/style.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "IBM Plex Sans",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.enav.it/themes/basic/assets/css/style.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed from the enav.it theme stylesheets (style.css, base.css, components.css). No published guidelines located; the media-kit logo pack is password-protected."
 }

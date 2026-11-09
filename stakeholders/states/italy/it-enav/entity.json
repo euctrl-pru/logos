@@ -1,6 +1,6 @@
 {
   "id": "it-enav",
-  "name": "Ente Nazionale Assistenza al Volo",
+  "name": "ENAV S.p.A.",
   "acronym": "ENAV",
   "group": "state",
   "country": "Italy",
@@ -10,16 +10,56 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "enav.it",
+    "cdn-web.enav.it"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "Ente Nazionale Assistenza al Volo",
+    "ENAV Group"
+  ],
+  "notes": "enav.it describes ENAV as the manager of Italian airspace (air traffic control, air navigation services); legal name ENAV S.p.A. (Via Salaria 716, Rome) per the site footer. Logos are website-served (tier 2): the colour SVG is the header logo on enav.it; the white PNG is the footer logo, served from the publisher's website CDN host cdn-web.enav.it and referenced directly by the enav.it page (hence cdn-web.enav.it in official_domains, page_url on enav.it). The Media kit page (enav.it/en/media/media-kit) offers 'ENAV GROUP LOGOS' only as a secure download for which the password must be requested from ENAV; it was not accessed. No logo terms located, so redistribution rights are not confirmed.",
+  "status": "complete",
+  "gaps": [
+    {
+      "need": "official logo pack (media kit)",
+      "reason": "ENAV's media kit logos are password-protected ('contact us to request the password'); not accessed, left for manual request"
+    },
+    {
+      "need": "brand guidelines",
+      "reason": "none located on enav.it"
+    }
+  ],
+  "assets": [
+    {
+      "file": "it-enav-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.enav.it/themes/basic/assets/images/logo-enav.svg",
+      "page_url": "https://www.enav.it/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "4ded9a0adb631e1ad220574d0a26c023ea62cd44258c713008e849fbd3d0d80b"
+    },
+    {
+      "file": "it-enav-logo-dark-white.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://cdn-web.enav.it//content/2024-10/logo-enav-white_0.png?VersionId=e265a0dc-c183-4458-a265-2de969fcb685",
+      "page_url": "https://www.enav.it/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "4efd28b9752cd751051dd3148d7b6e3ed88a5bcbd141bb04c53fbd8833edd571"
+    }
+  ],
   "contact": {
-    "logo_permission_url": null,
+    "logo_permission_url": "https://www.enav.it/en/media/media-kit",
     "email": null,
-    "notes": null
+    "notes": "Media kit page states the logo pack password must be requested from ENAV; no address read on that page."
   }
 }

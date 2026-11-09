@@ -1,0 +1,84 @@
+{
+  "id": "is-avians",
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.avians.is/_next/static/css/20a4683b1167e68e.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    },
+    {
+      "url": "https://www.avians.is/_next/static/css/3c788f0cd7a9c8ce.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    },
+    {
+      "url": "https://www.avians.is/_next/static/css/4eb6a72ef062702e.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    },
+    {
+      "url": "https://www.avians.is/_next/static/css/704b67e77c726f10.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
+  "previous_sources": [],
+  "last_checked": "2026-11-09",
+  "colors": [
+    {
+      "name": "Sage green",
+      "hex": "#83B5AC",
+      "rgb": "131, 181, 172",
+      "cmyk": null,
+      "role": "Most frequent non-neutral colour in the avians.is stylesheets",
+      "evidence": "observed",
+      "source_url": "https://www.avians.is/_next/static/css/20a4683b1167e68e.css"
+    },
+    {
+      "name": "Navy",
+      "hex": "#091423",
+      "rgb": "9, 20, 35",
+      "cmyk": null,
+      "role": "Dark colour used in the avians.is stylesheets",
+      "evidence": "observed",
+      "source_url": "https://www.avians.is/_next/static/css/20a4683b1167e68e.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "Termina",
+      "role": "Headings",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.avians.is/_next/static/css/20a4683b1167e68e.css"
+    },
+    {
+      "family": "Moderat Serif",
+      "role": "Site text",
+      "fallbacks": [
+        "serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.avians.is/_next/static/css/20a4683b1167e68e.css"
+    }
+  ],
+  "logo_usage": {
+    "clear_space": null,
+    "min_size": null,
+    "background_rules": null,
+    "misuse": null
+  },
+  "retrieved": "2026-11-09",
+  "notes": "Observed from the avians.is Next.js stylesheets (fonts are referenced via CSS variables __termina and __moderatSerif). Colours are the most frequent non-neutral values; branding use not individually confirmed. No published guidelines located."
+}

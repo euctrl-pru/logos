@@ -1,6 +1,6 @@
 {
   "id": "hu-hungarocontrol",
-  "name": "HungaroControl",
+  "name": "HungaroControl Hungarian Air Navigation Services Pte. Ltd. Co.",
   "acronym": "HungaroControl",
   "group": "state",
   "country": "Hungary",
@@ -10,16 +10,50 @@
   "types": [
     "ansp"
   ],
-  "official_domains": [],
+  "official_domains": [
+    "hungarocontrol.hu"
+  ],
   "terms_url": null,
-  "aliases": [],
-  "notes": null,
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "aliases": [
+    "HungaroControl"
+  ],
+  "notes": "Legal name per the en.hungarocontrol.hu imprint and footer: HungaroControl Hungarian Air Navigation Services Pte. Ltd. Co., site hungarocontrol.hu / en.hungarocontrol.hu. Colour and white SVG logos are the site-header logos served by the publisher's website (tier 2); no brand page, press kit or logo terms located (press room offers only photo galleries and press releases), so redistribution rights are not confirmed.",
+  "status": "complete",
+  "gaps": [
+    {
+      "need": "brand guidelines and logo terms",
+      "reason": "no brand page or press kit located on hungarocontrol.hu; press room offers photo galleries and news only"
+    }
+  ],
+  "assets": [
+    {
+      "file": "hu-hungarocontrol-logo-light-color.svg",
+      "lockup": "logo",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://en.hungarocontrol.hu/images/portal/svg/hungaro-control_logo.svg",
+      "page_url": "https://en.hungarocontrol.hu/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "3ad2a5754da295eb6bfea3bbea3fb7c09991d93a6dbdc44415800677126d39d4"
+    },
+    {
+      "file": "hu-hungarocontrol-logo-dark-white.svg",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://en.hungarocontrol.hu/images/portal/svg/hungaro-control_logo-white.svg",
+      "page_url": "https://en.hungarocontrol.hu/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "eda553d8a342827031056467a144a0842a2fa0d37b30ad550c8dca5472787a7b"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

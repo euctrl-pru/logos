@@ -15,13 +15,43 @@
   ],
   "terms_url": null,
   "aliases": [],
-  "notes": "Added during the CAA batch: AirNav Ireland took over air navigation services from the IAA on 1 May 2023 (per search results from airnav.ie and iaa.ie). Sourcing is left to the ANSP batch.",
-  "status": "pending",
-  "gaps": [],
-  "assets": [],
+  "notes": "airnav.ie home page: 'AirNav Ireland provides air traffic management services' (air traffic control, flight information, alerting, aeronautical information, North Atlantic communications) in Irish-controlled airspace. Per the earlier CAA-batch search results it took over air navigation services from the IAA on 1 May 2023 (not stated on the pages read here). Logos are PNG files served by airnav.ie in its page layout (tier 2, website-served): the mint-and-white colour logo is designed for dark backgrounds, plus an all-white variant. No brand page, press kit or logo terms located (the /media page is news), so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "light-background (dark-text) logo, vector (SVG) logo and brand guidelines",
+      "reason": "airnav.ie serves only 351x80 PNGs for a dark header/footer; no brand page or press kit located"
+    }
+  ],
+  "assets": [
+    {
+      "file": "ie-airnav-logo-dark-color.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.airnav.ie/App_Themes/main/img/layout/logo.png",
+      "page_url": "https://www.airnav.ie/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "1217e4d5cb14c96508d7a4c2bd465d624be3eb3244fd1dd898abd92f5a59e0ad"
+    },
+    {
+      "file": "ie-airnav-logo-dark-white.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.airnav.ie/App_Themes/main/img/layout/logo-white.png",
+      "page_url": "https://www.airnav.ie/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "0e242869611e13a67df95d7935dc065a604d59551c18c3811f2eebcc14359017"
+    }
+  ],
   "contact": {
     "logo_permission_url": null,
     "email": null,
-    "notes": null
+    "notes": "No logo-use contact published on pages checked."
   }
 }

@@ -1,17 +1,81 @@
 {
   "id": "ie-airnav",
-  "status": "none",
-  "current_sources": [],
+  "status": "observed",
+  "current_sources": [
+    {
+      "url": "https://www.airnav.ie/App_Themes/main/css/main.min.css",
+      "kind": "website-css",
+      "version_label": null,
+      "sha256": null,
+      "retrieved": "2026-11-09"
+    }
+  ],
   "previous_sources": [],
   "last_checked": "2026-11-09",
-  "colors": [],
-  "typography": [],
+  "colors": [
+    {
+      "name": "Dark teal",
+      "hex": "#183543",
+      "rgb": "24, 53, 67",
+      "cmyk": null,
+      "role": "Most frequent colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.airnav.ie/App_Themes/main/css/main.min.css"
+    },
+    {
+      "name": "Mint green",
+      "hex": "#6BFFB8",
+      "rgb": "107, 255, 184",
+      "cmyk": null,
+      "role": "Bright accent in the site stylesheet; matches the logo mint",
+      "evidence": "observed",
+      "source_url": "https://www.airnav.ie/App_Themes/main/css/main.min.css"
+    },
+    {
+      "name": "Deep green",
+      "hex": "#042D2D",
+      "rgb": "4, 45, 45",
+      "cmyk": null,
+      "role": "Dark colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.airnav.ie/App_Themes/main/css/main.min.css"
+    },
+    {
+      "name": "Green",
+      "hex": "#13BF8A",
+      "rgb": "19, 191, 138",
+      "cmyk": null,
+      "role": "Accent colour in the site stylesheet",
+      "evidence": "observed",
+      "source_url": "https://www.airnav.ie/App_Themes/main/css/main.min.css"
+    }
+  ],
+  "typography": [
+    {
+      "family": "DM Sans",
+      "role": "Site text",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.airnav.ie/App_Themes/main/css/main.min.css"
+    },
+    {
+      "family": "Outfit",
+      "role": "Headings and accents",
+      "fallbacks": [
+        "sans-serif"
+      ],
+      "evidence": "observed",
+      "source_url": "https://www.airnav.ie/App_Themes/main/css/main.min.css"
+    }
+  ],
   "logo_usage": {
     "clear_space": null,
     "min_size": null,
     "background_rules": null,
     "misuse": null
   },
-  "retrieved": null,
-  "notes": null
+  "retrieved": "2026-11-09",
+  "notes": "Observed from the airnav.ie main stylesheet. No published guidelines located."
 }

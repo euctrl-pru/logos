@@ -1,0 +1,64 @@
+{
+  "id": "il-iaa",
+  "name": "Israel Airports Authority",
+  "acronym": "IAA",
+  "group": "state",
+  "country": "Israel",
+  "iso2": "IL",
+  "also_countries": [],
+  "membership": "comprehensive-agreement",
+  "types": [
+    "ansp"
+  ],
+  "official_domains": [
+    "iaa.gov.il"
+  ],
+  "terms_url": null,
+  "aliases": [
+    "רשות שדות התעופה בישראל",
+    "Israel Airport Authority"
+  ],
+  "notes": "Renamed from placeholder il-ansp; the README row naming CAAI (il-caai) as ANSP is a regulator, not the service provider. The Israel Airports Authority (iaa.gov.il, statutory corporation under the Airports Authority Law 5737-1977) is recorded as the Israeli ANSP on the strength of search results and CANSO membership listings; the English iaa.gov.il pages read (About, Aeronautical Information, home) describe airport operation and do not themselves state an air navigation or air traffic control role, so the ANSP role is NOT confirmed from an official page and should be verified. Assets are PNG files served by the iaa.gov.il site (tier 2, website-served): the colour symbol only (header) and the full white bilingual logo (footer, for dark backgrounds). No brand page, press kit or logo terms located, so redistribution rights are not confirmed.",
+  "status": "partial",
+  "gaps": [
+    {
+      "need": "full colour logo for light backgrounds, vector (SVG) logo and brand guidelines",
+      "reason": "iaa.gov.il serves only the colour symbol (109x69 PNG) and the white full logo; no brand page or press kit located"
+    },
+    {
+      "need": "official-page confirmation of the ANSP role",
+      "reason": "English iaa.gov.il pages checked do not mention air navigation services"
+    }
+  ],
+  "assets": [
+    {
+      "file": "il-iaa-icon-light-color.png",
+      "lockup": "icon",
+      "background": "light",
+      "color_mode": "color",
+      "transparent": true,
+      "source_url": "https://www.iaa.gov.il/media/ckveyl5n/header__logo-icon.png",
+      "page_url": "https://www.iaa.gov.il/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "b68da0fea488894dca0956efd5e40a685b320b5a1c34a6db2be45cffe9bbd012"
+    },
+    {
+      "file": "il-iaa-logo-dark-white.png",
+      "lockup": "logo",
+      "background": "dark",
+      "color_mode": "white",
+      "transparent": true,
+      "source_url": "https://www.iaa.gov.il/media/sfxjcejd/logow.png",
+      "page_url": "https://www.iaa.gov.il/en/",
+      "source_tier": 2,
+      "retrieved": "2026-11-09",
+      "sha256": "fa4ec00729ee32f712d13759b10eeee911fb9c4b2c7c7034be43bac58adfd615"
+    }
+  ],
+  "contact": {
+    "logo_permission_url": null,
+    "email": null,
+    "notes": "No logo-use contact published on pages checked."
+  }
+}

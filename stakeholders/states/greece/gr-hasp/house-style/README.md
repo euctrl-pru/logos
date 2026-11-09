@@ -13,3 +13,7 @@ None recorded.
 ## Previous sources
 
 None recorded.
+
+## Notes
+
+ypa.gr returned HTTP 403 to this tool's requests, so neither guidelines nor site CSS could be checked; left for manual addition.
