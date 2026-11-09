@@ -397,7 +397,10 @@ def _check_asset(entity_dir, ent, a, errs):
         why = _unsafe_svg(data)
         if why:
             errs.append(f"{pre}: unsafe svg ({why})")
-    if a.get("transparent") != is_transparent(path):
+    flag = is_transparent(path)
+    # A GIF's transparency flag does not prove any pixel is transparent, so a set flag allows either value.
+    gif_flag_ok = fmt == "gif" and flag and isinstance(a.get("transparent"), bool)
+    if a.get("transparent") != flag and not gif_flag_ok:
         errs.append(f"{pre}: transparent field does not match file")
 
 

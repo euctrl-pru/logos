@@ -177,6 +177,24 @@ class SniffAndSvg(Base):
             validate.is_transparent(self._gif(True, truncate=n))
         self.assertFalse(validate.is_transparent(self._gif(True, truncate=8)))
 
+    def _gif_entity_errors(self, transparent_flag, recorded):
+        data = self._gif(transparent_flag).read_bytes()
+        d = self.make_entity(files={"xx-test-logo-light.gif": data},
+                             assets=[self.asset("xx-test", data, "xx-test-logo-light.gif", transparent=recorded)])
+        return self.errors(d)
+
+    def test_gif_flag_set_recorded_false_passes(self):
+        self.assertFalse([e for e in self._gif_entity_errors(True, False) if "transparent" in e])
+
+    def test_gif_flag_set_recorded_true_passes(self):
+        self.assertFalse([e for e in self._gif_entity_errors(True, True) if "transparent" in e])
+
+    def test_gif_no_flag_recorded_true_fails(self):
+        self.assertError(self._gif_entity_errors(False, True), "transparent field does not match file")
+
+    def test_gif_without_gce_recorded_true_fails(self):
+        self.assertError(self._gif_entity_errors(None, True), "transparent field does not match file")
+
     def test_webp_extension_allowed(self):
         self.assertEqual(validate.EXTENSIONS.get("webp"), "webp")
 
